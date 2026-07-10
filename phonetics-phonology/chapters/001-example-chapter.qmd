@@ -6,19 +6,21 @@ Jérémy Genette
 
 ## Lecturer
 
-+---------+-------------------------------------------+
-|         | Jérémy Genette                            |
-|         |                                           |
-|         | PhD in Linguistics                        |
-|         |                                           |
-|         | Linguist and phonetician 🇫🇷 🇳🇱 🇮🇹 🇬🇷      |
-|         |                                           |
-|         | jeremy.genette\@kuleuven.be               |
-|         |                                           |
-|         | KU Leuven / UMons / Universiteit Antwerpe |
-+=========+===========================================+
-|         |                                           |
-+---------+-------------------------------------------+
+![](images/clipboard-2523361806.png)
+
++---------------+-------------------------------------------+
+|               | Jérémy Genette                            |
+|               |                                           |
+|               | PhD in Linguistics                        |
+|               |                                           |
+|               | Linguist and phonetician 🇫🇷 🇳🇱 🇮🇹 🇬🇷      |
+|               |                                           |
+|               | jeremy.genette\@kuleuven.be               |
+|               |                                           |
+|               | KU Leuven / UMons / Universiteit Antwerpen |
++===============+===========================================+
+|               |                                           |
++---------------+-------------------------------------------+
 
 ## And you?
 
@@ -174,11 +176,8 @@ Play here 👇 🃏 It "sounds" difficult, but it is very logical
 
 ### Perception phonetics
 
-
-
 ::: columns
 ::: {.column width="35%"}
-
 -   Speech perception
 -   Categorical perception
 :::
@@ -238,7 +237,7 @@ What you heard vs. What you perceived.
 
 But in Thai...
 
-## Phonemes and phonetic variation (Continued)
+--------
 
 VOT (DEV) phonétique vs voisement phonologique
 
@@ -248,7 +247,7 @@ What you heard:
 -   In Thai: `/b/` vs `/p/` vs `/pʰ/`
 -   In English (in initial position): `/b/` vs `/p/`
 
-## Phonemes and phonetic variation (Allophones)
+### Allophones in free distribution
 
 -   Allophones (Free distribution): Sounds that do not convey a difference in meaning between two morphemes
 -   E.g., in French `[puʀ]` « for » vs `[pur]` « for » vs `[puʁ]` « for »
@@ -257,7 +256,7 @@ What you heard:
     -   Alveolar trill `[r]`
 -   But in some Dutch dialects: `[r]` et `[χ]` are different realizations of the phonemes `/r/` and `/χ/` (`/rudə/` roede vs `/χudə/` goeden)
 
-## Phonemes and phonetic variation (Contextual)
+### Allophones in contextual variation
 
 ::: {layout-ncol="2"}
 <!-- ![](./Media/LTVQ/image41.png "Context 1") -->
@@ -311,11 +310,11 @@ What you heard:
 
 -   Recording and listening to your own production
 
-## Let's go around the world!
+## Let's go around the world! Some exercices
 
 <!-- ![](./Media/LTVQ/image45.png "World Map Landscape") -->
 
-## Bambassi-Didessa Data (Ethiopia)
+### Bambassi-Didessa Data (Ethiopia 🇪🇹)
 
 <!-- ![](./Media/LTVQ/image46.png "Bambassi View") -->
 
@@ -341,15 +340,14 @@ Describe the distribution of `[p]`, `[f]`, and `[ɸ]` on the basis of the follow
 :::
 :::
 
-## Bambassi-Didessa Analysis
+------
 
 Look at the overlapping environments: \* `[hufɛ]` \~ `[huɸɛ]` \~ `[hupɛ]` \* `[puwɛ]` \~ `[ɸuwɛ]` \~ `[fuwɛ]`
 
-## Bambassi-Didessa Conclusion
 
 -   These are 3 allophones in **free variation** (not constrained by context).
 
-## Scottish English Data
+### Scottish English 🏴󠁧󠁢󠁳󠁣󠁴󠁿
 
 Describe the distribution of `[w]` and `[ʍ]` in Scottish English:
 
@@ -375,19 +373,19 @@ Describe the distribution of `[w]` and `[ʍ]` in Scottish English:
 :::
 :::
 
-## Scottish English Analysis
+--------
 
 Notice minimal/near-minimal pairs: \* `[ʍɪtʃ]` (which) vs `[wɪtʃ]` (witch) \* `[ʍeɫz]` (whales) vs `[wieɫz]` (Wales)
 
-## Scottish English Conclusion
+---------
 
 \- This is a **contrastive distribution** (phonemic difference).
 
-## Wuvulu Data (Papua New Guinea)
+### Wuvulu (Papua New Guinea 🇵🇬)
 
 <!-- ![](./Media/LTVQ/image48.png "Wuvulu Scene") -->
 
-## Phonological Distribution
+-------
 
 Describe the distribution of `[x]` and `[g]` based on the following corpus:
 
@@ -413,11 +411,11 @@ Describe the distribution of `[x]` and `[g]` based on the following corpus:
 :::
 :::
 
-## Wuvulu Analysis & Conclusion
+-------
 
 \- 2 allophones in **contextual variation**: \* `[x]` appears before the suffix `-aa` \* `[g]` appears before the suffix `-ia`
 
-## Hindko Data (Pakistan)
+### Hindko (Pakistan 🇵🇰)
 
 <!-- ![](./Media/LTVQ/image49.jpeg "Pakistan Landscapes") -->
 
@@ -439,7 +437,7 @@ Describe the distribution of `[p]` and `[pʰ]` in Hindko:
 
 \- **Contrastive distribution** (phonemic distribution) verified by minimal pairs like `[pɑ]` vs `[pʰɑ]`.
 
-## Trick question 🗝️
+## Trick question ️
 
 ::: {layout-ncol="2"}
 <!-- ![](./Media/LTVQ/image50.jpeg "Erik Van Looy") -->
@@ -451,16 +449,16 @@ Key Saussurian concepts: \* *Langue* (system) vs *parole* (speech act) \* Lingui
 
 **Is phonetics part of linguistics?**
 
-## Phonetics vs. Phonology Hierarchy
+### Phonetics vs. Phonology Hierarchy
 
 -   **Phonetics:** The physical realization of speech production and perception.
 -   **Phonology:** Study of the conveyed linguistic meaning.
 
-## Structural Viewpoint
+### Structural Viewpoint
 
 Strictly speaking, pure phonetics is often classified as "outside" abstract linguistics, acting instead as the physical vehicle for phonological systems.
 
-## Laboratory Phonology
+### Laboratory Phonology
 
 \- First conference (LabPhon) in 1987.
 
@@ -474,7 +472,7 @@ Strictly speaking, pure phonetics is often classified as "outside" abstract ling
 
 🎯 Coordination between the larynx and the supra-laryngeal articulators.
 
-## Articulator Imagery
+### Articulator Imagery
 
 ::: {layout-ncol="3"}
 <!-- ![](./Media/LTVQ/image40.png "Audio Spectrum") -->
@@ -484,7 +482,7 @@ Strictly speaking, pure phonetics is often classified as "outside" abstract ling
 <!-- ![](./Media/LTVQ/image54.png "Ultrasound Tongue Trace") -->
 :::
 
-## The laryngeal and supra-laryngeal articulators
+### The laryngeal and supra-laryngeal articulators
 
 -   Physiologically connected
 -   Can be actively controlled
@@ -494,7 +492,7 @@ Strictly speaking, pure phonetics is often classified as "outside" abstract ling
 
 <!-- ![](./Media/LTVQ/image55.png "Larynx Diagram") -->
 
-## Physiological Interconnection
+### Physiological Interconnection
 
 ::: {layout-ncol="2"}
 <!-- ![](./Media/LTVQ/image56.gif "Tension metaphor left") -->
@@ -504,7 +502,7 @@ Strictly speaking, pure phonetics is often classified as "outside" abstract ling
 
 The larynx and supra-laryngeal structures pull together as an integrated biomechanical system.
 
-## At all linguistic levels of analysis
+### At all linguistic levels of analysis
 
 \- It is critical NOT to look at only one level in isolation.
 

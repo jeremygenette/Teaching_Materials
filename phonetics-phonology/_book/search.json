@@ -18,7 +18,7 @@
     "href": "chapters/001-example-chapter.html#lecturer",
     "title": "1  Introduction to phonetics and phonology",
     "section": "1.2 Lecturer",
-    "text": "1.2 Lecturer\n\n\n\n\n\n\n\n\nJérémy Genette\nPhD in Linguistics\nLinguist and phonetician 🇫🇷 🇳🇱 🇮🇹 🇬🇷\njeremy.genette@kuleuven.be\nKU Leuven / UMons / Universiteit Antwerpe"
+    "text": "1.2 Lecturer\n\n\n\n\n\n\n\n\n\n\nJérémy Genette | | PhD in Linguistics | | Linguist and phonetician 🇫🇷 🇳🇱 🇮🇹 🇬🇷 | | jeremy.genette@kuleuven.be | | KU Leuven / UMons / Universiteit Antwerpen"
   },
   {
     "objectID": "chapters/001-example-chapter.html#and-you",
@@ -158,356 +158,216 @@
     "href": "chapters/001-example-chapter.html#phonemes-and-phonetic-variation",
     "title": "1  Introduction to phonetics and phonology",
     "section": "1.22 Phonemes and phonetic variation",
-    "text": "1.22 Phonemes and phonetic variation\n/ pa / ou / ba / ?\n\n\n\n-120\n-80\n-60\n-40\n-20\n0\n20\n40\n60\n80\n120\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat you heard vs. What you perceived.\nBut in Thai…"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#phonemes-and-phonetic-variation-continued",
-    "href": "chapters/001-example-chapter.html#phonemes-and-phonetic-variation-continued",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.23 Phonemes and phonetic variation (Continued)",
-    "text": "1.23 Phonemes and phonetic variation (Continued)\nVOT (DEV) phonétique vs voisement phonologique\nWhat you heard:\n\nIn Dutch: /b/ vs /p/\nIn Thai: /b/ vs /p/ vs /pʰ/\nIn English (in initial position): /b/ vs /p/"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#phonemes-and-phonetic-variation-allophones",
-    "href": "chapters/001-example-chapter.html#phonemes-and-phonetic-variation-allophones",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.24 Phonemes and phonetic variation (Allophones)",
-    "text": "1.24 Phonemes and phonetic variation (Allophones)\n\nAllophones (Free distribution): Sounds that do not convey a difference in meaning between two morphemes\nE.g., in French [puʀ] « for » vs [pur] « for » vs [puʁ] « for »\n\nVoiced uvular fricative [ʁ]\nVoiceless uvular fricative [χ]\nAlveolar trill [r]\n\nBut in some Dutch dialects: [r] et [χ] are different realizations of the phonemes /r/ and /χ/ (/rudə/ roede vs /χudə/ goeden)"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#phonemes-and-phonetic-variation-contextual",
-    "href": "chapters/001-example-chapter.html#phonemes-and-phonetic-variation-contextual",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.25 Phonemes and phonetic variation (Contextual)",
-    "text": "1.25 Phonemes and phonetic variation (Contextual)\n\n\n\n\n\n\n\n\n\n\n\nAllophones (contextual distribution): In the English words tea, steam and sit\nPerception of the « same » consonant /t/ \\(\\rightarrow\\) [tʰi:] \\(\\neq\\) [sti:m] \\(\\neq\\) [sɪt̚] (aspirated vs unreleased)\nBut in Thai: [tʰ] and [t] represent distinct phonemic contrasts (/tun/ realization vs /tʰun/ accumulate)"
+    "text": "1.22 Phonemes and phonetic variation\n/ pa / ou / ba / ?\n\n\n\n-120\n-80\n-60\n-40\n-20\n0\n20\n40\n60\n80\n120\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat you heard vs. What you perceived.\nBut in Thai…\n\nVOT (DEV) phonétique vs voisement phonologique\nWhat you heard:\n\nIn Dutch: /b/ vs /p/\nIn Thai: /b/ vs /p/ vs /pʰ/\nIn English (in initial position): /b/ vs /p/\n\n\n1.22.1 Allophones in free distribution\n\nAllophones (Free distribution): Sounds that do not convey a difference in meaning between two morphemes\nE.g., in French [puʀ] « for » vs [pur] « for » vs [puʁ] « for »\n\nVoiced uvular fricative [ʁ]\nVoiceless uvular fricative [χ]\nAlveolar trill [r]\n\nBut in some Dutch dialects: [r] et [χ] are different realizations of the phonemes /r/ and /χ/ (/rudə/ roede vs /χudə/ goeden)\n\n\n\n1.22.2 Allophones in contextual variation\n\n\n\n\n\n\n\n\n\n\n\nAllophones (contextual distribution): In the English words tea, steam and sit\nPerception of the « same » consonant /t/ \\(\\rightarrow\\) [tʰi:] \\(\\neq\\) [sti:m] \\(\\neq\\) [sɪt̚] (aspirated vs unreleased)\nBut in Thai: [tʰ] and [t] represent distinct phonemic contrasts (/tun/ realization vs /tʰun/ accumulate)"
   },
   {
     "objectID": "chapters/001-example-chapter.html#summary-matrix",
     "href": "chapters/001-example-chapter.html#summary-matrix",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.26 Summary Matrix",
-    "text": "1.26 Summary Matrix\n\n\n\n\n\n\n\n\n\nRelationship Type\nInfluence of Context?\nSame Meaning?\nResult\n\n\n\n\n2 speech sounds\nNo\nNo\n2 Phonemes\n\n\nFree distribution\nNo\nYes\n1 Phoneme (Free Allophones)\n\n\nContextual distribution\nYes\nYes\n1 Phoneme (Contextual Allophones)"
+    "section": "1.23 Summary Matrix",
+    "text": "1.23 Summary Matrix\n\n\n\n\n\n\n\n\n\nRelationship Type\nInfluence of Context?\nSame Meaning?\nResult\n\n\n\n\n2 speech sounds\nNo\nNo\n2 Phonemes\n\n\nFree distribution\nNo\nYes\n1 Phoneme (Free Allophones)\n\n\nContextual distribution\nYes\nYes\n1 Phoneme (Contextual Allophones)"
   },
   {
     "objectID": "chapters/001-example-chapter.html#the-ipa-what",
     "href": "chapters/001-example-chapter.html#the-ipa-what",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.27 The IPA 😇 What?",
-    "text": "1.27 The IPA 😇 What?\n\nInternational Phonetic Alphabet \\(\\rightarrow\\) standardized transcription system\n+/- 100 symbols, 50 diacritic marks\nA separate symbol indicates an attested phonemic contrast in one or more languages"
+    "section": "1.24 The IPA 😇 What?",
+    "text": "1.24 The IPA 😇 What?\n\nInternational Phonetic Alphabet \\(\\rightarrow\\) standardized transcription system\n+/- 100 symbols, 50 diacritic marks\nA separate symbol indicates an attested phonemic contrast in one or more languages"
   },
   {
     "objectID": "chapters/001-example-chapter.html#the-ipa-what-for",
     "href": "chapters/001-example-chapter.html#the-ipa-what-for",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.28 The IPA 😇 What for?",
-    "text": "1.28 The IPA 😇 What for?\n\nRepresentation of the speech signal according to clear conventions\nChoices must be made (e.g., Belgian French il tombe encore) * From broad - phonemic: /il tɔ̃b ɑ̃kɔʁ/ * To narrow - phonetic: [il tɔ̃ːp ɑ̃kɔʀ̥]"
+    "section": "1.25 The IPA 😇 What for?",
+    "text": "1.25 The IPA 😇 What for?\n\nRepresentation of the speech signal according to clear conventions\nChoices must be made (e.g., Belgian French il tombe encore) * From broad - phonemic: /il tɔ̃b ɑ̃kɔʁ/ * To narrow - phonetic: [il tɔ̃ːp ɑ̃kɔʀ̥]"
   },
   {
     "objectID": "chapters/001-example-chapter.html#the-ipa-knowledge-training",
     "href": "chapters/001-example-chapter.html#the-ipa-knowledge-training",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.29 The IPA 😇 Knowledge & Training",
-    "text": "1.29 The IPA 😇 Knowledge & Training\n\nPartially covered in class, but self-training is key!\nResources: Seeing Speech, Official IPA, Berkeley Online"
+    "section": "1.26 The IPA 😇 Knowledge & Training",
+    "text": "1.26 The IPA 😇 Knowledge & Training\n\nPartially covered in class, but self-training is key!\nResources: Seeing Speech, Official IPA, Berkeley Online"
   },
   {
     "objectID": "chapters/001-example-chapter.html#the-ipa-tips-and-tricks",
     "href": "chapters/001-example-chapter.html#the-ipa-tips-and-tricks",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.30 The IPA 😇 Tips and tricks",
-    "text": "1.30 The IPA 😇 Tips and tricks\n\nContrastive listening\nSelf-production and exploration of speech organs (using a mirror, placing a hand to feel airflow, inhaling to identify articulation paths)\nRecording and listening to your own production"
+    "section": "1.27 The IPA 😇 Tips and tricks",
+    "text": "1.27 The IPA 😇 Tips and tricks\n\nContrastive listening\nSelf-production and exploration of speech organs (using a mirror, placing a hand to feel airflow, inhaling to identify articulation paths)\nRecording and listening to your own production"
   },
   {
-    "objectID": "chapters/001-example-chapter.html#lets-go-around-the-world",
-    "href": "chapters/001-example-chapter.html#lets-go-around-the-world",
+    "objectID": "chapters/001-example-chapter.html#lets-go-around-the-world-some-exercices",
+    "href": "chapters/001-example-chapter.html#lets-go-around-the-world-some-exercices",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.31 Let’s go around the world!",
-    "text": "1.31 Let’s go around the world!"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#bambassi-didessa-data-ethiopia",
-    "href": "chapters/001-example-chapter.html#bambassi-didessa-data-ethiopia",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.32 Bambassi-Didessa Data (Ethiopia)",
-    "text": "1.32 Bambassi-Didessa Data (Ethiopia)\n\nDescribe the distribution of [p], [f], and [ɸ] on the basis of the following corpus:\n\n\n\n[hufɛ] clutch\n[puwɛ] beer\n[ʔapp'iʃɛ] cousin\n\n\n\n[huɸɛ] clutch\n[ɸuwɛ] beer\n[ʔaɸp'iʃɛ] cousin\n\n\n\n[hupɛ] clutch\n[fuwɛ] beer\n[ʔafp'iʃɛ] cousin"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#bambassi-didessa-analysis",
-    "href": "chapters/001-example-chapter.html#bambassi-didessa-analysis",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.33 Bambassi-Didessa Analysis",
-    "text": "1.33 Bambassi-Didessa Analysis\nLook at the overlapping environments: * [hufɛ] ~ [huɸɛ] ~ [hupɛ] * [puwɛ] ~ [ɸuwɛ] ~ [fuwɛ]"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#bambassi-didessa-conclusion",
-    "href": "chapters/001-example-chapter.html#bambassi-didessa-conclusion",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.34 Bambassi-Didessa Conclusion",
-    "text": "1.34 Bambassi-Didessa Conclusion\n\nThese are 3 allophones in free variation (not constrained by context)."
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#scottish-english-data",
-    "href": "chapters/001-example-chapter.html#scottish-english-data",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.35 Scottish English Data",
-    "text": "1.35 Scottish English Data\nDescribe the distribution of [w] and [ʍ] in Scottish English:\n\n\n\n[ʍaˑe] why\n[ʍɪtʃ] which\n[ʍʌɪt] white\n[ʍeɫz] whales\n[ʍɪp] whip\n[əʍʌɪɫ] awhile\n[ʍɛðʌɾ] whether\n\n\n\n[weː] way\n[wɛðʌɾ] weather\n[wɔnt] want\n[wɪtʃ] witch\n[wʌɪp] wipe\n[weɫz] Wales\n[əwɔʃ] awash"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#scottish-english-analysis",
-    "href": "chapters/001-example-chapter.html#scottish-english-analysis",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.36 Scottish English Analysis",
-    "text": "1.36 Scottish English Analysis\nNotice minimal/near-minimal pairs: * [ʍɪtʃ] (which) vs [wɪtʃ] (witch) * [ʍeɫz] (whales) vs [wieɫz] (Wales)"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#scottish-english-conclusion",
-    "href": "chapters/001-example-chapter.html#scottish-english-conclusion",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.37 Scottish English Conclusion",
-    "text": "1.37 Scottish English Conclusion\n- This is a contrastive distribution (phonemic difference)."
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#wuvulu-data-papua-new-guinea",
-    "href": "chapters/001-example-chapter.html#wuvulu-data-papua-new-guinea",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.38 Wuvulu Data (Papua New Guinea)",
-    "text": "1.38 Wuvulu Data (Papua New Guinea)"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#phonological-distribution",
-    "href": "chapters/001-example-chapter.html#phonological-distribution",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.39 Phonological Distribution",
-    "text": "1.39 Phonological Distribution\nDescribe the distribution of [x] and [g] based on the following corpus:\n\n\n\n1.39.1 Forms with [x]\n\n[alax-aa] to undo\n[hawex-aa] to cover\n[lapax-aa] to hit\n[lawax-aa] to block\n[nenex-aa] to follow\n\n\n\n\n1.39.2 Forms with [g]\n\n[alag-ia] undo it\n[haweg-ia] cover it\n[lapag-ia] hit it\n[lawag-ia] block it\n[neneg-ia] follow it"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#wuvulu-analysis-conclusion",
-    "href": "chapters/001-example-chapter.html#wuvulu-analysis-conclusion",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.40 Wuvulu Analysis & Conclusion",
-    "text": "1.40 Wuvulu Analysis & Conclusion\n- 2 allophones in contextual variation: * [x] appears before the suffix -aa * [g] appears before the suffix -ia"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#hindko-data-pakistan",
-    "href": "chapters/001-example-chapter.html#hindko-data-pakistan",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.41 Hindko Data (Pakistan)",
-    "text": "1.41 Hindko Data (Pakistan)\n\nDescribe the distribution of [p] and [pʰ] in Hindko:\n\n\n\n[pɑ] 250 grams\n[pǝkk] to be cooked\n[tʃǝppɑ] a quarter of bread\n\n\n\n[pʰɑ] gallows\n[pʰǝkk] swallow (bird)\n[tʒǝpʰpʰɑ] embrace\n\n\n\n- Contrastive distribution (phonemic distribution) verified by minimal pairs like [pɑ] vs [pʰɑ]."
+    "section": "1.28 Let’s go around the world! Some exercices",
+    "text": "1.28 Let’s go around the world! Some exercices\n\n\n1.28.1 Bambassi-Didessa Data (Ethiopia 🇪🇹)\n\nDescribe the distribution of [p], [f], and [ɸ] on the basis of the following corpus:\n\n\n\n[hufɛ] clutch\n[puwɛ] beer\n[ʔapp'iʃɛ] cousin\n\n\n\n[huɸɛ] clutch\n[ɸuwɛ] beer\n[ʔaɸp'iʃɛ] cousin\n\n\n\n[hupɛ] clutch\n[fuwɛ] beer\n[ʔafp'iʃɛ] cousin\n\n\n\n\nLook at the overlapping environments: * [hufɛ] ~ [huɸɛ] ~ [hupɛ] * [puwɛ] ~ [ɸuwɛ] ~ [fuwɛ]\n\nThese are 3 allophones in free variation (not constrained by context).\n\n\n\n1.28.2 Scottish English 🏴󠁧󠁢󠁳󠁣󠁴󠁿\nDescribe the distribution of [w] and [ʍ] in Scottish English:\n\n\n\n[ʍaˑe] why\n[ʍɪtʃ] which\n[ʍʌɪt] white\n[ʍeɫz] whales\n[ʍɪp] whip\n[əʍʌɪɫ] awhile\n[ʍɛðʌɾ] whether\n\n\n\n[weː] way\n[wɛðʌɾ] weather\n[wɔnt] want\n[wɪtʃ] witch\n[wʌɪp] wipe\n[weɫz] Wales\n[əwɔʃ] awash\n\n\n\n\nNotice minimal/near-minimal pairs: * [ʍɪtʃ] (which) vs [wɪtʃ] (witch) * [ʍeɫz] (whales) vs [wieɫz] (Wales)\n\n- This is a contrastive distribution (phonemic difference).\n\n\n1.28.3 Wuvulu (Papua New Guinea 🇵🇬)\n\n\nDescribe the distribution of [x] and [g] based on the following corpus:\n\n\n\n\n1.28.4 Forms with [x]\n\n[alax-aa] to undo\n[hawex-aa] to cover\n[lapax-aa] to hit\n[lawax-aa] to block\n[nenex-aa] to follow\n\n\n\n\n1.28.5 Forms with [g]\n\n[alag-ia] undo it\n[haweg-ia] cover it\n[lapag-ia] hit it\n[lawag-ia] block it\n[neneg-ia] follow it\n\n\n\n\n\n- 2 allophones in contextual variation: * [x] appears before the suffix -aa * [g] appears before the suffix -ia\n\n1.28.6 Hindko (Pakistan 🇵🇰)\n\nDescribe the distribution of [p] and [pʰ] in Hindko:\n\n\n\n[pɑ] 250 grams\n[pǝkk] to be cooked\n[tʃǝppɑ] a quarter of bread\n\n\n\n[pʰɑ] gallows\n[pʰǝkk] swallow (bird)\n[tʒǝpʰpʰɑ] embrace\n\n\n\n- Contrastive distribution (phonemic distribution) verified by minimal pairs like [pɑ] vs [pʰɑ]."
   },
   {
     "objectID": "chapters/001-example-chapter.html#trick-question",
     "href": "chapters/001-example-chapter.html#trick-question",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.42 Trick question 🗝️",
-    "text": "1.42 Trick question 🗝️\n\n\n\n\n\n\n\n\n\n\nKey Saussurian concepts: * Langue (system) vs parole (speech act) * Linguistic sign: arbitrary link between signified and signifier\nIs phonetics part of linguistics?"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#phonetics-vs.-phonology-hierarchy",
-    "href": "chapters/001-example-chapter.html#phonetics-vs.-phonology-hierarchy",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.43 Phonetics vs. Phonology Hierarchy",
-    "text": "1.43 Phonetics vs. Phonology Hierarchy\n\nPhonetics: The physical realization of speech production and perception.\nPhonology: Study of the conveyed linguistic meaning."
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#structural-viewpoint",
-    "href": "chapters/001-example-chapter.html#structural-viewpoint",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.44 Structural Viewpoint",
-    "text": "1.44 Structural Viewpoint\nStrictly speaking, pure phonetics is often classified as “outside” abstract linguistics, acting instead as the physical vehicle for phonological systems."
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#laboratory-phonology",
-    "href": "chapters/001-example-chapter.html#laboratory-phonology",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.45 Laboratory Phonology",
-    "text": "1.45 Laboratory Phonology\n- First conference (LabPhon) in 1987.\n- Awareness that phonological knowledge is better described through continuous phonetic events rather than rigid, isolated categorical blocks.\n- Legacy of J.J. Ohala (1941-2020)."
+    "section": "1.29 Trick question ️",
+    "text": "1.29 Trick question ️\n\n\n\n\n\n\n\n\n\n\nKey Saussurian concepts: * Langue (system) vs parole (speech act) * Linguistic sign: arbitrary link between signified and signifier\nIs phonetics part of linguistics?\n\n1.29.1 Phonetics vs. Phonology Hierarchy\n\nPhonetics: The physical realization of speech production and perception.\nPhonology: Study of the conveyed linguistic meaning.\n\n\n\n1.29.2 Structural Viewpoint\nStrictly speaking, pure phonetics is often classified as “outside” abstract linguistics, acting instead as the physical vehicle for phonological systems.\n\n\n1.29.3 Laboratory Phonology\n- First conference (LabPhon) in 1987.\n- Awareness that phonological knowledge is better described through continuous phonetic events rather than rigid, isolated categorical blocks.\n- Legacy of J.J. Ohala (1941-2020)."
   },
   {
     "objectID": "chapters/001-example-chapter.html#the-focus-of-this-course",
     "href": "chapters/001-example-chapter.html#the-focus-of-this-course",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.46 The focus of this course",
-    "text": "1.46 The focus of this course\n🎯 Coordination between the larynx and the supra-laryngeal articulators."
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#articulator-imagery",
-    "href": "chapters/001-example-chapter.html#articulator-imagery",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.47 Articulator Imagery",
-    "text": "1.47 Articulator Imagery"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#the-laryngeal-and-supra-laryngeal-articulators",
-    "href": "chapters/001-example-chapter.html#the-laryngeal-and-supra-laryngeal-articulators",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.48 The laryngeal and supra-laryngeal articulators",
-    "text": "1.48 The laryngeal and supra-laryngeal articulators\n\nPhysiologically connected\nCan be actively controlled\nTheir coordination conveys:\n\nLinguistic meaning\nParalinguistic meaning"
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#physiological-interconnection",
-    "href": "chapters/001-example-chapter.html#physiological-interconnection",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.49 Physiological Interconnection",
-    "text": "1.49 Physiological Interconnection\n\n\n\n\n\n\n\n\n\n\nThe larynx and supra-laryngeal structures pull together as an integrated biomechanical system."
-  },
-  {
-    "objectID": "chapters/001-example-chapter.html#at-all-linguistic-levels-of-analysis",
-    "href": "chapters/001-example-chapter.html#at-all-linguistic-levels-of-analysis",
-    "title": "1  Introduction to phonetics and phonology",
-    "section": "1.50 At all linguistic levels of analysis",
-    "text": "1.50 At all linguistic levels of analysis\n- It is critical NOT to look at only one level in isolation.\n- Relevant for phoneticians, phonologists, morphologists, syntacticians, semanticists, and pragmatists alike."
+    "section": "1.30 The focus of this course",
+    "text": "1.30 The focus of this course\n🎯 Coordination between the larynx and the supra-laryngeal articulators.\n\n1.30.1 Articulator Imagery\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1.30.2 The laryngeal and supra-laryngeal articulators\n\nPhysiologically connected\nCan be actively controlled\nTheir coordination conveys:\n\nLinguistic meaning\nParalinguistic meaning\n\n\n\n\n\n1.30.3 Physiological Interconnection\n\n\n\n\n\n\n\n\n\n\nThe larynx and supra-laryngeal structures pull together as an integrated biomechanical system.\n\n\n1.30.4 At all linguistic levels of analysis\n- It is critical NOT to look at only one level in isolation.\n- Relevant for phoneticians, phonologists, morphologists, syntacticians, semanticists, and pragmatists alike."
   },
   {
     "objectID": "chapters/001-example-chapter.html#whats-coming-next",
     "href": "chapters/001-example-chapter.html#whats-coming-next",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.51 What’s coming next?",
-    "text": "1.51 What’s coming next?"
+    "section": "1.31 What’s coming next?",
+    "text": "1.31 What’s coming next?"
   },
   {
     "objectID": "chapters/001-example-chapter.html#speaker-identification-experiment",
     "href": "chapters/001-example-chapter.html#speaker-identification-experiment",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.52 Speaker Identification Experiment",
-    "text": "1.52 Speaker Identification Experiment\n\nWhat can you tell me about the phonetic shifts across languages (EN, NL, IT) from the same speaker?"
+    "section": "1.32 Speaker Identification Experiment",
+    "text": "1.32 Speaker Identification Experiment\n\nWhat can you tell me about the phonetic shifts across languages (EN, NL, IT) from the same speaker?"
   },
   {
     "objectID": "chapters/001-example-chapter.html#personal-intuitions-vs.-science",
     "href": "chapters/001-example-chapter.html#personal-intuitions-vs.-science",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.53 Personal Intuitions vs. Science",
-    "text": "1.53 Personal Intuitions vs. Science\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe will look past basic impressions and model these speech variations scientifically."
+    "section": "1.33 Personal Intuitions vs. Science",
+    "text": "1.33 Personal Intuitions vs. Science\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe will look past basic impressions and model these speech variations scientifically."
   },
   {
     "objectID": "chapters/001-example-chapter.html#further-code-switching-examples",
     "href": "chapters/001-example-chapter.html#further-code-switching-examples",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.54 Further Code-Switching Examples",
-    "text": "1.54 Further Code-Switching Examples"
+    "section": "1.34 Further Code-Switching Examples",
+    "text": "1.34 Further Code-Switching Examples"
   },
   {
     "objectID": "chapters/001-example-chapter.html#intonation-analysis",
     "href": "chapters/001-example-chapter.html#intonation-analysis",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.55 Intonation Analysis",
-    "text": "1.55 Intonation Analysis\n\nMeasuring pitch contours to map pragmatic intent."
+    "section": "1.35 Intonation Analysis",
+    "text": "1.35 Intonation Analysis\n\nMeasuring pitch contours to map pragmatic intent."
   },
   {
     "objectID": "chapters/001-example-chapter.html#prosodic-phrasing-syntactic-ambiguity",
     "href": "chapters/001-example-chapter.html#prosodic-phrasing-syntactic-ambiguity",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.56 Prosodic Phrasing & Syntactic Ambiguity",
-    "text": "1.56 Prosodic Phrasing & Syntactic Ambiguity\n\nHow timing and pitch breaks determine structural processing lines."
+    "section": "1.36 Prosodic Phrasing & Syntactic Ambiguity",
+    "text": "1.36 Prosodic Phrasing & Syntactic Ambiguity\n\nHow timing and pitch breaks determine structural processing lines."
   },
   {
     "objectID": "chapters/001-example-chapter.html#structural-disambiguation-examples",
     "href": "chapters/001-example-chapter.html#structural-disambiguation-examples",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.57 Structural Disambiguation Examples",
-    "text": "1.57 Structural Disambiguation Examples"
+    "section": "1.37 Structural Disambiguation Examples",
+    "text": "1.37 Structural Disambiguation Examples"
   },
   {
     "objectID": "chapters/001-example-chapter.html#syllabic-structures-verlan",
     "href": "chapters/001-example-chapter.html#syllabic-structures-verlan",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.58 Syllabic Structures & Verlan",
-    "text": "1.58 Syllabic Structures & Verlan\n\nl’envers \\(\\rightarrow\\) verlan\nvérité \\(\\rightarrow\\) térivé\nFemme \\(\\rightarrow\\) meuf \\(\\rightarrow\\) feumeu"
+    "section": "1.38 Syllabic Structures & Verlan",
+    "text": "1.38 Syllabic Structures & Verlan\n\nl’envers \\(\\rightarrow\\) verlan\nvérité \\(\\rightarrow\\) térivé\nFemme \\(\\rightarrow\\) meuf \\(\\rightarrow\\) feumeu"
   },
   {
     "objectID": "chapters/001-example-chapter.html#tone-systems",
     "href": "chapters/001-example-chapter.html#tone-systems",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.59 Tone Systems",
-    "text": "1.59 Tone Systems\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Level (“mother”) | High Rising (“hemp”) | Falling-Rising (“horse”) | High Falling (“scold”)\n\nHow does a language become a tone language?\nWill Dutch ever become a tone language?"
+    "section": "1.39 Tone Systems",
+    "text": "1.39 Tone Systems\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Level (“mother”) | High Rising (“hemp”) | Falling-Rising (“horse”) | High Falling (“scold”)\n\nHow does a language become a tone language?\nWill Dutch ever become a tone language?"
   },
   {
     "objectID": "chapters/001-example-chapter.html#tonogenesis-potential",
     "href": "chapters/001-example-chapter.html#tonogenesis-potential",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.60 Tonogenesis Potential",
-    "text": "1.60 Tonogenesis Potential"
+    "section": "1.40 Tonogenesis Potential",
+    "text": "1.40 Tonogenesis Potential"
   },
   {
     "objectID": "chapters/001-example-chapter.html#how-will-we-do-that-in-practice",
     "href": "chapters/001-example-chapter.html#how-will-we-do-that-in-practice",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.61 How will we do that in practice?",
-    "text": "1.61 How will we do that in practice?\n\nFoundations of speech acoustics (Vowels, Consonants)\nIntroduction to experimental tracking methodologies\nHome practice via your own recordings analyzed in Praat\nApplication of principles in your final research paper"
+    "section": "1.41 How will we do that in practice?",
+    "text": "1.41 How will we do that in practice?\n\nFoundations of speech acoustics (Vowels, Consonants)\nIntroduction to experimental tracking methodologies\nHome practice via your own recordings analyzed in Praat\nApplication of principles in your final research paper"
   },
   {
     "objectID": "chapters/001-example-chapter.html#evaluation-standards",
     "href": "chapters/001-example-chapter.html#evaluation-standards",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.62 Evaluation Standards",
-    "text": "1.62 Evaluation Standards\n\nShort paper: Max 5,000 words (ICPhS Template) due 8 June.\nFocus on analyzing a phonetic universal (cf. Chodroff, 2025) or approved class phenomenon.\nInclude full reproducible data folders (audio, textgrids, scripts) as appendices.\nContact deadline: 9 March."
+    "section": "1.42 Evaluation Standards",
+    "text": "1.42 Evaluation Standards\n\nShort paper: Max 5,000 words (ICPhS Template) due 8 June.\nFocus on analyzing a phonetic universal (cf. Chodroff, 2025) or approved class phenomenon.\nInclude full reproducible data folders (audio, textgrids, scripts) as appendices.\nContact deadline: 9 March."
   },
   {
     "objectID": "chapters/001-example-chapter.html#timeline-milestone",
     "href": "chapters/001-example-chapter.html#timeline-milestone",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.63 Timeline Milestone",
-    "text": "1.63 Timeline Milestone"
+    "section": "1.43 Timeline Milestone",
+    "text": "1.43 Timeline Milestone"
   },
   {
     "objectID": "chapters/001-example-chapter.html#segmentation-task",
     "href": "chapters/001-example-chapter.html#segmentation-task",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.64 Segmentation Task",
-    "text": "1.64 Segmentation Task\n\nPractical vowel boundary segmentation task due 22 April.\nTarget folders must contain explicit .textgrid tier alignment exports."
+    "section": "1.44 Segmentation Task",
+    "text": "1.44 Segmentation Task\n\nPractical vowel boundary segmentation task due 22 April.\nTarget folders must contain explicit .textgrid tier alignment exports."
   },
   {
     "objectID": "chapters/001-example-chapter.html#preparation-goals",
     "href": "chapters/001-example-chapter.html#preparation-goals",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.65 Preparation Goals",
-    "text": "1.65 Preparation Goals\n\nRead Chodroff (2025).\nPrepare a clean research question proposal before 11 March."
+    "section": "1.45 Preparation Goals",
+    "text": "1.45 Preparation Goals\n\nRead Chodroff (2025).\nPrepare a clean research question proposal before 11 March."
   },
   {
     "objectID": "chapters/001-example-chapter.html#for-next-week",
     "href": "chapters/001-example-chapter.html#for-next-week",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.66 For Next Week",
-    "text": "1.66 For Next Week\n\nBrainstorm your paper’s core phonetic universal topic.\nRecord your production of the Dutch or English pangram.\nConfirm active access to the shared Google Drive workspace."
+    "section": "1.46 For Next Week",
+    "text": "1.46 For Next Week\n\nBrainstorm your paper’s core phonetic universal topic.\nRecord your production of the Dutch or English pangram.\nConfirm active access to the shared Google Drive workspace."
   },
   {
     "objectID": "chapters/001-example-chapter.html#phonetic-pangram-dutch",
     "href": "chapters/001-example-chapter.html#phonetic-pangram-dutch",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.67 Phonetic Pangram (Dutch)",
-    "text": "1.67 Phonetic Pangram (Dutch)\n\nJan schiet met de beige honkbal goals, als Willem doet waarvan hij dacht dat ze het eerder bij de ligfiets and -bank zou plaatsen, maar ze leunt buiten de dure deur over krukken."
+    "section": "1.47 Phonetic Pangram (Dutch)",
+    "text": "1.47 Phonetic Pangram (Dutch)\n\nJan schiet met de beige honkbal goals, als Willem doet waarvan hij dacht dat ze het eerder bij de ligfiets and -bank zou plaatsen, maar ze leunt buiten de dure deur over krukken."
   },
   {
     "objectID": "chapters/001-example-chapter.html#phonetic-pangram-english",
     "href": "chapters/001-example-chapter.html#phonetic-pangram-english",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.68 Phonetic Pangram (English)",
-    "text": "1.68 Phonetic Pangram (English)\n\nThat quick beige fox jumped in the air over each thin dog. Look out, I shout, for he’s foiled you again, creating chaos."
+    "section": "1.48 Phonetic Pangram (English)",
+    "text": "1.48 Phonetic Pangram (English)\n\nThat quick beige fox jumped in the air over each thin dog. Look out, I shout, for he’s foiled you again, creating chaos."
   },
   {
     "objectID": "chapters/001-example-chapter.html#recording-protocol-in-praat",
     "href": "chapters/001-example-chapter.html#recording-protocol-in-praat",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.69 Recording Protocol in Praat",
-    "text": "1.69 Recording Protocol in Praat\n\nLaunch Praat. Connect an external microphone.\nSelect: New &gt; Record mono Sound."
+    "section": "1.49 Recording Protocol in Praat",
+    "text": "1.49 Recording Protocol in Praat\n\nLaunch Praat. Connect an external microphone.\nSelect: New &gt; Record mono Sound."
   },
   {
     "objectID": "chapters/001-example-chapter.html#audio-quality-optimization",
     "href": "chapters/001-example-chapter.html#audio-quality-optimization",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.70 Audio Quality Optimization",
-    "text": "1.70 Audio Quality Optimization\n\nSampling Rate: Keep default at 44,100 Hz.\nRun laptop on battery power to isolate electrical cycle hums.\nRecord in a quiet room to maintain a stable baseline noise floor."
+    "section": "1.50 Audio Quality Optimization",
+    "text": "1.50 Audio Quality Optimization\n\nSampling Rate: Keep default at 44,100 Hz.\nRun laptop on battery power to isolate electrical cycle hums.\nRecord in a quiet room to maintain a stable baseline noise floor."
   },
   {
     "objectID": "chapters/001-example-chapter.html#exporting-files-from-praat",
     "href": "chapters/001-example-chapter.html#exporting-files-from-praat",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.71 Exporting files from Praat",
-    "text": "1.71 Exporting files from Praat\n\n\n\n\n\n\n\n\n\n\n\nClick Save to list inside the recording interface.\nFrom the main object window, navigate to: Save &gt; Save as WAV file."
+    "section": "1.51 Exporting files from Praat",
+    "text": "1.51 Exporting files from Praat\n\n\n\n\n\n\n\n\n\n\n\nClick Save to list inside the recording interface.\nFrom the main object window, navigate to: Save &gt; Save as WAV file."
   },
   {
     "objectID": "chapters/001-example-chapter.html#reference-tutorials",
     "href": "chapters/001-example-chapter.html#reference-tutorials",
     "title": "1  Introduction to phonetics and phonology",
-    "section": "1.72 Reference Tutorials",
-    "text": "1.72 Reference Tutorials\n\nPraat Video Guide: https://www.youtube.com/watch?v=xl-6k4FFd6U\nPhonetic Recording Setup Guidelines: https://users.castle.unc.edu/~jlsmith/ling520/praat/5record.pdf"
+    "section": "1.52 Reference Tutorials",
+    "text": "1.52 Reference Tutorials\n\nPraat Video Guide: https://www.youtube.com/watch?v=xl-6k4FFd6U\nPhonetic Recording Setup Guidelines: https://users.castle.unc.edu/~jlsmith/ling520/praat/5record.pdf"
   }
 ]
