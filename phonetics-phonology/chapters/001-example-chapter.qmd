@@ -6,15 +6,18 @@ Jérémy Genette
 
 ## Lecturer
 
-Jérémy Genette
-
-PhD in Linguistics
-
-Linguist and phonetician 🇫🇷 🇳🇱 🇮🇹 🇬🇷
-
-jeremy.genette\@kuleuven.be
-
-KU Leuven / UMons / Universiteit Antwerpen
++---+-------------------------------------------+
+|   | Jérémy Genette                            |
+|   |                                           |
+|   | PhD in Linguistics                        |
+|   |                                           |
+|   | Linguist and phonetician 🇫🇷 🇳🇱 🇮🇹 🇬🇷      |
+|   |                                           |
+|   | jeremy.genette\@kuleuven.be               |
+|   |                                           |
+|   | KU Leuven / UMons / Universiteit Antwerpe |
++===+===========================================+
++---+-------------------------------------------+
 
 ## And you?
 
@@ -284,11 +287,15 @@ What you heard:
 
 ## Summary Matrix
 
-| Relationship Type       | Influence of Context? | Same Meaning? | Result                            |
-|------------------|------------------|------------------|------------------|
-| 2 speech sounds         | No                    | No            | 2 Phonemes                        |
-| Free distribution       | No                    | Yes           | 1 Phoneme (Free Allophones)       |
-| Contextual distribution | Yes                   | Yes           | 1 Phoneme (Contextual Allophones) |
++-------------------------+-----------------------+-----------------+-----------------------------------+
+| Relationship Type       | Influence of Context? | Same Meaning?   | Result                            |
++=========================+=======================+=================+===================================+
+| 2 speech sounds         | No                    | No              | 2 Phonemes                        |
++-------------------------+-----------------------+-----------------+-----------------------------------+
+| Free distribution       | No                    | Yes             | 1 Phoneme (Free Allophones)       |
++-------------------------+-----------------------+-----------------+-----------------------------------+
+| Contextual distribution | Yes                   | Yes             | 1 Phoneme (Contextual Allophones) |
++-------------------------+-----------------------+-----------------+-----------------------------------+
 
 ## The IPA 😇 What?
 
