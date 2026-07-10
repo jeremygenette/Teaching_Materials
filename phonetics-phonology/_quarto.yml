@@ -1,0 +1,46 @@
+project:
+  type: book
+  # NOTE: Quarto book projects do NOT auto-render "loose" files like
+  # decks/*.qmd from this render: list the way website projects would —
+  # only book: chapters: below renders automatically. This list just
+  # registers decks/ as project files (so `quarto preview` watches them
+  # for live-reload). To actually build book + every deck in one go, use
+  # scripts/render_all.sh, which renders each explicitly.
+  render:
+    - "index.qmd"
+    - "chapters/*.qmd"
+    - "decks/*.qmd"
+    - "full-book.qmd"
+  # Fires after EVERY `quarto render` touching this project — the book,
+  # a single deck, or a `quarto preview` — so every knit gets pushed.
+  post-render:
+    - "Rscript scripts/post-render-push.R"
+
+book:
+  title: "COURSE TITLE"
+  author: "YOUR NAME"
+  date: last-modified
+  repo-url: https://github.com/YOUR-ORG/Teaching
+  repo-actions: [edit, issue]
+  sidebar:
+    style: "docked"
+  chapters:
+    - index.qmd
+    - chapters/001-example-chapter.qmd
+
+# NOTE: only `html:` lives here. Quarto book projects (project: type: book)
+# do NOT merge a project-level `revealjs:` format block into standalone
+# files like decks/*.qmd — only the book's own chapters ever see it. The
+# real KU Leuven revealjs config lives in decks/_metadata.yml instead,
+# which Quarto merges into every file in that folder regardless of project
+# type — see that file for the settings and more detail.
+format:
+  html:
+    embed-resources: true
+    self-contained-math: true
+    toc: true
+    number-sections: true
+    search: true
+    theme:
+      light: [flatly, ../_shared/styles/kuleuven-book.scss]
+      dark: [darkly, ../_shared/styles/kuleuven-book.scss]

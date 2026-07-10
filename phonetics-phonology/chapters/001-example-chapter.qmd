@@ -1,0 +1,684 @@
+# Introduction to phonetics and phonology
+
+## Phonetics and Phonology
+
+Jérémy Genette
+
+## Lecturer
+
+Jérémy Genette
+
+PhD in Linguistics
+
+Linguist and phonetician 🇫🇷 🇳🇱 🇮🇹 🇬🇷
+
+jeremy.genette\@kuleuven.be
+
+KU Leuven / UMons / Universiteit Antwerpen
+
+## And you?
+
+## Menu of today
+
+Why this course? 🤨
+
+What is phonetics ? 🔊
+
+What is phonology ? 🛠️
+
+Trip around the world 🌎
+
+The focus of this course 🎯
+
+What's coming next ? 🙊
+
+In practice 🪢
+
+## Why this course?
+
+## Primary means of communication
+
+\- Speech is the primary means of communication for almost every social group
+
+## Most widespread means of communication
+
+✍️ More than 41% of living languages do not have a writing system
+
+## Most widespread means of communication
+
+✍️ More than 41% of living languages do not have a writing system
+
+🔈 However, they all have a speech sound system \*
+
+\*Except for sign languages
+
+## Most human characteristic
+
+\- Speech is the most human characteristic: Understanding the integration of language (i.a. phonology) and the mechanics of speech (i.e. phonetics) is key to understanding what makes our species unique
+
+## Many different applications
+
+<!-- ![](./Media/LTVQ/image10.png "Julia's guide Willie Komani describes the Xhosa 'click' language") -->
+
+\- Different sounds in the languages of the world
+
+\- Clicks in Xhosa 🇿🇦
+
+\- 2 constrictions in the vocal tract (cf. later this course)
+
+\- "the skunk rolls in the grass and breaks his windpipe"
+
+\- i \[ ǀ \]a\[ ǀ \]a lizi \[ ǀ \] ika \[ ǀ \] ika ku \[ ǀ \]a\[ ǀ \]a\[ ǀ \]a la\[ ǀ \] awuka u\[ ǀ \]o\[ ǀ \]o\[ ǀ \]o
+
+<!-- ![](./Media/LTVQ/image11.png "Graphic 8") -->
+
+## Many different applications
+
+\- Pathological speech
+
+\- Foreign-Accent Syndrome
+
+\- Understand the underlying causes
+
+\- Differentiate the different types: neurological vs psychological
+
+<!-- ![](./Media/LTVQ/image13.png "videoplayback") -->
+
+## Many different applications
+
+\- Get computers to recognize speech
+
+\- Automatic speech recognition, text-to-speech, speech-to-text
+
+<!-- ![](./Media/LTVQ/image14.png "Elevator Recognition") -->
+
+## Many different applications
+
+\- Understand, describe and explain language variation
+
+::: {layout-ncol="3"}
+<!-- ![](./Media/LTVQ/image15.png "Bavikhove") -->
+
+<!-- ![](./Media/LTVQ/image16.png "Wilrijk") -->
+
+<!-- ![](./Media/LTVQ/image17.png "Dordrecht") -->
+:::
+
+Bavikhove (BE, WF) \| Wilrijk (BE, Ant.) \| Dordrecht (NL, ZH)
+
+## What is phonetics?
+
+## Definitions
+
+\- Study of the physical reality of the speech sounds
+
+\- Phonetics is concerned with describing the speech sounds that occur in the languages of the world (Ladefoged, 1993)
+
+\- The study of speech sounds. It is a wide-ranging field, and it does not necessarily have a direct connection with the study of language itself. It deals with the physical reality of speech sounds (Kelly, 2000)
+
+\- The study of the physiological, aerodynamic, and acoustic characteristics of speech-sounds (Catford, 2001)
+
+## Subdisciplines
+
+\- Articulatory phonetics
+
+<!-- ![](./Media/LTVQ/image18.png "clip_1") -->
+
+## Subdisciplines
+
+\- Articulatory phonetics (More info)
+
+<!-- ![](./Media/LTVQ/image19.png "Picture 3") -->
+
+-   (Liberman, Penn)
+
+## Subdisciplines
+
+\- Articulatory phonetics
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image20.png "Picture 4") -->
+
+<!-- ![](./Media/LTVQ/image21.png "Picture 3") -->
+:::
+
+<!-- ![](./Media/LTVQ/image26.png "Picture 10") -->
+
+## Subdisciplines
+
+\- Acoustic phonetics
+
+<!-- ![](./Media/LTVQ/image27.png "Picture 3") -->
+
+## Subdisciplines
+
+\- Acoustic phonetics
+
+-   Sound $\rightarrow$ changes in (air) pressure, perceived by the human ear that is modeled as vibrations and waves
+
+You need a medium (Vacuum experiment)
+
+------------------------------------------------------------------------
+
+\- Acoustic phonetics
+
+<!-- ![](./Media/LTVQ/image27.png "Picture 3") -->
+
+-   Time
+-   Frequency
+-   Intensity
+
+------------------------------------------------------------------------
+
+\- Acoustic phonetics
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image31.png "Picture 17") -->
+
+<!-- ![](./Media/LTVQ/image32.png "Picture 18") -->
+:::
+
+Play here 👇 🃏
+
+## It "sounds" difficult, but it is very logical
+
+-   Time
+-   Frequency
+-   Intensity
+
+## Subdisciplines
+
+::: columns
+::: {.column width="35%"}
+\- **Perception phonetics**
+
+-   Speech perception
+-   Categorical perception
+:::
+
+::: {.column width="65%"}
+{{< video bbc-audio-illusion.mp4 >}}
+:::
+:::
+
+---
+## Slide Title {background-video="bbc-audio-illusion.mp4"}
+---
+
+## What is phonology?
+
+## Definitions
+
+\- Study of the functional/linguistic reality of the speech sounds
+
+\- Phonology is the description of the systems and patterns of sounds that occur in a language (Ladefoged, 2006)
+
+\- The study of the abstract side of the sounds of language (Roach, 2000)
+
+## Basic unit: the phoneme
+
+-   Phonemes: Sounds that make it possible to distinguish two words with different meanings
+-   Language-specific discrete segments
+-   Minimal pairs: Make it possible to establish the phonological inventory of a language (e.g., /pɑt/ vs /kɑt/)
+
+## The colour metaphor
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image34.png "Picture 2") -->
+
+<!-- ![](./Media/LTVQ/image35.png "Picture 6") -->
+:::
+
+## The colour metaphor
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image36.jpeg "Colors in Italian") -->
+
+<!-- ![](./Media/LTVQ/image37.jpeg "Les couleurs") -->
+:::
+
+<!-- ![](./Media/LTVQ/image38.png "Different categorization") -->
+
+## Phonemes and phonetic variation
+
+/ pa / ou / ba / ?
+
+| -120 | -80 | -60 | -40 | -20 |  0  | 20  | 40  | 60  | 80  | 120 |
+|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|      |     |     |     |     |     |     |     |     |     |     |
+
+What you heard vs. What you perceived.
+
+But in Thai...
+
+## Phonemes and phonetic variation (Continued)
+
+VOT (DEV) phonétique vs voisement phonologique
+
+What you heard:
+
+-   In Dutch: `/b/` vs `/p/`
+-   In Thai: `/b/` vs `/p/` vs `/pʰ/`
+-   In English (in initial position): `/b/` vs `/p/`
+
+## Phonemes and phonetic variation (Allophones)
+
+-   Allophones (Free distribution): Sounds that do not convey a difference in meaning between two morphemes
+-   E.g., in French `[puʀ]` « for » vs `[pur]` « for » vs `[puʁ]` « for »
+    -   Voiced uvular fricative `[ʁ]`
+    -   Voiceless uvular fricative `[χ]`
+    -   Alveolar trill `[r]`
+-   But in some Dutch dialects: `[r]` et `[χ]` are different realizations of the phonemes `/r/` and `/χ/` (`/rudə/` roede vs `/χudə/` goeden)
+
+## Phonemes and phonetic variation (Contextual)
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image41.png "Context 1") -->
+
+<!-- ![](./Media/LTVQ/image42.png "Context 2") -->
+:::
+
+-   Allophones (contextual distribution): In the English words *tea*, *steam* and *sit*
+-   Perception of the « same » consonant `/t/` $\rightarrow$ `[tʰi:]` $\neq$ `[sti:m]` $\neq$ `[sɪt̚]` (aspirated vs unreleased)
+-   But in Thai: `[tʰ]` and `[t]` represent distinct phonemic contrasts (`/tun/` realization vs `/tʰun/` accumulate)
+
+## Summary Matrix
+
+| Relationship Type       | Influence of Context? | Same Meaning? | Result                            |
+|------------------|------------------|------------------|------------------|
+| 2 speech sounds         | No                    | No            | 2 Phonemes                        |
+| Free distribution       | No                    | Yes           | 1 Phoneme (Free Allophones)       |
+| Contextual distribution | Yes                   | Yes           | 1 Phoneme (Contextual Allophones) |
+
+## The IPA 😇 What?
+
+-   International Phonetic Alphabet $\rightarrow$ standardized transcription system
+
+-   +/- 100 symbols, 50 diacritic marks
+
+-   A separate symbol indicates an attested phonemic contrast in one or more languages
+
+<!-- ![](./Media/LTVQ/image43.png "IPA Chart Overview") -->
+
+## The IPA 😇 What for?
+
+-   Representation of the speech signal according to clear conventions
+
+-   Choices must be made (e.g., Belgian French *il tombe encore*) \* From broad - phonemic: `/il tɔ̃b ɑ̃kɔʁ/` \* To narrow - phonetic: `[il tɔ̃ːp ɑ̃kɔʀ̥]`
+
+## The IPA 😇 Knowledge & Training
+
+-   Partially covered in class, but self-training is key!
+
+-   Resources: *Seeing Speech*, *Official IPA*, *Berkeley Online*
+
+## The IPA 😇 Tips and tricks
+
+-   Contrastive listening
+
+-   Self-production and exploration of speech organs (using a mirror, placing a hand to feel airflow, inhaling to identify articulation paths)
+
+-   Recording and listening to your own production
+
+## Let's go around the world!
+
+<!-- ![](./Media/LTVQ/image45.png "World Map Landscape") -->
+
+## Bambassi-Didessa Data (Ethiopia)
+
+<!-- ![](./Media/LTVQ/image46.png "Bambassi View") -->
+
+Describe the distribution of `[p]`, `[f]`, and `[ɸ]` on the basis of the following corpus:
+
+::: columns
+::: {.column width="33%"}
+-   `[hufɛ]` *clutch*
+-   `[puwɛ]` *beer*
+-   `[ʔapp'iʃɛ]` *cousin*
+:::
+
+::: {.column width="33%"}
+-   `[huɸɛ]` *clutch*
+-   `[ɸuwɛ]` *beer*
+-   `[ʔaɸp'iʃɛ]` *cousin*
+:::
+
+::: {.column width="34%"}
+-   `[hupɛ]` *clutch*
+-   `[fuwɛ]` *beer*
+-   `[ʔafp'iʃɛ]` *cousin*
+:::
+:::
+
+## Bambassi-Didessa Analysis
+
+Look at the overlapping environments: \* `[hufɛ]` \~ `[huɸɛ]` \~ `[hupɛ]` \* `[puwɛ]` \~ `[ɸuwɛ]` \~ `[fuwɛ]`
+
+## Bambassi-Didessa Conclusion
+
+-   These are 3 allophones in **free variation** (not constrained by context).
+
+## Scottish English Data
+
+Describe the distribution of `[w]` and `[ʍ]` in Scottish English:
+
+::: columns
+::: {.column width="50%"}
+-   `[ʍaˑe]` *why*
+-   `[ʍɪtʃ]` *which*
+-   `[ʍʌɪt]` *white*
+-   `[ʍeɫz]` *whales*
+-   `[ʍɪp]` *whip*
+-   `[əʍʌɪɫ]` *awhile*
+-   `[ʍɛðʌɾ]` *whether*
+:::
+
+::: {.column width="50%"}
+-   `[weː]` *way*
+-   `[wɛðʌɾ]` *weather*
+-   `[wɔnt]` *want*
+-   `[wɪtʃ]` *witch*
+-   `[wʌɪp]` *wipe*
+-   `[weɫz]` *Wales*
+-   `[əwɔʃ]` *awash*
+:::
+:::
+
+## Scottish English Analysis
+
+Notice minimal/near-minimal pairs: \* `[ʍɪtʃ]` (which) vs `[wɪtʃ]` (witch) \* `[ʍeɫz]` (whales) vs `[wieɫz]` (Wales)
+
+## Scottish English Conclusion
+
+\- This is a **contrastive distribution** (phonemic difference).
+
+## Wuvulu Data (Papua New Guinea)
+
+<!-- ![](./Media/LTVQ/image48.png "Wuvulu Scene") -->
+
+## Phonological Distribution
+
+Describe the distribution of `[x]` and `[g]` based on the following corpus:
+
+::: columns
+::: {.column width="50%"}
+### Forms with `[x]`
+
+-   `[alax-aa]` *to undo*
+-   `[hawex-aa]` *to cover*
+-   `[lapax-aa]` *to hit*
+-   `[lawax-aa]` *to block*
+-   `[nenex-aa]` *to follow*
+:::
+
+::: {.column width="50%"}
+### Forms with `[g]`
+
+-   `[alag-ia]` *undo it*
+-   `[haweg-ia]` *cover it*
+-   `[lapag-ia]` *hit it*
+-   `[lawag-ia]` *block it*
+-   `[neneg-ia]` *follow it*
+:::
+:::
+
+## Wuvulu Analysis & Conclusion
+
+\- 2 allophones in **contextual variation**: \* `[x]` appears before the suffix `-aa` \* `[g]` appears before the suffix `-ia`
+
+## Hindko Data (Pakistan)
+
+<!-- ![](./Media/LTVQ/image49.jpeg "Pakistan Landscapes") -->
+
+Describe the distribution of `[p]` and `[pʰ]` in Hindko:
+
+::: columns
+::: {.column width="50%"}
+-   `[pɑ]` *250 grams*
+-   `[pǝkk]` *to be cooked*
+-   `[tʃǝppɑ]` *a quarter of bread*
+:::
+
+::: {.column width="50%"}
+-   `[pʰɑ]` *gallows*
+-   `[pʰǝkk]` *swallow (bird)*
+-   `[tʒǝpʰpʰɑ]` *embrace*
+:::
+:::
+
+\- **Contrastive distribution** (phonemic distribution) verified by minimal pairs like `[pɑ]` vs `[pʰɑ]`.
+
+## Trick question 🗝️
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image50.jpeg "Erik Van Looy") -->
+
+<!-- ![](./Media/LTVQ/image51.png "Ferdinand de Saussure") -->
+:::
+
+Key Saussurian concepts: \* *Langue* (system) vs *parole* (speech act) \* Linguistic sign: arbitrary link between signified and signifier
+
+**Is phonetics part of linguistics?**
+
+## Phonetics vs. Phonology Hierarchy
+
+-   **Phonetics:** The physical realization of speech production and perception.
+-   **Phonology:** Study of the conveyed linguistic meaning.
+
+## Structural Viewpoint
+
+Strictly speaking, pure phonetics is often classified as "outside" abstract linguistics, acting instead as the physical vehicle for phonological systems.
+
+## Laboratory Phonology
+
+\- First conference (LabPhon) in 1987.
+
+\- Awareness that phonological knowledge is better described through continuous phonetic events rather than rigid, isolated categorical blocks.
+
+\- Legacy of J.J. Ohala (1941-2020).
+
+<!-- ![](./Media/LTVQ/image52.png "LabPhon Intersection diagram") -->
+
+## The focus of this course
+
+🎯 Coordination between the larynx and the supra-laryngeal articulators.
+
+## Articulator Imagery
+
+::: {layout-ncol="3"}
+<!-- ![](./Media/LTVQ/image40.png "Audio Spectrum") -->
+
+<!-- ![](./Media/LTVQ/image53.png "Laryngeal Model Frame") -->
+
+<!-- ![](./Media/LTVQ/image54.png "Ultrasound Tongue Trace") -->
+:::
+
+## The laryngeal and supra-laryngeal articulators
+
+-   Physiologically connected
+-   Can be actively controlled
+-   Their coordination conveys:
+    -   Linguistic meaning
+    -   Paralinguistic meaning
+
+<!-- ![](./Media/LTVQ/image55.png "Larynx Diagram") -->
+
+## Physiological Interconnection
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image56.gif "Tension metaphor left") -->
+
+<!-- ![](./Media/LTVQ/image56.gif "Tension metaphor right") -->
+:::
+
+The larynx and supra-laryngeal structures pull together as an integrated biomechanical system.
+
+## At all linguistic levels of analysis
+
+\- It is critical NOT to look at only one level in isolation.
+
+\- Relevant for phoneticians, phonologists, morphologists, syntacticians, semanticists, and pragmatists alike.
+
+<!-- ![](./Media/LTVQ/image57.png "Linguistic levels wheel") -->
+
+## What's coming next?
+
+<!-- ![](./Media/LTVQ/image58.gif "Spoiler alert animation") -->
+
+## Speaker Identification Experiment
+
+<!-- ![](./Media/LTVQ/image40.png "Lukaku multi-language asset") -->
+
+What can you tell me about the phonetic shifts across languages (EN, NL, IT) from the same speaker?
+
+<!-- ![](./Media/LTVQ/image59.png "Romelu Lukaku Portrait") -->
+
+## Personal Intuitions vs. Science
+
+::: {layout-ncol="3"}
+<!-- ![](./Media/LTVQ/image60.png "Intuition 1") -->
+
+<!-- ![](./Media/LTVQ/image61.png "Intuition 2") -->
+
+<!-- ![](./Media/LTVQ/image62.png "Intuition 3") -->
+:::
+
+We will look past basic impressions and model these speech variations scientifically.
+
+## Further Code-Switching Examples
+
+<!-- ![](./Media/LTVQ/image63.png "Personality switching video placeholder") -->
+
+## Intonation Analysis
+
+<!-- ![](./Media/LTVQ/image66.png "Friends Series Intonation Analysis") -->
+
+Measuring pitch contours to map pragmatic intent.
+
+## Prosodic Phrasing & Syntactic Ambiguity
+
+<!-- ![](./Media/LTVQ/image67.png "Constituency disambiguation graph") -->
+
+How timing and pitch breaks determine structural processing lines.
+
+## Structural Disambiguation Examples
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image68.png "Structure A") -->
+
+<!-- ![](./Media/LTVQ/image69.png "Structure B") -->
+:::
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image70.png "Visual Context A") -->
+
+<!-- ![](./Media/LTVQ/image71.png "Visual Context B") -->
+:::
+
+## Syllabic Structures & Verlan
+
+-   l'envers $\rightarrow$ verlan
+-   vérité $\rightarrow$ térivé
+-   Femme $\rightarrow$ meuf $\rightarrow$ feumeu
+
+::: {layout-ncol="3"}
+<!-- ![](./Media/LTVQ/image72.png "Verlan def") -->
+
+<!-- ![](./Media/LTVQ/image73.jpeg "Gazette") -->
+
+<!-- ![](./Media/LTVQ/image74.jpeg "Context display") -->
+:::
+
+## Tone Systems
+
+::: {layout-ncol="4"}
+<!-- ![](./Media/LTVQ/image40.png "Tone 1") -->
+
+<!-- ![](./Media/LTVQ/image40.png "Tone 2") -->
+
+<!-- ![](./Media/LTVQ/image40.png "Tone 3") -->
+
+<!-- ![](./Media/LTVQ/image40.png "Tone 4") -->
+:::
+
+High Level ("mother") \| High Rising ("hemp") \| Falling-Rising ("horse") \| High Falling ("scold")
+
+-   How does a language become a tone language?
+-   Will Dutch ever become a tone language?
+
+## Tonogenesis Potential
+
+<!-- ![](./Media/LTVQ/image75.png "Acoustic tracking of voicing micro-prosody") -->
+
+## How will we do that in practice?
+
+-   Foundations of speech acoustics (Vowels, Consonants)
+-   Introduction to experimental tracking methodologies
+-   Home practice via your own recordings analyzed in Praat
+-   Application of principles in your final research paper
+
+## Evaluation Standards
+
+-   **Short paper:** Max 5,000 words (ICPhS Template) due **8 June**.
+-   Focus on analyzing a phonetic universal (cf. Chodroff, 2025) or approved class phenomenon.
+-   Include full reproducible data folders (audio, textgrids, scripts) as appendices.
+-   Contact deadline: **9 March**.
+
+## Timeline Milestone
+
+<!-- ![](./Media/LTVQ/image76.png "Milestone checklist workflow") -->
+
+## Segmentation Task
+
+-   Practical vowel boundary segmentation task due **22 April**.
+-   Target folders must contain explicit `.textgrid` tier alignment exports.
+
+## Preparation Goals
+
+-   Read Chodroff (2025).
+-   Prepare a clean research question proposal before **11 March**.
+
+## For Next Week
+
+1.  Brainstorm your paper's core phonetic universal topic.
+2.  Record your production of the Dutch or English pangram.
+3.  Confirm active access to the shared Google Drive workspace.
+
+## Phonetic Pangram (Dutch)
+
+> Jan schiet met de beige honkbal goals, als Willem doet waarvan hij dacht dat ze het eerder bij de ligfiets and -bank zou plaatsen, maar ze leunt buiten de dure deur over krukken.
+
+## Phonetic Pangram (English)
+
+> That quick beige fox jumped in the air over each thin dog. Look out, I shout, for he's foiled you again, creating chaos.
+
+## Recording Protocol in Praat
+
+-   Launch Praat. Connect an external microphone.
+-   Select: **New \> Record mono Sound**.
+
+<!-- ![](./Media/LTVQ/image77.png "Praat Interface Record Menu") -->
+
+## Audio Quality Optimization
+
+-   **Sampling Rate:** Keep default at 44,100 Hz.
+-   Run laptop on battery power to isolate electrical cycle hums.
+-   Record in a quiet room to maintain a stable baseline noise floor.
+
+<!-- ![](./Media/LTVQ/image80.png "Audio level calibration capture") -->
+
+## Exporting files from Praat
+
+::: {layout-ncol="2"}
+<!-- ![](./Media/LTVQ/image80.png "Save to Object list panel") -->
+
+<!-- ![](./Media/LTVQ/image90.png "Export as WAV file dialogue") -->
+:::
+
+1.  Click **Save to list** inside the recording interface.
+2.  From the main object window, navigate to: **Save \> Save as WAV file**.
+
+## Reference Tutorials
+
+-   Praat Video Guide: <https://www.youtube.com/watch?v=xl-6k4FFd6U>
+-   Phonetic Recording Setup Guidelines: <https://users.castle.unc.edu/~jlsmith/ling520/praat/5record.pdf>

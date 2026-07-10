@@ -1,0 +1,34 @@
+---
+title: "COURSE TITLE — full deck"
+format:
+  revealjs:
+    embed-resources: true
+    theme: [simple, ../../_shared/styles/kuleuven-reveal.scss]
+    slide-number: true
+    incremental: true
+    number-sections: true
+    transition: fade
+    loop: true
+    hide-inactive-cursor: true
+    preview-links: true
+    pdf-separate-fragments: true
+    scrollable: true
+    width: 1100
+    height: 700
+    margin: 0.08
+    min-scale: 0.2
+    max-scale: 1.5
+    auto-stretch: true
+    footer: "<span id='slide-path'>📁 Root</span>"
+    include-after-body:
+      - ../../_shared/styles/after-body.html
+---
+
+```{=html}
+<style>:root{ --course-title: "COURSE TITLE — full deck"; }</style>
+```
+
+{{< include ../chapters/001-example-chapter.qmd >}}
+
+<!-- Add one {{< include ../chapters/xxx-....qmd >}} line per chapter,
+     in the order you want them to appear. -->
