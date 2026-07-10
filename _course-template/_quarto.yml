@@ -1,0 +1,67 @@
+project:
+  type: book
+  # NOTE: Quarto book projects do NOT auto-render "loose" files like
+  # decks/*.qmd from this render: list the way website projects would —
+  # only book: chapters: below renders automatically. This list just
+  # registers decks/ as project files (so `quarto preview` watches them
+  # for live-reload). To actually build book + every deck in one go, use
+  # scripts/render_all.sh, which renders each explicitly.
+  render:
+    - "index.qmd"
+    - "chapters/*.qmd"
+    - "decks/*.qmd"
+  # Fires after EVERY `quarto render` touching this project — the book,
+  # a single deck, or a `quarto preview` — so every knit gets pushed.
+  post-render:
+    - "Rscript scripts/post-render-push.R"
+
+book:
+  title: "COURSE TITLE"
+  author: "YOUR NAME"
+  date: last-modified
+  repo-url: https://github.com/YOUR-ORG/Teaching
+  repo-actions: [edit, issue]
+  sidebar:
+    style: "docked"
+  chapters:
+    - index.qmd
+    - part: "Part 1 name"
+      chapters:
+        - chapters/001-example-chapter.qmd
+    # - part: "Part 2 name"
+    #   chapters:
+    #     - chapters/002-....qmd
+    #     - chapters/003-....qmd
+
+format:
+  html:
+    embed-resources: true
+    self-contained-math: true
+    toc: true
+    number-sections: true
+    search: true
+    theme:
+      light: [flatly, ../_shared/styles/kuleuven-book.scss]
+      dark: [darkly, ../_shared/styles/kuleuven-book.scss]
+
+  revealjs:
+    embed-resources: true
+    theme: [simple, ../_shared/styles/kuleuven-reveal.scss]
+    slide-number: true
+    incremental: true
+    number-sections: true
+    transition: fade
+    loop: true
+    hide-inactive-cursor: true
+    preview-links: true
+    pdf-separate-fragments: true
+    scrollable: true
+    width: 1100
+    height: 700
+    margin: 0.08
+    min-scale: 0.2
+    max-scale: 1.5
+    auto-stretch: true
+    footer: "<span id='slide-path'>📁 Root</span>"
+    include-after-body:
+      - ../_shared/styles/after-body.html

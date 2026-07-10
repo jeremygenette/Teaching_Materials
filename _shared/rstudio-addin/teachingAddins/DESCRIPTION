@@ -1,0 +1,16 @@
+Package: teachingAddins
+Type: Package
+Title: One-Click Render + Push for the Teaching Monorepo
+Version: 0.1.0
+Author: Jeremy Genette
+Maintainer: Jeremy Genette <you@example.com>
+Description: A single RStudio addin that runs the current course's
+    scripts/render_all.sh (book + every slide deck). That script's own
+    render calls trigger each course's Quarto post-render: hook, which
+    commits and pushes to GitHub - so one click renders everything and
+    pushes everything. Not meant for CRAN; installed locally from this
+    repo with devtools::install_local().
+License: MIT
+Encoding: UTF-8
+Imports: rstudioapi
+RoxygenNote: 7.3.1

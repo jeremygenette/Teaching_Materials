@@ -1,0 +1,90 @@
+<div id="scroll-progress-track"><div id="scroll-progress-bar"></div></div>
+<script>
+(function() {
+  // ---------- Breadcrumb path (H1 > H2 > H3) ----------
+  function updateSlidePath(event) {
+    const footer = document.getElementById('slide-path');
+    if (!footer) return;
+    const currentSlide = event.currentSlide;
+    if (!currentSlide) return;
+    const allSlides = Array.from(
+      document.querySelectorAll('.reveal .slides section:not(.stack)')
+    );
+    const currentIndex = allSlides.indexOf(currentSlide);
+    let h1 = null, h2 = null;
+    const h3 = currentSlide.querySelector('h3')?.innerText;
+    for (let i = currentIndex; i >= 0; i--) {
+      const slide = allSlides[i];
+      if (!h2) h2 = slide.querySelector('h2')?.innerText;
+      if (!h1) h1 = slide.querySelector('h1')?.innerText;
+      if (h1 && h2) break;
+    }
+    const clean = (t) => (t ? t.trim() : null);
+    h1 = clean(h1); h2 = clean(h2); const h3c = clean(h3);
+    let path = "📁 Français moderne";
+    if (h1) path += ` ❯ 📁 ${h1}`;
+    if (h2 && h2 !== h1) path += ` ❯ 📁 ${h2}`;
+    if (h3c && h3c !== h2) path += ` ❯ 📄 ${h3c}`;
+    footer.innerHTML = path;
+  }
+
+  // ---------- Scroll progress bar ----------
+  function updateProgressBar() {
+    const slide = Reveal.getCurrentSlide();
+    const bar = document.getElementById('scroll-progress-bar');
+    if (!slide || !bar) return;
+    const maxScroll = slide.scrollHeight - slide.clientHeight;
+    if (maxScroll <= 0) {
+      bar.style.width = '0%';
+      return;
+    }
+    const pct = Math.min(100, (slide.scrollTop / maxScroll) * 100);
+    bar.style.width = pct + '%';
+  }
+
+  // ---------- Arrow-key scroll on long slides ----------
+  function scrollOrNavigate(event) {
+    const slide = Reveal.getCurrentSlide();
+    if (!slide) return;
+    const maxScroll = slide.scrollHeight - slide.clientHeight;
+    const atBottom = slide.scrollTop >= maxScroll - 5;
+    const atTop = slide.scrollTop <= 5;
+    const isDown = event.key === 'ArrowDown' || event.key === 'PageDown';
+    const isUp = event.key === 'ArrowUp' || event.key === 'PageUp';
+    if (maxScroll > 0) {
+      if (isDown && !atBottom) {
+        event.stopImmediatePropagation();
+        event.preventDefault();
+        slide.scrollTop += 150;
+        updateProgressBar();
+        return;
+      }
+      if (isUp && !atTop) {
+        event.stopImmediatePropagation();
+        event.preventDefault();
+        slide.scrollTop -= 150;
+        updateProgressBar();
+        return;
+      }
+    }
+    // otherwise let Reveal handle normal slide navigation
+  }
+
+  // ---------- Reset scroll position on slide change ----------
+  function resetScroll(event) {
+    if (event.currentSlide) event.currentSlide.scrollTop = 0;
+    updateProgressBar();
+  }
+
+  Reveal.on('slidechanged', updateSlidePath);
+  Reveal.on('slidechanged', resetScroll);
+  Reveal.on('ready', updateSlidePath);
+  Reveal.on('ready', updateProgressBar);
+  document.addEventListener('keydown', scrollOrNavigate, { capture: true });
+  document.addEventListener('scroll', function(e) {
+    if (e.target && e.target.classList && e.target.tagName === 'SECTION') {
+      updateProgressBar();
+    }
+  }, true);
+})();
+</script>

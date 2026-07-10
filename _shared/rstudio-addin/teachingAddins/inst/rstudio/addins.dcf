@@ -1,0 +1,4 @@
+Name: Render + Push Course
+Description: Render the book and every slide deck for the current course, then push to GitHub (runs scripts/render_all.sh)
+Binding: render_all_addin
+Interactive: false

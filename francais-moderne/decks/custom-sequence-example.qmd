@@ -1,0 +1,14 @@
+---
+title: "Séance : Phonologie (voyelles + liaison)"
+format: revealjs
+---
+
+```{=html}
+<style>:root{ --course-title: "Séance — Phonologie"; }</style>
+```
+
+{{< include ../chapters/000-intro.qmd >}}
+
+{{< include ../chapters/002-phonologie-voyelles.qmd >}}
+
+{{< include ../chapters/003-phonologie-liaison.qmd >}}

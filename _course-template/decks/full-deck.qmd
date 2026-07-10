@@ -1,0 +1,13 @@
+---
+title: "COURSE TITLE — full deck"
+format: revealjs
+---
+
+```{=html}
+<style>:root{ --course-title: "COURSE TITLE — full deck"; }</style>
+```
+
+{{< include ../chapters/001-example-chapter.qmd >}}
+
+<!-- Add one {{< include ../chapters/xxx-....qmd >}} line per chapter,
+     in the order you want them to appear. -->

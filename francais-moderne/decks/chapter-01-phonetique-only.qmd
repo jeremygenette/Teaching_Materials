@@ -1,0 +1,12 @@
+---
+title: "Séance : Phonétique - Affrication"
+format: revealjs
+---
+
+```{=html}
+<style>:root{ --course-title: "Séance — Phonétique"; }</style>
+```
+
+{{< include ../chapters/000-intro.qmd >}}
+
+{{< include ../chapters/001-phonetique-affrication.qmd >}}

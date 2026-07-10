@@ -1,0 +1,147 @@
+/*-- scss:defaults --*/
+
+// Base palette — kept from your original banner gradient, plus a warm
+// accent (gold) for highlights/callouts, mirroring the blue+accent
+// approach used on the NeuroKit docs page you liked.
+$kul-blue-dark:  #003b73;
+$kul-blue:       #0096d6;
+$kul-accent:     #7F00FF;   // warm gold accent instead of orange
+$kul-grey:       #6b6b6b;
+$kul-grey-light: #f4f6f8;
+$kul-border:     #e2e6ea;
+
+$body-bg: #ffffff;
+$body-color: $kul-grey;
+$link-color: $kul-blue;
+$selection-bg: rgba($kul-blue, 0.25);
+
+$presentation-heading-font: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+$presentation-font-size-root: 30px;
+$code-block-bg: $kul-grey-light;
+
+/*-- scss:rules --*/
+
+:root {
+  --header-height: 60px;
+  --custom-grey: #{$kul-grey};
+  --kul-blue-dark: #{$kul-blue-dark};
+  --kul-blue: #{$kul-blue};
+  --kul-accent: #{$kul-accent};
+}
+
+// Leave room for the banner
+.reveal .slides section {
+  padding-top: calc(var(--header-height) + 35px);
+}
+
+// Blue banner background
+.reveal::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  background: linear-gradient(90deg, $kul-blue-dark, $kul-blue);
+  z-index: 100;
+}
+
+// Banner title text — each deck sets --course-title in a one-line
+// <style> block right after its YAML header (see decks/*.qmd), so you
+// never have to touch this shared theme file to rename a deck.
+.reveal::after {
+  content: "KU Leuven\a0\a0\a0\a0\a0\a0\a0\a0\a0" var(--course-title, "Français moderne");
+  position: fixed;
+  top: 12px;
+  left: 18px;
+  color: #fff !important;
+  font-family: $presentation-heading-font;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: italic;
+  word-spacing: -2px;
+  z-index: 105;
+}
+
+.reveal .slides,
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides p,
+.reveal .slides li,
+.reveal .slides td,
+.reveal .slides th,
+.reveal .slides span,
+.reveal .slides strong {
+  color: var(--custom-grey) !important;
+}
+
+// ---- Docs-page-inspired refinements ----
+
+.reveal .slides h1 {
+  border-bottom: 3px solid $kul-blue;
+  padding-bottom: 0.25em;
+  font-weight: 700;
+}
+
+.reveal .slides h2 {
+  border-bottom: 1px solid $kul-border;
+  padding-bottom: 0.2em;
+}
+
+.reveal a {
+  color: $kul-blue !important;
+}
+.reveal a:hover {
+  color: $kul-accent !important;
+}
+
+.reveal pre, .reveal code {
+  max-height: 450px !important;
+  white-space: pre-wrap !important;
+  overflow-y: auto !important;
+  background-color: $kul-grey-light;
+  border: 1px solid $kul-border;
+  border-radius: 4px;
+}
+
+.reveal .slides section {
+  overflow: visible !important;
+  max-height: none !important;
+}
+
+// Callout boxes (used for .callout-tip etc.) — recolored to the gold accent
+.reveal .callout {
+  border-left: 4px solid $kul-accent !important;
+  background: rgba($kul-accent, 0.08) !important;
+  border-radius: 3px;
+}
+.reveal .callout-title {
+  color: $kul-blue-dark !important;
+}
+
+// Scroll progress bar, sits just under the footer
+#scroll-progress-track {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  z-index: 40;
+}
+#scroll-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: $kul-accent;
+  transition: width 0.1s linear;
+}
+
+// Footer / breadcrumb
+.reveal .slide-number,
+.reveal .footer {
+  font-family: monospace;
+  font-size: 0.7em;
+  color: #888 !important;
+}

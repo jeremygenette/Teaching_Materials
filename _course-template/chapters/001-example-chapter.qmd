@@ -1,0 +1,20 @@
+# Titre du chapitre
+
+This `# Titre du chapitre` heading is doing two jobs at once:
+
+- In the **book**, it's this file's chapter title (shown in the sidebar).
+- In a **slide deck**, when this file is pulled in via `{{< include >}}`,
+  it becomes reveal.js's top-level horizontal section — so keep exactly
+  one `# H1` per chapter file, at the very top.
+
+Every `##` becomes a vertical sub-section of slides; every `###` becomes
+its own slide title within that. Write chapter content the same way
+whether it'll only ever appear in the book, only in slides, or both —
+there's nothing format-specific to add here.
+
+## A sub-topic
+
+### A slide-sized point
+
+Bullet points, images, callouts — all normal Quarto markdown works here
+and renders sensibly in both the book and the deck.

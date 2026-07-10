@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+
+// Same palette as _shared/styles/kuleuven-reveal.scss — keep these two
+// files in sync if you retheme, so slides and book always match.
+$kul-blue-dark:  #003b73;
+$kul-blue:       #0096d6;
+$kul-accent:     #7F00FF;
+$kul-grey:       #6b6b6b;
+$kul-grey-light: #f4f6f8;
+$kul-border:     #e2e6ea;
+
+$body-color: $kul-grey;
+$link-color: $kul-blue;
+$font-family-sans-serif: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+$headings-color: $kul-blue-dark;
+$sidebar-bg: $kul-grey-light;
+
+/*-- scss:rules --*/
+
+:root {
+  --kul-blue-dark: #{$kul-blue-dark};
+  --kul-blue: #{$kul-blue};
+  --kul-accent: #{$kul-accent};
+}
+
+// Thin KU Leuven banner across the top of every book page, echoing the
+// slide banner so book + slides feel like one product.
+#quarto-header {
+  border-top: 4px solid;
+  border-image: linear-gradient(90deg, $kul-blue-dark, $kul-blue) 1;
+}
+
+.sidebar-title {
+  color: $kul-blue-dark;
+  font-weight: 600;
+}
+
+h1.title { color: $kul-blue-dark; }
+
+a { color: $link-color; }
+
+div.callout {
+  border-left-color: $kul-accent;
+}
+
+code {
+  color: $kul-blue-dark;
+  background-color: $kul-grey-light;
+}

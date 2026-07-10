@@ -1,0 +1,13 @@
+# Quarto build cache (NOT the rendered output — _book/ and *_files/ ARE
+# committed, same as the existing repo, so decks/book stay viewable
+# straight from GitHub / GitHub Pages without a separate build step)
+**/.quarto/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# OS
+.DS_Store

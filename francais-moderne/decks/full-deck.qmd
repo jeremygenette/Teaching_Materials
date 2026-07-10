@@ -1,0 +1,22 @@
+---
+title: "Français Moderne — Cours Complet"
+format: revealjs
+---
+
+```{=html}
+<style>:root{ --course-title: "Français moderne — Cours complet"; }</style>
+```
+
+{{< include ../chapters/000-intro.qmd >}}
+
+{{< include ../chapters/001-phonetique-affrication.qmd >}}
+
+{{< include ../chapters/002-phonologie-voyelles.qmd >}}
+
+{{< include ../chapters/003-phonologie-liaison.qmd >}}
+
+{{< include ../chapters/004-morphologie-verlan.qmd >}}
+
+{{< include ../chapters/005-morphosyntaxe-participe-passe.qmd >}}
+
+{{< include ../chapters/006-syntaxe-subjonctif.qmd >}}
