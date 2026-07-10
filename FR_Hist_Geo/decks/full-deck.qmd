@@ -1,5 +1,4 @@
 ---
-title: "COURSE TITLE — full deck"
 title: "COURSE TITLE — cours complet"
 
 resource-path:
