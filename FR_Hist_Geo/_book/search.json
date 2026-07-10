@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "COURSE TITLE",
+    "section": "",
+    "text": "Bienvenue\nLanding page for the book version of this course. Short description of the course, how it’s organized, and a link to the slide decks (which live outside the book navigation, under decks/)."
+  },
+  {
+    "objectID": "chapters/001-introduction.html#linguistique-vs-grammaire",
+    "href": "chapters/001-introduction.html#linguistique-vs-grammaire",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.1 Linguistique vs grammaire",
+    "text": "1.1 Linguistique vs grammaire\n\n1.1.1 Le lemme linguistique dans le TLFi :\n\n\n1.1.2 Le lemme grammaire dans le TLFi :\n\n\n1.1.3 Linguistique vs grammaire : deux disciplines scientifiques ayant pour objet d’étude la langue « sous différents aspects »\n\n1.1.3.1 Quatre différences fondamentales :\n\nObjet d’étude\nObjectif poursuivi\nOrganisation de la description\nTerminologie utilisée\n\nUn regard plus profond sur ces critères permet non seulement d’opposer grammaire à linguistique, mais aussi d’introduire les concepts de grammaire émergente et de changement linguistique."
+  },
+  {
+    "objectID": "chapters/001-introduction.html#objet-détude",
+    "href": "chapters/001-introduction.html#objet-détude",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.2 Objet d’étude",
+    "text": "1.2 Objet d’étude\nToute variété linguistique se définit par un faisceau unique de variables diasystémiques :\n\n1.2.1 Variable diachronique\nExemple : Les Serments de Strasbourg (842) vs français moderne\n\n\n\nTrès ancien français\nFrançais moderne\n\n\n\n\nPro Deo amur…\nPour l’amour de Dieu…\n\n\n\nExemple : négation ancien français vs contemporain\n\nJeo ne mange.\nJe ne mange pas.\n\n\n\n1.2.2 Variable diatopique\nVariation dialectale en France\nVariation phonétique Paris vs Midi\n\n\n\nParis\nMidi\n\n\n\n\nle lait → [lǝlɜ]\n[lǝle]\n\n\naimerais / aimerai → [emʁɜ] / [emʁe]\n[eməre]\n\n\n\nGenre des emprunts anglais : France vs Canada\n\n\n\nAnglais\nFrance\nCanada\n\n\n\n\nthe job\nle job\nla job\n\n\nthe gang\nle gang\nla gang\n\n\n\nChiffres 70 et 90 : France vs Belgique/Suisse\n\n\n\nFrance\nBelgique/Suisse\n\n\n\n\nsoixante-dix\nseptante\n\n\nquatre-vingt-dix\nnonante\n\n\n\n\n\n1.2.3 Variable diastratique\nLangue des jeunes :\n\nstaïve, balec\nstremon, meuf, tromé\n\n\n\n1.2.4 Variable diaphasique\nRegistre soutenu vs familier\n\n\n\nSoutenu\nFamilier\n\n\n\n\nBonjour !\nSalut !\n\n\nPas de problème.\nPas d’problème.\n\n\nJe ne sais pas…\nJe sais pas…\n\n\n\n\n\n1.2.5 Variable diamésique\nÉcrit vs oral\n\n\n\nÉcrit\nOral\n\n\n\n\nBonjour !\nSalut !\n\n\nIl y a plusieurs façons…\nY’a plusieurs façons…\n\n\n\n\n\n1.2.6 Paramètres diasystémiques = scalaires\nExemple : continuum diachronique latin → ancien français → moderne\n(tableau conservé)\nExemple : continuum langues d’oc / langues d’oïl\n\n\n1.2.7 Variétés étudiées\n\nLinguistes : toutes les variétés\nGrammairiens : langue écrite des « bons écrivains »\n\n\n\n1.2.8 Conséquences pour la grammaire\nLes grammairiens décrivent un bon usage basé sur une variété écrite, souvent en décalage avec l’usage réel.\n\n\n1.2.9 Déviations et changement linguistique\n\n« La faute d’aujourd’hui est la norme de demain. » — A. Rey\n\n\nLes déviations = innovations\nLe changement = conventionnalisation de ces innovations"
+  },
+  {
+    "objectID": "chapters/001-introduction.html#objectif-poursuivi",
+    "href": "chapters/001-introduction.html#objectif-poursuivi",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.3 Objectif poursuivi",
+    "text": "1.3 Objectif poursuivi\n\n1.3.1 Deux objectifs :\n\nGrammairien : prescriptif / normatif\nLinguiste : descriptif / explicatif\n\n\n\n1.3.2 Attitude face aux déviations :\n\nGrammairien → fautes\nLinguiste → alternatives à décrire"
+  },
+  {
+    "objectID": "chapters/001-introduction.html#exemple-détaillé-la-négation",
+    "href": "chapters/001-introduction.html#exemple-détaillé-la-négation",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.4 Exemple détaillé : la négation",
+    "text": "1.4 Exemple détaillé : la négation\nÉvolution de pas et mie du latin au français moderne (tableaux conservés)."
+  },
+  {
+    "objectID": "chapters/001-introduction.html#exemple-le-genre-de-espèce",
+    "href": "chapters/001-introduction.html#exemple-le-genre-de-espèce",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.5 Exemple : le genre de espèce",
+    "text": "1.5 Exemple : le genre de espèce\n\n1.5.1 Questions :\na) Quel est son genre ? b) Quel est son emploi réel ? c) Attitude grammairien vs linguiste d) Explication de l’emploi déviant\n\n\n1.5.2 Analyse :\n\nespèce = féminin inhérent\nVariation uniquement dans [DET espèce de N]\nMasculin possible seulement si N est masculin\nRéanalyse : une espèce de N → déterminant complexe\nÉvolution en cours : coexistence des deux formes"
+  },
+  {
+    "objectID": "chapters/001-introduction.html#linguistique-synchronique-vs-diachronique-vs-historique",
+    "href": "chapters/001-introduction.html#linguistique-synchronique-vs-diachronique-vs-historique",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.6 Linguistique synchronique vs diachronique vs historique",
+    "text": "1.6 Linguistique synchronique vs diachronique vs historique\n\n1.6.1 Synchronie\nÉtude d’un état de langue.\n\n\n1.6.2 Diachronie\nÉtude de l’évolution.\n\n\n1.6.3 Historique\nHistoire externe : substrats, superstrats, adstrats."
+  },
+  {
+    "objectID": "chapters/001-introduction.html#intérêt-de-la-linguistique-diachronique",
+    "href": "chapters/001-introduction.html#intérêt-de-la-linguistique-diachronique",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.7 Intérêt de la linguistique diachronique",
+    "text": "1.7 Intérêt de la linguistique diachronique\n\nComprendre le fonctionnement de la langue\nTypologie → prédictions\nCognition humaine\nComprendre des faits synchroniques"
+  },
+  {
+    "objectID": "chapters/001-introduction.html#perception-du-changement-linguistique",
+    "href": "chapters/001-introduction.html#perception-du-changement-linguistique",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.8 Perception du changement linguistique",
+    "text": "1.8 Perception du changement linguistique\n\n1.8.1 Passé :\n\nIdéalisation du latin, du grec\nVision décadente du changement\n\n\n\n1.8.2 Aujourd’hui :\n\nNeutralité pour le passé\nNormativité pour le présent\n\n\n\n1.8.3 Changement = signe de vie\n\n\n1.8.4 Raisons de l’accélération :\n\nMondialisation\nInternet, réseaux sociaux"
+  },
+  {
+    "objectID": "chapters/001-introduction.html#difficultés-de-la-linguistique-diachronique",
+    "href": "chapters/001-introduction.html#difficultés-de-la-linguistique-diachronique",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.9 Difficultés de la linguistique diachronique",
+    "text": "1.9 Difficultés de la linguistique diachronique\n\nCorpus limité\nTransmission textuelle lacunaire\nDocumentation tardive\nAbsence de locuteurs natifs du passé\nRisque de projection\n\n\n1.9.1 Mais :\n\nLangues romanes très bien documentées\nFrançais : premiers textes dès le 9ᵉ siècle"
+  },
+  {
+    "objectID": "chapters/001-introduction.html#projets-actuels",
+    "href": "chapters/001-introduction.html#projets-actuels",
+    "title": "1  Introduction à la linguistique diachronique",
+    "section": "1.10 Projets actuels",
+    "text": "1.10 Projets actuels\n\nGrande grammaire historique du français (2019)\nLatin tardif, français ancien (2018)\nBridging the gap between Late Latin and Old French (2016–…)\n\nCorpus numérique : Base de français médiéval http://txm.bfmcorpus.org"
+  }
+]

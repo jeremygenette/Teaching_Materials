@@ -1,0 +1,231 @@
+# Introduction à la linguistique diachronique
+
+## Linguistique vs grammaire
+
+### Le lemme *linguistique* dans le TLFi :
+
+### Le lemme *grammaire* dans le TLFi :
+
+### Linguistique vs grammaire : deux disciplines scientifiques ayant pour objet d’étude la langue « sous différents aspects »
+
+#### Quatre différences fondamentales :
+
+-   Objet d’étude
+
+-   Objectif poursuivi
+
+-   Organisation de la description
+
+-   Terminologie utilisée
+
+Un regard plus profond sur ces critères permet non seulement d’opposer grammaire à linguistique, mais aussi d’introduire les concepts de grammaire émergente et de changement linguistique.
+
+## Objet d’étude
+
+Toute variété linguistique se définit par un faisceau unique de variables diasystémiques :
+
+### Variable diachronique
+
+Exemple : Les Serments de Strasbourg (842) vs français moderne
+
+| Très ancien français | Français moderne          |
+|----------------------|---------------------------|
+| *Pro Deo amur...*    | *Pour l’amour de Dieu...* |
+
+Exemple : négation ancien français vs contemporain
+
+1.  *Jeo ne mange.*
+
+2.  *Je ne mange pas.*
+
+### Variable diatopique
+
+Variation dialectale en France
+
+Variation phonétique Paris vs Midi
+
+| Paris                                    | Midi      |
+|------------------------------------------|-----------|
+| le lait → \[lǝlɜ\]                       | \[lǝle\]  |
+| aimerais / aimerai → \[emʁɜ\] / \[emʁe\] | \[eməre\] |
+
+Genre des emprunts anglais : France vs Canada
+
+| Anglais  | France  | Canada  |
+|----------|---------|---------|
+| the job  | le job  | la job  |
+| the gang | le gang | la gang |
+
+Chiffres 70 et 90 : France vs Belgique/Suisse
+
+| France           | Belgique/Suisse |
+|------------------|-----------------|
+| soixante-dix     | septante        |
+| quatre-vingt-dix | nonante         |
+
+### Variable diastratique
+
+Langue des jeunes :
+
+-   *staïve*, *balec*
+
+-   *stremon*, *meuf*, *tromé*
+
+### Variable diaphasique
+
+Registre soutenu vs familier
+
+| Soutenu          | Familier        |
+|------------------|-----------------|
+| Bonjour !        | Salut !         |
+| Pas de problème. | Pas d’problème. |
+| Je ne sais pas…  | Je sais pas…    |
+
+### Variable diamésique
+
+Écrit vs oral
+
+| Écrit                    | Oral                  |
+|--------------------------|-----------------------|
+| Bonjour !                | Salut !               |
+| Il y a plusieurs façons… | Y’a plusieurs façons… |
+
+### Paramètres diasystémiques = scalaires
+
+Exemple : continuum diachronique latin → ancien français → moderne
+
+*(tableau conservé)*
+
+Exemple : continuum langues d’oc / langues d’oïl
+
+### Variétés étudiées
+
+-   Linguistes : toutes les variétés
+
+-   Grammairiens : langue écrite des « bons écrivains »
+
+### Conséquences pour la grammaire
+
+Les grammairiens décrivent un bon usage basé sur une variété écrite, souvent en décalage avec l’usage réel.
+
+### Déviations et changement linguistique
+
+> « La faute d’aujourd’hui est la norme de demain. » — A. Rey
+
+-   Les déviations = innovations
+
+-   Le changement = conventionnalisation de ces innovations
+
+## Objectif poursuivi
+
+### Deux objectifs :
+
+-   Grammairien : prescriptif / normatif
+
+-   Linguiste : descriptif / explicatif
+
+### Attitude face aux déviations :
+
+-   Grammairien → fautes
+
+-   Linguiste → alternatives à décrire
+
+## Exemple détaillé : la négation
+
+Évolution de *pas* et *mie* du latin au français moderne (tableaux conservés).
+
+## Exemple : le genre de *espèce*
+
+### Questions :
+
+a\) Quel est son genre ?
+b) Quel est son emploi réel ?
+c) Attitude grammairien vs linguiste
+d) Explication de l’emploi déviant
+
+### Analyse :
+
+-   *espèce* = féminin inhérent
+
+-   Variation uniquement dans \[DET espèce de N\]
+
+-   Masculin possible seulement si N est masculin
+
+-   Réanalyse : *une espèce de N* → déterminant complexe
+
+-   Évolution en cours : coexistence des deux formes
+
+## Linguistique synchronique vs diachronique vs historique
+
+### Synchronie
+
+Étude d’un état de langue.
+
+### Diachronie
+
+Étude de l’évolution.
+
+### Historique
+
+Histoire externe : substrats, superstrats, adstrats.
+
+## Intérêt de la linguistique diachronique
+
+-   Comprendre le fonctionnement de la langue
+
+-   Typologie → prédictions
+
+-   Cognition humaine
+
+-   Comprendre des faits synchroniques
+
+## Perception du changement linguistique
+
+### Passé :
+
+-   Idéalisation du latin, du grec
+
+-   Vision décadente du changement
+
+### Aujourd’hui :
+
+-   Neutralité pour le passé
+
+-   Normativité pour le présent
+
+### Changement = signe de vie
+
+### Raisons de l’accélération :
+
+-   Mondialisation
+
+-   Internet, réseaux sociaux
+
+## Difficultés de la linguistique diachronique
+
+-   Corpus limité
+
+-   Transmission textuelle lacunaire
+
+-   Documentation tardive
+
+-   Absence de locuteurs natifs du passé
+
+-   Risque de projection
+
+### Mais :
+
+-   Langues romanes très bien documentées
+
+-   Français : premiers textes dès le 9ᵉ siècle
+
+## Projets actuels
+
+-   *Grande grammaire historique du français* (2019)
+
+-   *Latin tardif, français ancien* (2018)
+
+-   *Bridging the gap between Late Latin and Old French* (2016–…)
+
+Corpus numérique : Base de français médiéval
+[http://txm.bfmcorpus.org](https://txm.bfmcorpus.org)

@@ -1,0 +1,5 @@
+# Bienvenue {.unnumbered}
+
+Landing page for the book version of this course. Short description of
+the course, how it's organized, and a link to the slide decks (which
+live outside the book navigation, under `decks/`).
