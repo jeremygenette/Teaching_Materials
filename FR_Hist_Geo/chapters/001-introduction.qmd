@@ -258,6 +258,27 @@ Histoire externe : substrats, superstrats, adstrats.
 
 ## 
 
+## Perception du changement linguistique
+
+### Dans le passé (surtout au 19ième s.) :
+
+> « Plus on remonte dans le temps, plus la forme du langage est belle et parfaite. Plus on s'approche du présent, plus il est pénible de trouver au langage, en décadence, de la force et de la flexibilité. » (Jacob & Guillaume Grimm)
+
+> « Les langues à flexion qui sont tombées aujourd'hui en ruines ne pourront jamais de nouveau se relever à leur hauteur primitive. » (August Schleicher)
+
+### Perception traditionnelle :
+
+ -Primauté des langues classiques (grec ancien, latin, sanscrit, etc.) 
+- La disparition de ces langues est déplorable : dégénération, décadence 
+- Langues flexionnelles \> langues non flexionnelles 
+- Idéalisation des systèmes linguistiques du passé, mépris des systèmes linguistiques contemporains et désespoir des systèmes linguistiques futurs
+
+--------
+
+Comme si en biologie...
+
+![](images/clipboard-1698630812.png)
+
 ## Difficultés méthodologiques propres à la linguistique diachronique
 
 Besoin d’une base empirique : un corpus solide et représentatif de textes authentiques couvrant des périodes plus ou moins étendues
