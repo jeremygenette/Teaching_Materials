@@ -163,3 +163,13 @@ variables in sync between the two files. Every course picks up the
 change on its next render, nothing per-course to touch. Each individual
 deck can still override its own banner text with the one-line
 `<style>:root{ --course-title: "..."; }</style>` right after its YAML.
+
+**Where the revealjs settings actually live.** Each course's
+`decks/_metadata.yml` — not `_quarto.yml` — holds the KU Leuven theme,
+transition, dimensions, etc. for slide decks. Quarto book projects
+(`project: type: book`) don't merge a project-level `format: revealjs:`
+block into standalone files like `decks/*.qmd`, only into listed book
+chapters, so that config has to sit in a directory-scoped `_metadata.yml`
+instead, which Quarto merges into every file in that folder regardless
+of project type. If slides ever come out looking like plain unstyled
+reveal.js again, this file is the first place to check.

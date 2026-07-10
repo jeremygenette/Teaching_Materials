@@ -50,7 +50,8 @@ render_all_addin <- function() {
     found[[choice]]
   }
 
-  term <- rstudioapi::terminalCreate(caption = paste("render + push:", basename(root)), show = TRUE)
+  term_caption <- paste("render + push:", basename(root))
+  term <- .find_or_create_terminal(term_caption)
   rstudioapi::terminalActivate(term, show = TRUE)
   rstudioapi::terminalSend(
     term,
@@ -68,6 +69,30 @@ render_all_addin <- function() {
   doc <- tryCatch(rstudioapi::getSourceEditorContext(), error = function(e) NULL)
   if (is.null(doc) || is.null(doc$path) || !nzchar(doc$path)) return(NULL)
   dirname(doc$path)
+}
+
+# Reuse an existing terminal tab with this caption if one is already open
+# (this is what a second click on the addin hits), otherwise create a new
+# one. terminalCreate() errors if the caption is already taken, so if a
+# stale/renamed terminal collides anyway, fall back to a timestamped
+# caption rather than failing.
+.find_or_create_terminal <- function(caption) {
+  ids <- tryCatch(rstudioapi::terminalList(), error = function(e) character(0))
+  for (id in ids) {
+    ctx <- tryCatch(rstudioapi::terminalContext(id), error = function(e) NULL)
+    if (!is.null(ctx) && identical(ctx$caption, caption)) {
+      return(id)
+    }
+  }
+  tryCatch(
+    rstudioapi::terminalCreate(caption = caption, show = TRUE),
+    error = function(e) {
+      rstudioapi::terminalCreate(
+        caption = paste(caption, format(Sys.time(), "%H:%M:%S")),
+        show = TRUE
+      )
+    }
+  )
 }
 
 .has_render_script <- function(dir) {

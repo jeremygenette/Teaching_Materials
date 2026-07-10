@@ -137,3 +137,10 @@ Don't edit theme files here — `../_shared/styles/kuleuven-reveal.scss`
 across every course. Retheme once, every course updates. Each deck can
 still set its own banner text via the `<style>:root{ --course-title:
 "..."; }</style>` line right after its YAML front matter.
+
+The revealjs theme/options themselves are wired up in `decks/_metadata.yml`,
+not `_quarto.yml` — a Quarto book project doesn't apply a project-level
+`format: revealjs:` block to standalone files like `decks/*.qmd`, so that
+config had to move to a directory-scoped `_metadata.yml` instead. Each
+deck's own front matter just needs `format: revealjs` with no options;
+everything else merges in from that file automatically.
