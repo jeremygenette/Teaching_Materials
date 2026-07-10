@@ -172,25 +172,19 @@ Play here 👇 🃏 It "sounds" difficult, but it is very logical
 -   Frequency
 -   Intensity
 
-Subdisciplines
+### Perception phonetics
 
-```         
-<video controls width="100%">
-  <source src="_media/phonetics_phonology/Metal_voice.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-```
+
 
 ::: columns
 ::: {.column width="35%"}
-### Perception phonetics
 
 -   Speech perception
 -   Categorical perception
 :::
 
 ::: {.column width="65%"}
-{{< video ./_media/phonetics_phonology/Metal_voice.mp4>}} 
+![](images/Metal_voice.mp4)
 :::
 :::
 
@@ -202,7 +196,7 @@ Subdisciplines
 
 ## Definitions
 
-\- Study of the functional/linguistic reality of the speech soun![](images/Metal_voice.mp4)ds
+\- Study of the functional/linguistic reality of the speech sounds
 
 \- Phonology is the description of the systems and patterns of sounds that occur in a language (Ladefoged, 2006)
 
