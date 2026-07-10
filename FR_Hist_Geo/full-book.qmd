@@ -1,27 +1,9 @@
 ---
-# full-book.qmd
-#
-# Single-file HTML version of the whole book — for offline distribution
-# or uploading to an LMS (Toledo, Brightspace, Canvas, Moodle, etc.) as
-# one self-contained file, the same way decks/*.qmd gives you one
-# self-contained file per slide deck.
-#
-# Same trick as the decks: this is a "loose" file (not listed under
-# book: chapters: in ../_quarto.yml), so — same reasoning documented in
-# decks/_metadata.yml and _quarto.yml — it does NOT reliably inherit the
-# project-level `format: html:` block. So every setting is written out
-# here in full, copied from _quarto.yml's html: block, rather than
-# relying on inheritance.
 title: "COURSE TITLE — Livre complet"
 subtitle: ""
 author: "Jérémy Genette"
 date: last-modified
 
-resource-path:
-  - ..
-  - ../chapters
-  - ../chapters/images
-  
 format:
   html:
     embed-resources: true
@@ -29,16 +11,369 @@ format:
     toc: true
     toc-depth: 3
     number-sections: true
-    # search: true is a Quarto *website* feature (it builds a search
-    # index as separate files) - it doesn't fit a single embed-resources
-    # file, so it's left out here. Students get browser Ctrl+F instead.
     theme:
       light: [flatly, ../_shared/styles/kuleuven-book.scss]
       dark: [darkly, ../_shared/styles/kuleuven-book.scss]
 ---
 
-{{< include chapters/001-introduction.qmd >}}
 
-<!-- Add one {{< include chapters/xxx-....qmd >}} line per chapter, in
-     the order you want them to appear — same list, same order as your
-     book: chapters: entries in ../_quarto.yml and as decks/full-deck.qmd. -->
+# Bienvenue {.unnumbered}
+
+Landing page for the book version of this course. Short description of
+the course, how it's organized, and a link to the slide decks (which
+live outside the book navigation, under `decks/`).
+
+# Introduction à la linguistique diachronique
+
+## Linguistique vs grammaire
+
+### Le lemme *linguistique* dans le TLFi
+
+![](chapters/images/clipboard-3754285985.png)
+
+![](chapters/images/clipboard-1683819146.png)
+
+### Le lemme *grammaire* dans le TLFi
+
+![](chapters/images/clipboard-658805517.png)
+
+![](chapters/images/clipboard-2109517839.png)
+
+![](chapters/images/clipboard-1197071049.png)
+
+### Linguistique vs grammaire : deux disciplines scientifiques ayant pour objet d’étude la langue « sous différents aspects »
+
+#### Quatre différences fondamentales :
+
+-   Objet d’étude
+
+-   Objectif poursuivi
+
+-   Organisation de la description
+
+-   Terminologie utilisée
+
+Un regard plus profond sur ces critères permet non seulement d’opposer grammaire à linguistique, mais aussi d’introduire les concepts de grammaire émergente et de changement linguistique.
+
+## Objet d’étude
+
+Toute variété linguistique se définit par un faisceau unique de variables diasystémiques :
+
+### Les dimensions de la variation
+
+#### Variation diachronique
+
+Exemple : Les Serments de Strasbourg (842) vs français moderne
+
+| Très ancien français | Français moderne          |
+|----------------------|---------------------------|
+| *Pro Deo amur...*    | *Pour l’amour de Dieu...* |
+
+Exemple : négation ancien français vs contemporain
+
+1.  *Jeo ne mange.*
+
+2.  *Je ne mange pas.*
+
+#### Variation diatopique
+
+![La variation dialectale en France](chapters/images/clipboard-1931647397.png)
+
+Variation phonétique Paris vs Midi
+
+| Paris                                    | Midi      |
+|------------------------------------------|-----------|
+| le lait → \[lǝlɜ\]                       | \[lǝle\]  |
+| aimerais / aimerai → \[emʁɜ\] / \[emʁe\] | \[eməre\] |
+
+Genre des emprunts anglais : France vs Canada
+
+| Anglais  | France  | Canada  |
+|----------|---------|---------|
+| the job  | le job  | la job  |
+| the gang | le gang | la gang |
+
+Chiffres 70 et 90 : France vs Belgique/Suisse
+
+| France           | Belgique/Suisse |
+|------------------|-----------------|
+| soixante-dix     | septante        |
+| quatre-vingt-dix | nonante         |
+
+#### Variation diastratique
+
+Langue des jeunes :
+
+-   *staïve*, *balec*
+
+-   *stremon*, *meuf*, *tromé*
+
+#### Variation diaphasique
+
+Registre soutenu vs familier
+
+| Soutenu          | Familier        |
+|------------------|-----------------|
+| Bonjour !        | Salut !         |
+| Pas de problème. | Pas d’problème. |
+| Je ne sais pas…  | Je sais pas…    |
+
+#### Variation diamésique
+
+Écrit vs oral
+
+| Écrit                    | Oral                  |
+|--------------------------|-----------------------|
+| Bonjour !                | Salut !               |
+| Il y a plusieurs façons… | Y’a plusieurs façons… |
+
+#### Paramètres diasystémiques = scalaires
+
+Exemple : continuum diachronique latin → ancien français → moderne
+
+*(tableau conservé)*
+
+![Continuum langues d’oc / langues d’oïl](chapters/images/clipboard-3434876068.png)
+
+## Et alors, quelles variétés étudie-t-on?
+
+-   Linguistes : toutes les variétés
+
+<!-- -->
+
+-   Grammairiens : langue écrite des « bons écrivains »
+
+#### Conséquences pour la grammaire
+
+Les grammairiens décrivent un bon usage basé sur une variété écrite, souvent en décalage avec l’usage réel.
+
+#### Déviations et changement linguistique
+
+> « La faute d’aujourd’hui est la norme de demain. » — A. Rey
+
+-   Les déviations = innovations
+
+-   Le changement = conventionnalisation de ces innovations
+
+## Objectif poursuivi
+
+### Deux objectifs :
+
+-   Grammairien : prescriptif / normatif
+
+-   Linguiste : descriptif / explicatif
+
+### Attitude face aux déviations :
+
+-   Grammairien → fautes
+
+-   Linguiste → alternatives à décrire
+
+## Exemple détaillé : la négation
+
+Évolution de *pas* et *mie* du latin au français moderne (tableaux conservés).
+
+## Exemple : le genre de *espèce*
+
+### Questions :
+
+a\) Quel est son genre ? b) Quel est son emploi réel ? c) Attitude grammairien vs linguiste d) Explication de l’emploi déviant
+
+### Analyse :
+
+-   *espèce* = féminin inhérent
+
+-   Variation uniquement dans \[DET espèce de N\]
+
+-   Masculin possible seulement si N est masculin
+
+-   Réanalyse : *une espèce de N* → déterminant complexe
+
+-   Évolution en cours : coexistence des deux formes
+
+## Linguistique synchronique vs diachronique vs historique
+
+### Synchronie
+
+::: callout-note
+Synchronie \> gr. σύν ‘avec’ (lat. syn) + χρόνος ‘temps’ (lat. chronos)
+:::
+
+• La position de la femme en Europe au Moyen Age
+
+• L’économie de la France au 21e s.
+
+• L’expression de la négation en ancien français
+
+• …
+
+![](chapters/images/clipboard-1877567029.png)
+
+🚨 Synchronie du passé
+
+### Diachronie
+
+::: callout-note
+Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat. chronos)
+:::
+
+• La position de la femme en Europe du Moyen Age au 20ième s.
+
+• L’économie de la France du 19ième au 21ième s.
+
+• L’expression de la négation de l’ancien français au français classique
+
+• …
+
+### Linguistique synchronique vs. diachronique
+
+::: {style="position:relative; height:600px;"}
+-   Genève 🇨🇭
+-   Études de linguistique historique à l’Université de Leipzig, doctorat en 1879
+-   Mémoire sur le système. primitif des voyelles indo-européennes (Société Linguistique de Paris, 1877)
+-   1881, Maître de conférences à Paris (Ecole des hautes Etudes)
+-   1892, Université de Genève: sanskrit, grammaire comparée, phonologie
+-   1906-1913, Chaire de linguistique générale, réflexions théoriques sur le langage et la linguistique\
+
+```{=html}
+<img src="images/clipboard-1008386988.png"
+     style="position:absolute; bottom:0; right:0; width:300px;">
+```
+:::
+
+![](chapters/images/clipboard-562782746.png)
+
+### Historique
+
+Histoire externe : substrats, superstrats, adstrats.
+
+## Intérêt de la linguistique diachronique
+
+-   Comprendre le fonctionnement de la langue
+
+-   Typologie → prédictions
+
+-   Cognition humaine
+
+-   Comprendre des faits synchroniques
+
+## Perception du changement linguistique
+
+### Passé :
+
+-   Idéalisation du latin, du grec
+
+-   Vision décadente du changement
+
+![](chapters/images/clipboard-2388570064.png)
+
+### Aujourd’hui :
+
+-   Neutralité pour le passé
+
+-   Normativité pour le présent
+
+### Changement = signe de vie
+
+### Raisons de l’accélération :
+
+-   Mondialisation
+
+-   Internet, réseaux sociaux
+
+## 
+
+## Perception du changement linguistique
+
+### Dans le passé (surtout au 19ième s.) :
+
+> « Plus on remonte dans le temps, plus la forme du langage est belle et parfaite. Plus on s'approche du présent, plus il est pénible de trouver au langage, en décadence, de la force et de la flexibilité. » (Jacob & Guillaume Grimm)
+
+> « Les langues à flexion qui sont tombées aujourd'hui en ruines ne pourront jamais de nouveau se relever à leur hauteur primitive. » (August Schleicher)
+
+### Perception traditionnelle :
+
+ -Primauté des langues classiques (grec ancien, latin, sanscrit, etc.) 
+- La disparition de ces langues est déplorable : dégénération, décadence 
+- Langues flexionnelles \> langues non flexionnelles 
+- Idéalisation des systèmes linguistiques du passé, mépris des systèmes linguistiques contemporains et désespoir des systèmes linguistiques futurs
+
+--------
+
+Comme si en biologie...
+
+![](chapters/images/clipboard-1698630812.png)
+
+## Difficultés méthodologiques propres à la linguistique diachronique
+
+Besoin d’une base empirique : un corpus solide et représentatif de textes authentiques couvrant des périodes plus ou moins étendues
+
+dépendance de la transmission textuelle
+
+### Problèmes :
+
+#### Transmission textuelle pauvre, voire absente
+
+Ex. langues exotiques, isolées
+
+#### Documentation (relativement) récente (\> absence de traces du passé)
+
+J. Vangaever Historische en geografische varianten van het Frans L3 2025-2026
+
+17
+
+Ex. : le roumain
+
+#### Ruptures dans la transmission textuelle/périodes de transmission appauvrie
+
+Ex. : les premiers stades des langues romanes
+
+####Documentation exclusivement écrite jusqu’au 20ième s.
+
+#### Sélection des textes transmis :
+
+• Duplication de textes : activité très chère, intensive et à refaire périodiquement
+
+• Sélection dans les types de textes copiés
+
+• Jusqu’à Guthenberg (1453) : duplication à la main par des copistes \> interventions conscientes et
+
+inconscientes
+
+3/ Néanmoins : certaines langues ont une documentation diachroniquement impressionnante
+
+Ex. : le latin, les langues romanes, les langues germaniques
+
+#### Langues romanes : la famille de langues la mieux documentée : transmission quasiment ininterrompue depuis leur émergence
+
+#### Situation plus unique encore : langues romanes \> latin donc documentation de plus de deux millénaires
+
+(3ième s. BC – 21ième s. AD) : diachronie large servant de laboratoire pour tester sur corpus des hypothèses formulées en linguistique générale et théorique (en plus : « shift typologique »)
+
+#### Néanmoins : documentation relativement pauvre de la période de transition entre le latin et les langues romanes (le proto-roman, 600 – 800 AD)
+
+#### En outre : relativement peu de traces de la langue vulgaire. Explication ? Problème ?
+
+#### Le français : position privilégiée parmi les langues romanes : premiers textes au 9ième s. (\>\< espagnol et italien : 12ième s.)
+
+#### Autres problèmes en linguistique diachronique :
+
+• États de langue du passé : absence de locuteurs natifs (\> pas de jugements de grammaticalité, de jugements d’acceptabilité, d’intuitions, de tests linguistiques, …)
+
+• Risque de projeter ses propres intuitions sur un état de langue actuel sur des états de langue du passé (\> distorsions, biais)
+
+\#### Actuellement : grand intérêt pour l’évolution du français (\> plusieurs projets de recherche nationaux et internationaux) :
+
+• Marchello-Nizia, C. ; B. Combettes ; S. Prévost & T. Scheer (Eds.). Grande grammaire historique du
+
+français (2 vol.). Berlin : Mouton De Gruyter, 2019
+
+## Projets actuels
+
+-   *Grande grammaire historique du français* (2019)
+
+-   *Latin tardif, français ancien* (2018)
+
+-   *Bridging the gap between Late Latin and Old French* (2016–…)
+
+Corpus numérique : Base de français médiéval [http://txm.bfmcorpus.org](https://txm.bfmcorpus.org)
