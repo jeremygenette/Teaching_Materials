@@ -203,7 +203,7 @@ Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat
 
 ### Linguistique synchronique vs. diachronique
 
-![](FR_Hist_Geo/images/clipboard-1008386988.png){style="position:absolute; bottom:0; right:0; width:300px;"}
+![](chapters/images/clipboard-1008386988.png){style="position:absolute; bottom:0; right:0; width:300px;"}
 
 - Genève 🇨🇭
 - Études de linguistique historique à l’Université de Leipzig, doctorat en 1879
@@ -252,19 +252,19 @@ Histoire externe : substrats, superstrats, adstrats.
 
 ## 
 
-7\. Difficultés pour la linguistique diachronique
+## Difficultés méthodologiques propres à la linguistique diachronique
 
-1/ Besoin d’une base empirique : un corpus solide et représentatif de textes authentiques couvrant des
+Besoin d’une base empirique : un corpus solide et représentatif de textes authentiques couvrant des périodes plus ou moins étendues 
 
-périodes plus ou moins étendues \> dépendance de la transmission textuelle
+dépendance de la transmission textuelle
 
-2/ Problèmes :
+###  Problèmes :
 
-a\) Transmission textuelle pauvre, voire absente
+#### Transmission textuelle pauvre, voire absente
 
 Ex. langues exotiques, isolées
 
-b\) Documentation (relativement) récente (\> absence de traces du passé)
+#### Documentation (relativement) récente (\> absence de traces du passé)
 
 J. Vangaever Historische en geografische varianten van het Frans L3 2025-2026
 
@@ -272,13 +272,13 @@ J. Vangaever Historische en geografische varianten van het Frans L3 2025-2026
 
 Ex. : le roumain
 
-c\) Ruptures dans la transmission textuelle/périodes de transmission appauvrie
+#### Ruptures dans la transmission textuelle/périodes de transmission appauvrie
 
 Ex. : les premiers stades des langues romanes
 
-d\) Documentation exclusivement écrite jusqu’au 20ième s.
+####Documentation exclusivement écrite jusqu’au 20ième s.
 
-e\) Sélection des textes transmis :
+#### Sélection des textes transmis :
 
 • Duplication de textes : activité très chère, intensive et à refaire périodiquement
 
@@ -292,25 +292,17 @@ inconscientes
 
 Ex. : le latin, les langues romanes, les langues germaniques
 
-4/ Langues romanes : la famille de langues la mieux documentée : transmission quasiment ininterrompue
+#### Langues romanes : la famille de langues la mieux documentée : transmission quasiment ininterrompue depuis leur émergence
 
-depuis leur émergence
+#### Situation plus unique encore : langues romanes \> latin donc documentation de plus de deux millénaires
 
-5/ Situation plus unique encore : langues romanes \> latin donc documentation de plus de deux millénaires
+(3ième s. BC – 21ième s. AD) : diachronie large servant de laboratoire pour tester sur corpus des hypothèses formulées en linguistique générale et théorique (en plus : « shift typologique »)
 
-(3ième s. BC – 21ième s. AD) : diachronie large servant de laboratoire pour tester sur corpus des
+#### Néanmoins : documentation relativement pauvre de la période de transition entre le latin et les langues romanes (le proto-roman, 600 – 800 AD)
 
-hypothèses formulées en linguistique générale et théorique (en plus : « shift typologique »)
+#### En outre : relativement peu de traces de la langue vulgaire. Explication ? Problème ?
 
-6/ Néanmoins : documentation relativement pauvre de la période de transition entre le latin et les langues
-
-romanes (le proto-roman, 600 – 800 AD)
-
-7/ En outre : relativement peu de traces de la langue vulgaire. Explication ? Problème ?
-
-8/ Le français : position privilégiée parmi les langues romanes : premiers textes au 9ième s. (\>\< espagnol et
-
-italien : 12ième s.)
+#### Le français : position privilégiée parmi les langues romanes : premiers textes au 9ième s. (\>\< espagnol et italien : 12ième s.)
 
 #### Autres problèmes en linguistique diachronique :
 
