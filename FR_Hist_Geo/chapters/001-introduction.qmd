@@ -34,7 +34,9 @@ Un regard plus profond sur ces critères permet non seulement d’opposer gramma
 
 Toute variété linguistique se définit par un faisceau unique de variables diasystémiques :
 
-### Variable diachronique
+### Les dimensions de la variation
+
+#### Variation diachronique
 
 Exemple : Les Serments de Strasbourg (842) vs français moderne
 
@@ -48,7 +50,7 @@ Exemple : négation ancien français vs contemporain
 
 2.  *Je ne mange pas.*
 
-### Variable diatopique
+#### Variation diatopique
 
 ![La variation dialectale en France](images/clipboard-1931647397.png)
 
@@ -73,7 +75,7 @@ Chiffres 70 et 90 : France vs Belgique/Suisse
 | soixante-dix     | septante        |
 | quatre-vingt-dix | nonante         |
 
-### Variable diastratique
+#### Variation diastratique
 
 Langue des jeunes :
 
@@ -81,7 +83,7 @@ Langue des jeunes :
 
 -   *stremon*, *meuf*, *tromé*
 
-### Variable diaphasique
+#### Variation diaphasique
 
 Registre soutenu vs familier
 
@@ -91,7 +93,7 @@ Registre soutenu vs familier
 | Pas de problème. | Pas d’problème. |
 | Je ne sais pas…  | Je sais pas…    |
 
-### Variable diamésique
+#### Variation diamésique
 
 Écrit vs oral
 
@@ -100,7 +102,7 @@ Registre soutenu vs familier
 | Bonjour !                | Salut !               |
 | Il y a plusieurs façons… | Y’a plusieurs façons… |
 
-### Paramètres diasystémiques = scalaires
+#### Paramètres diasystémiques = scalaires
 
 Exemple : continuum diachronique latin → ancien français → moderne
 
@@ -108,17 +110,20 @@ Exemple : continuum diachronique latin → ancien français → moderne
 
 ![Continuum langues d’oc / langues d’oïl](images/clipboard-3434876068.png)
 
-### Variétés étudiées
+## Et alors, quelles variétés étudie-t-on?
 
 -   Linguistes : toutes les variétés
 
+```{=html}
+<!-- -->
+```
 -   Grammairiens : langue écrite des « bons écrivains »
 
-### Conséquences pour la grammaire
+#### Conséquences pour la grammaire
 
 Les grammairiens décrivent un bon usage basé sur une variété écrite, souvent en décalage avec l’usage réel.
 
-### Déviations et changement linguistique
+#### Déviations et changement linguistique
 
 > « La faute d’aujourd’hui est la norme de demain. » — A. Rey
 
@@ -198,7 +203,7 @@ Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat
 
 ### Linguistique synchronique vs. diachronique
 
-![Ferdinand de Saussure[](images/clipboard-1008386988)]{.absolute bottom=0 right=0 width="300"}
+![](images/clipboard-1008386988.png){style="position:absolute; bottom:0; right:0; width:300px;"}
 
 👉Genève 🇨🇭
 
