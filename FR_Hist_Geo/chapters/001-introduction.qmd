@@ -114,9 +114,8 @@ Exemple : continuum diachronique latin → ancien français → moderne
 
 -   Linguistes : toutes les variétés
 
-```{=html}
 <!-- -->
-```
+
 -   Grammairiens : langue écrite des « bons écrivains »
 
 #### Conséquences pour la grammaire
@@ -203,21 +202,19 @@ Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat
 
 ### Linguistique synchronique vs. diachronique
 
-<div style="position:relative; height:600px;">
+::: {style="position:relative; height:600px;"}
+-   Genève 🇨🇭
+-   Études de linguistique historique à l’Université de Leipzig, doctorat en 1879
+-   Mémoire sur le système. primitif des voyelles indo-européennes (Société Linguistique de Paris, 1877)
+-   1881, Maître de conférences à Paris (Ecole des hautes Etudes)
+-   1892, Université de Genève: sanskrit, grammaire comparée, phonologie
+-   1906-1913, Chaire de linguistique générale, réflexions théoriques sur le langage et la linguistique\
 
-Your slide content...
-
+```{=html}
 <img src="images/clipboard-1008386988.png"
      style="position:absolute; bottom:0; right:0; width:300px;">
-
-</div>
-
-- Genève 🇨🇭
-- Études de linguistique historique à l’Université de Leipzig, doctorat en 1879
-- Mémoire sur le système. primitif des voyelles indo-européennes (Société Linguistique de Paris, 1877)
-- 1881, Maître de conférences à Paris (Ecole des hautes Etudes)
-- 1892, Université de Genève: sanskrit, grammaire comparée, phonologie
-- 1906-1913, Chaire de linguistique générale, réflexions théoriques sur le langage et la linguistique**
+```
+:::
 
 ![](images/clipboard-562782746.png)
 
@@ -243,6 +240,8 @@ Histoire externe : substrats, superstrats, adstrats.
 
 -   Vision décadente du changement
 
+![](images/clipboard-2388570064.png)
+
 ### Aujourd’hui :
 
 -   Neutralité pour le passé
@@ -261,11 +260,11 @@ Histoire externe : substrats, superstrats, adstrats.
 
 ## Difficultés méthodologiques propres à la linguistique diachronique
 
-Besoin d’une base empirique : un corpus solide et représentatif de textes authentiques couvrant des périodes plus ou moins étendues 
+Besoin d’une base empirique : un corpus solide et représentatif de textes authentiques couvrant des périodes plus ou moins étendues
 
 dépendance de la transmission textuelle
 
-###  Problèmes :
+### Problèmes :
 
 #### Transmission textuelle pauvre, voire absente
 
