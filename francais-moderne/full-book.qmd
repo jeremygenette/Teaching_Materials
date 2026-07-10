@@ -1,0 +1,46 @@
+---
+# full-book.qmd
+#
+# Single-file HTML version of the whole book — for offline distribution
+# or uploading to an LMS (Toledo, Brightspace, Canvas, Moodle, etc.) as
+# one self-contained file, the same way decks/*.qmd gives you one
+# self-contained file per slide deck.
+#
+# Same trick as the decks: this is a "loose" file (not listed under
+# book: chapters: in ../_quarto.yml), so — same reasoning documented in
+# decks/_metadata.yml and _quarto.yml — it does NOT reliably inherit the
+# project-level `format: html:` block. So every setting is written out
+# here in full, copied from _quarto.yml's html: block, rather than
+# relying on inheritance.
+title: "COURSE TITLE — Livre complet"
+subtitle: "Version hors ligne — un seul fichier HTML"
+author: "YOUR NAME"
+date: last-modified
+format:
+  html:
+    embed-resources: true
+    self-contained-math: true
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    # search: true is a Quarto *website* feature (it builds a search
+    # index as separate files) - it doesn't fit a single embed-resources
+    # file, so it's left out here. Students get browser Ctrl+F instead.
+    theme:
+      light: [flatly, ../_shared/styles/kuleuven-book.scss]
+      dark: [darkly, ../_shared/styles/kuleuven-book.scss]
+---
+
+{{< include chapters/000-intro.qmd >}}
+
+{{< include chapters/001-phonetique-affrication.qmd >}}
+
+{{< include chapters/002-phonologie-voyelles.qmd >}}
+
+{{< include chapters/003-phonologie-liaison.qmd >}}
+
+{{< include chapters/004-morphologie-verlan.qmd >}}
+
+{{< include chapters/005-morphosyntaxe-participe-passe.qmd >}}
+
+{{< include chapters/006-syntaxe-subjonctif.qmd >}}

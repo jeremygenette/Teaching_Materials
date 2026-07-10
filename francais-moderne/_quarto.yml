@@ -10,44 +10,34 @@ project:
     - "index.qmd"
     - "chapters/*.qmd"
     - "decks/*.qmd"
+    - "full-book.qmd"
   # Fires after EVERY `quarto render` touching this project — the book,
   # a single deck, or a `quarto preview` — so every knit gets pushed.
   post-render:
     - "Rscript scripts/post-render-push.R"
 
 book:
-  title: "Français Moderne"
-  subtitle: "Cours complet"
-  author: "Jérémy Genette"
+  title: "COURSE TITLE"
+  author: "YOUR NAME"
   date: last-modified
-  repo-url: https://github.com/jeremygenette/Teaching
+  repo-url: https://github.com/YOUR-ORG/Teaching
   repo-actions: [edit, issue]
   sidebar:
     style: "docked"
   chapters:
     - index.qmd
     - chapters/000-intro.qmd
-    - part: "Phonétique et phonologie"
-      chapters:
-        - chapters/001-phonetique-affrication.qmd
-        - chapters/002-phonologie-voyelles.qmd
-        - chapters/003-phonologie-liaison.qmd
-    - part: "Morphologie et morphosyntaxe"
-      chapters:
-        - chapters/004-morphologie-verlan.qmd
-        - chapters/005-morphosyntaxe-participe-passe.qmd
-    - part: "Syntaxe"
-      chapters:
-        - chapters/006-syntaxe-subjonctif.qmd
+    - chapters/001-phonetique-affrication.qmd
+    - chapters/002-phonologie-voyelles.qmd
+    - chapters/003-phonologie-liaison.qmd
+    - chapters/004-morphologie-verlan.qmd
+    - chapters/005-morphosyntaxe-participe-passe.qmd
+    - chapters/006-syntaxe-subjonctif.qmd
 
 # NOTE: only `html:` lives here. Quarto book projects (project: type: book)
 # do NOT merge a project-level `revealjs:` format block into standalone
-# files like decks/*.qmd — only the book's own chapters ever see it. Verified
-# by inspecting the actual pandoc call Quarto makes for a deck: it comes back
-# with revealjs's factory defaults (width 1050, margin 0.1, transition none,
-# no theme at all), not any of the KU Leuven settings that used to sit here.
-# This is a known Quarto limitation for book-type projects, not a bug in this
-# setup. The real KU Leuven revealjs config now lives in decks/_metadata.yml,
+# files like decks/*.qmd — only the book's own chapters ever see it. The
+# real KU Leuven revealjs config lives in decks/_metadata.yml instead,
 # which Quarto merges into every file in that folder regardless of project
 # type — see that file for the settings and more detail.
 format:

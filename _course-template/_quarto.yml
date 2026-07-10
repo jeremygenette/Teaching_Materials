@@ -10,6 +10,7 @@ project:
     - "index.qmd"
     - "chapters/*.qmd"
     - "decks/*.qmd"
+    - "full-book.qmd"
   # Fires after EVERY `quarto render` touching this project — the book,
   # a single deck, or a `quarto preview` — so every knit gets pushed.
   post-render:
