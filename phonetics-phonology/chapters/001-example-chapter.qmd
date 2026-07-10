@@ -201,6 +201,7 @@ Play here 👇 🃏
 
 ::: {.column width="65%"}
 {{< video ./_media/phonetics_phonology/Metal_voice.mp4>}}
+![](_media/phonetics_phonology/Metal_voice.mp4)
 :::
 :::
 
