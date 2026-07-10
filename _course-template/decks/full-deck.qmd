@@ -1,5 +1,11 @@
 ---
-title: "COURSE TITLE — full deck"
+title: "COURSE TITLE — cours complet"
+
+resource-path:
+  - ..
+  - ../chapters
+  - ../chapters/images
+
 format:
   revealjs:
     embed-resources: true
