@@ -170,7 +170,6 @@ a\) Quel est son genre ? b) Quel est son emploi réel ? c) Attitude grammairien 
 Synchronie \> gr. σύν ‘avec’ (lat. syn) + χρόνος ‘temps’ (lat. chronos)
 :::
 
-
 • La position de la femme en Europe au Moyen Age
 
 • L’économie de la France au 21e s.
@@ -179,11 +178,33 @@ Synchronie \> gr. σύν ‘avec’ (lat. syn) + χρόνος ‘temps’ (lat. 
 
 • …
 
-NB : synchronie du passé :
+![](images/clipboard-1877567029.png)
+
+🚨 Synchronie du passé
 
 ### Diachronie
 
-Étude de l’évolution.
+::: {.callout-note}
+
+Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat. chronos)
+:::
+
+• La position de la femme en Europe du Moyen Age au 20ième s.
+
+• L’économie de la France du 19ième au 21ième s.
+
+• L’expression de la négation de l’ancien français au français classique
+
+• …
+
+### Linguistique synchronique vs. diachronique
+
+![Ferdinand de Saussure](images/clipboard-1008386988.png)
+
+![](images/clipboard-2585187424.png)
+
+
+![](images/clipboard-562782746.png)
 
 ### Historique
 
