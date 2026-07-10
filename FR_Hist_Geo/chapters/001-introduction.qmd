@@ -8,7 +8,7 @@
 
 ![](images/clipboard-1683819146.png)
 
-### Le lemme *grammaire* dans le TLFi 
+### Le lemme *grammaire* dans le TLFi
 
 ![](images/clipboard-658805517.png)
 
@@ -166,7 +166,7 @@ a\) Quel est son genre ? b) Quel est son emploi réel ? c) Attitude grammairien 
 
 ### Synchronie
 
-::: {.callout-note}
+::: callout-note
 Synchronie \> gr. σύν ‘avec’ (lat. syn) + χρόνος ‘temps’ (lat. chronos)
 :::
 
@@ -184,8 +184,7 @@ Synchronie \> gr. σύν ‘avec’ (lat. syn) + χρόνος ‘temps’ (lat. 
 
 ### Diachronie
 
-::: {.callout-note}
-
+::: callout-note
 Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat. chronos)
 :::
 
@@ -199,7 +198,7 @@ Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat
 
 ### Linguistique synchronique vs. diachronique
 
-![Ferdinand de Saussure](images/clipboard-1008386988.png)
+![Ferdinand de Saussure![](images/Picture 1.png)]()
 
 👉Genève 🇨🇭
 
@@ -212,8 +211,6 @@ Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat
 👉1892, Université de Genève: sanskrit, grammaire comparée, phonologie
 
 👉**1906-1913, Chaire de linguistique générale, réflexions théoriques sur le langage et la linguistique**
-
-
 
 ![](images/clipboard-562782746.png)
 
@@ -254,14 +251,6 @@ Histoire externe : substrats, superstrats, adstrats.
 -   Internet, réseaux sociaux
 
 ## 
-
-
-
-
-
-
-
-
 
 7\. Difficultés pour la linguistique diachronique
 
