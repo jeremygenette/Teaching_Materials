@@ -1,7 +1,9 @@
 /*-- scss:defaults --*/
 
-// Same palette as _shared/styles/kuleuven-reveal.scss — keep these two
-// files in sync if you retheme, so slides and book always match.
+// ---------------------------------------------------------------------
+// KU Leuven palette
+// ---------------------------------------------------------------------
+
 $kul-blue-dark:  #003b73;
 $kul-blue:       #0096d6;
 $kul-accent:     #7F00FF;
@@ -11,39 +13,135 @@ $kul-border:     #e2e6ea;
 
 $body-color: $kul-grey;
 $link-color: $kul-blue;
-$font-family-sans-serif: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
 $headings-color: $kul-blue-dark;
 $sidebar-bg: $kul-grey-light;
 
+$font-family-sans-serif:
+  "Noto Sans",
+  "Helvetica Neue",
+  Arial,
+  sans-serif;
+
+
 /*-- scss:rules --*/
 
-:root {
-  --kul-blue-dark: #{$kul-blue-dark};
-  --kul-blue: #{$kul-blue};
-  --kul-accent: #{$kul-accent};
+:root{
+  --kul-blue-dark:#{$kul-blue-dark};
+  --kul-blue:#{$kul-blue};
+  --kul-accent:#{$kul-accent};
 }
 
-// Thin KU Leuven banner across the top of every book page, echoing the
-// slide banner so book + slides feel like one product.
-#quarto-header {
-  border-top: 4px solid;
-  border-image: linear-gradient(90deg, $kul-blue-dark, $kul-blue) 1;
+
+/**********************************************************************
+GENERAL TYPOGRAPHY
+**********************************************************************/
+
+body{
+  color:$kul-grey;
 }
 
-.sidebar-title {
-  color: $kul-blue-dark;
-  font-weight: 600;
+h1,h2,h3,h4,h5,h6{
+  color:$kul-blue-dark;
 }
 
-h1.title { color: $kul-blue-dark; }
-
-a { color: $link-color; }
-
-div.callout {
-  border-left-color: $kul-accent;
+a{
+  color:$kul-blue;
 }
 
-code {
-  color: $kul-blue-dark;
-  background-color: $kul-grey-light;
+code{
+  color:$kul-blue-dark;
+  background:$kul-grey-light;
+}
+
+.callout{
+  border-left:5px solid $kul-accent;
+}
+
+
+/**********************************************************************
+BOOK VERSION
+**********************************************************************/
+
+#quarto-header{
+  border-top:4px solid;
+  border-image:linear-gradient(
+      90deg,
+      $kul-blue-dark,
+      $kul-blue
+  ) 1;
+}
+
+.sidebar-title{
+  color:$kul-blue-dark;
+  font-weight:600;
+}
+
+#quarto-sidebar{
+  background:$kul-grey-light;
+}
+
+
+/**********************************************************************
+STANDALONE HTML
+**********************************************************************/
+
+#title-block-header,
+.quarto-title-banner{
+
+  border-top:4px solid;
+
+  border-image:linear-gradient(
+      90deg,
+      $kul-blue-dark,
+      $kul-blue
+  ) 1;
+
+  margin-bottom:2rem;
+
+  padding-top:1.5rem;
+}
+
+#title-block-header h1,
+.quarto-title-banner h1{
+  color:$kul-blue-dark;
+}
+
+#title-block-header .subtitle,
+.quarto-title-banner .subtitle{
+  color:$kul-grey;
+}
+
+
+/**********************************************************************
+CONTENT WIDTH
+**********************************************************************/
+
+main.content{
+  max-width:900px;
+}
+
+
+/**********************************************************************
+TABLES
+**********************************************************************/
+
+table{
+  border-collapse:collapse;
+}
+
+th{
+  background:$kul-grey-light;
+}
+
+
+/**********************************************************************
+PRINT
+**********************************************************************/
+
+@media print{
+
+  #quarto-header{
+    display:none;
+  }
+
 }
