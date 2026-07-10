@@ -47,9 +47,23 @@ build_deck <- function(chapters,
     collapse = "\n\n"
   )
 
+  # `up` already gets back to the course's project root (e.g. "..") - one
+  # more level reaches _shared/, which sits next to the course folder, not
+  # inside it. Full options are embedded directly in the deck's own YAML
+  # (rather than relying on decks/_metadata.yml or ../_quarto.yml) because
+  # Quarto book projects don't reliably merge project- or directory-level
+  # metadata into files that aren't listed book chapters - see the notes in
+  # decks/_metadata.yml and ../_quarto.yml for the full story.
+  shared <- paste0(up, "/../_shared")
+
+  yaml_format <- sprintf(
+    'format:\n  revealjs:\n    embed-resources: true\n    theme: [simple, %s/styles/kuleuven-reveal.scss]\n    slide-number: true\n    incremental: true\n    number-sections: true\n    transition: fade\n    loop: true\n    hide-inactive-cursor: true\n    preview-links: true\n    pdf-separate-fragments: true\n    scrollable: true\n    width: 1100\n    height: 700\n    margin: 0.08\n    min-scale: 0.2\n    max-scale: 1.5\n    auto-stretch: true\n    footer: "<span id=\'slide-path\'>\U0001F4C1 Root</span>"\n    include-after-body:\n      - %s/styles/after-body.html',
+    shared, shared
+  )
+
   content <- sprintf(
-    '---\ntitle: "%s"\nformat: revealjs\n---\n\n```{=html}\n<style>:root{ --course-title: "%s"; }</style>\n```\n\n%s\n',
-    title, title, includes
+    '---\ntitle: "%s"\n%s\n---\n\n```{=html}\n<style>:root{ --course-title: "%s"; }</style>\n```\n\n%s\n',
+    title, yaml_format, title, includes
   )
 
   dir.create(dirname(out_file), recursive = TRUE, showWarnings = FALSE)

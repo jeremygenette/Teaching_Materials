@@ -1,16 +1,18 @@
 # decks/_metadata.yml
 #
-# Quarto merges a directory's _metadata.yml into every document rendered
-# from that folder, regardless of project type. This is where the KU
-# Leuven revealjs config actually lives now: a project-level `format:
-# revealjs:` block in ../_quarto.yml does NOT reach these files, because
-# this is a `project: type: book` project and decks/*.qmd are not book
-# chapters (see the note in ../_quarto.yml for how this was confirmed).
+# NOTE: this file is now a harmless backup, not the source of truth. It
+# turned out Quarto book projects (project: type: book) may not reliably
+# merge even directory-level _metadata.yml into files that aren't listed
+# book chapters, same as they don't merge project-level `format:` from
+# ../_quarto.yml. So every deck now carries its full KU Leuven revealjs
+# config directly in its own YAML front matter (see decks/full-deck.qmd
+# etc., and scripts/build_deck.R which generates it automatically for new
+# decks) - that's guaranteed to apply regardless of any project/directory
+# metadata quirks, since it's the document's own settings.
 #
-# Every deck's own YAML front matter only needs `format: revealjs` (no
-# options) - everything below is merged in automatically. Paths are
-# relative to THIS file's folder (decks/), so one extra `../` compared to
-# the old project-level version.
+# This file is left in place in case a future Quarto version does merge
+# it correctly (in which case it's redundant but not harmful - document
+# front matter always wins over it anyway).
 
 format:
   revealjs:

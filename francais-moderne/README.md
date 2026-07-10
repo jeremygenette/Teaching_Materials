@@ -138,9 +138,10 @@ across every course. Retheme once, every course updates. Each deck can
 still set its own banner text via the `<style>:root{ --course-title:
 "..."; }</style>` line right after its YAML front matter.
 
-The revealjs theme/options themselves are wired up in `decks/_metadata.yml`,
-not `_quarto.yml` — a Quarto book project doesn't apply a project-level
-`format: revealjs:` block to standalone files like `decks/*.qmd`, so that
-config had to move to a directory-scoped `_metadata.yml` instead. Each
-deck's own front matter just needs `format: revealjs` with no options;
-everything else merges in from that file automatically.
+The revealjs theme/options are embedded directly in each deck's own YAML
+front matter (not `_quarto.yml`, and not `decks/_metadata.yml` either —
+Quarto book projects don't reliably apply either of those to files that
+aren't listed book chapters). `scripts/build_deck.R` writes this
+automatically for any new deck you generate with it. If you ever hand-write
+a new deck file instead, copy the `format: revealjs:` block from
+`decks/full-deck.qmd` rather than writing just `format: revealjs`.
