@@ -2,9 +2,19 @@
 
 ## Linguistique vs grammaire
 
-### Le lemme *linguistique* dans le TLFi :
+### Le lemme *linguistique* dans le TLFi
 
-### Le lemme *grammaire* dans le TLFi :
+![](images/clipboard-3754285985.png)
+
+![](images/clipboard-1683819146.png)
+
+### Le lemme *grammaire* dans le TLFi 
+
+![](images/clipboard-658805517.png)
+
+![](images/clipboard-2109517839.png)
+
+![](images/clipboard-1197071049.png)
 
 ### Linguistique vs grammaire : deux disciplines scientifiques ayant pour objet d’étude la langue « sous différents aspects »
 
@@ -40,7 +50,7 @@ Exemple : négation ancien français vs contemporain
 
 ### Variable diatopique
 
-Variation dialectale en France
+![La variation dialectale en France](images/clipboard-1931647397.png)
 
 Variation phonétique Paris vs Midi
 
@@ -96,7 +106,7 @@ Exemple : continuum diachronique latin → ancien français → moderne
 
 *(tableau conservé)*
 
-Exemple : continuum langues d’oc / langues d’oïl
+![Continuum langues d’oc / langues d’oïl](images/clipboard-3434876068.png)
 
 ### Variétés étudiées
 
@@ -138,10 +148,7 @@ Les grammairiens décrivent un bon usage basé sur une variété écrite, souven
 
 ### Questions :
 
-a\) Quel est son genre ?
-b) Quel est son emploi réel ?
-c) Attitude grammairien vs linguiste
-d) Explication de l’emploi déviant
+a\) Quel est son genre ? b) Quel est son emploi réel ? c) Attitude grammairien vs linguiste d) Explication de l’emploi déviant
 
 ### Analyse :
 
@@ -159,7 +166,20 @@ d) Explication de l’emploi déviant
 
 ### Synchronie
 
-Étude d’un état de langue.
+::: {.callout-note}
+Synchronie \> gr. σύν ‘avec’ (lat. syn) + χρόνος ‘temps’ (lat. chronos)
+:::
+
+
+• La position de la femme en Europe au Moyen Age
+
+• L’économie de la France au 21e s.
+
+• L’expression de la négation en ancien français
+
+• …
+
+NB : synchronie du passé :
 
 ### Diachronie
 
@@ -201,23 +221,87 @@ Histoire externe : substrats, superstrats, adstrats.
 
 -   Internet, réseaux sociaux
 
-## Difficultés de la linguistique diachronique
+## 
 
--   Corpus limité
 
--   Transmission textuelle lacunaire
 
--   Documentation tardive
 
--   Absence de locuteurs natifs du passé
 
--   Risque de projection
 
-### Mais :
 
--   Langues romanes très bien documentées
 
--   Français : premiers textes dès le 9ᵉ siècle
+
+7\. Difficultés pour la linguistique diachronique
+
+1/ Besoin d’une base empirique : un corpus solide et représentatif de textes authentiques couvrant des
+
+périodes plus ou moins étendues \> dépendance de la transmission textuelle
+
+2/ Problèmes :
+
+a\) Transmission textuelle pauvre, voire absente
+
+Ex. langues exotiques, isolées
+
+b\) Documentation (relativement) récente (\> absence de traces du passé)
+
+J. Vangaever Historische en geografische varianten van het Frans L3 2025-2026
+
+17
+
+Ex. : le roumain
+
+c\) Ruptures dans la transmission textuelle/périodes de transmission appauvrie
+
+Ex. : les premiers stades des langues romanes
+
+d\) Documentation exclusivement écrite jusqu’au 20ième s.
+
+e\) Sélection des textes transmis :
+
+• Duplication de textes : activité très chère, intensive et à refaire périodiquement
+
+• Sélection dans les types de textes copiés
+
+• Jusqu’à Guthenberg (1453) : duplication à la main par des copistes \> interventions conscientes et
+
+inconscientes
+
+3/ Néanmoins : certaines langues ont une documentation diachroniquement impressionnante
+
+Ex. : le latin, les langues romanes, les langues germaniques
+
+4/ Langues romanes : la famille de langues la mieux documentée : transmission quasiment ininterrompue
+
+depuis leur émergence
+
+5/ Situation plus unique encore : langues romanes \> latin donc documentation de plus de deux millénaires
+
+(3ième s. BC – 21ième s. AD) : diachronie large servant de laboratoire pour tester sur corpus des
+
+hypothèses formulées en linguistique générale et théorique (en plus : « shift typologique »)
+
+6/ Néanmoins : documentation relativement pauvre de la période de transition entre le latin et les langues
+
+romanes (le proto-roman, 600 – 800 AD)
+
+7/ En outre : relativement peu de traces de la langue vulgaire. Explication ? Problème ?
+
+8/ Le français : position privilégiée parmi les langues romanes : premiers textes au 9ième s. (\>\< espagnol et
+
+italien : 12ième s.)
+
+#### Autres problèmes en linguistique diachronique :
+
+• États de langue du passé : absence de locuteurs natifs (\> pas de jugements de grammaticalité, de jugements d’acceptabilité, d’intuitions, de tests linguistiques, …)
+
+• Risque de projeter ses propres intuitions sur un état de langue actuel sur des états de langue du passé (\> distorsions, biais)
+
+\#### Actuellement : grand intérêt pour l’évolution du français (\> plusieurs projets de recherche nationaux et internationaux) :
+
+• Marchello-Nizia, C. ; B. Combettes ; S. Prévost & T. Scheer (Eds.). Grande grammaire historique du
+
+français (2 vol.). Berlin : Mouton De Gruyter, 2019
 
 ## Projets actuels
 
@@ -227,5 +311,4 @@ Histoire externe : substrats, superstrats, adstrats.
 
 -   *Bridging the gap between Late Latin and Old French* (2016–…)
 
-Corpus numérique : Base de français médiéval
-[http://txm.bfmcorpus.org](https://txm.bfmcorpus.org)
+Corpus numérique : Base de français médiéval [http://txm.bfmcorpus.org](https://txm.bfmcorpus.org)
