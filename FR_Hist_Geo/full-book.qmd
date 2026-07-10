@@ -13,9 +13,15 @@
 # here in full, copied from _quarto.yml's html: block, rather than
 # relying on inheritance.
 title: "COURSE TITLE — Livre complet"
-subtitle: "Version hors ligne — un seul fichier HTML"
-author: "YOUR NAME"
+subtitle: ""
+author: "Jérémy Genette"
 date: last-modified
+
+resource-path:
+  - ..
+  - ../chapters
+  - ../chapters/images
+  
 format:
   html:
     embed-resources: true
