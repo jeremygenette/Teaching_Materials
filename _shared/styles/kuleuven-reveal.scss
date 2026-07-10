@@ -106,11 +106,6 @@ $code-block-bg: $kul-grey-light;
   border-radius: 4px;
 }
 
-.reveal .slides section {
-  overflow: visible !important;
-  max-height: none !important;
-}
-
 // Callout boxes (used for .callout-tip etc.) — recolored to the gold accent
 .reveal .callout {
   border-left: 4px solid $kul-accent !important;
