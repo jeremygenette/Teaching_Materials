@@ -225,13 +225,17 @@ Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat
 
 • …
 
+::: {.content-visible when-format="revealjs"}
+----
+:::
+
 :::: {.columns}
 
 ::: {.column width="70%"}
 
 - Genève 🇨🇭
 - Études de linguistique historique à l’Université de Leipzig, doctorat en 1879
-- *Mémoire sur le système primitif des voyelles indo-européennes* (1877)
+- Mémoire sur le système primitif des voyelles indo-européennes (1877)
 - 1881 : Maître de conférences à Paris
 - 1892 : Université de Genève
 - 1906–1913 : Chaire de linguistique générale
