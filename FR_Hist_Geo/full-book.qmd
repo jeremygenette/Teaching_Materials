@@ -225,21 +225,26 @@ Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat
 
 • …
 
-### Linguistique synchronique vs. diachronique
+:::: {.columns}
 
-::: {style="position:relative; height:600px;"}
--   Genève 🇨🇭
--   Études de linguistique historique à l’Université de Leipzig, doctorat en 1879
--   Mémoire sur le système. primitif des voyelles indo-européennes (Société Linguistique de Paris, 1877)
--   1881, Maître de conférences à Paris (Ecole des hautes Etudes)
--   1892, Université de Genève: sanskrit, grammaire comparée, phonologie
--   1906-1913, Chaire de linguistique générale, réflexions théoriques sur le langage et la linguistique\
+::: {.column width="70%"}
 
-```{=html}
-<img src="images/clipboard-1008386988.png"
-     style="position:absolute; bottom:0; right:0; width:300px;">
-```
+- Genève 🇨🇭
+- Études de linguistique historique à l’Université de Leipzig, doctorat en 1879
+- *Mémoire sur le système primitif des voyelles indo-européennes* (1877)
+- 1881 : Maître de conférences à Paris
+- 1892 : Université de Genève
+- 1906–1913 : Chaire de linguistique générale
+
 :::
+
+::: {.column width="30%"}
+
+![](chapters/images/clipboard-1008386988.png){width=100%}
+
+:::
+
+::::
 
 ![](chapters/images/clipboard-562782746.png)
 
@@ -293,12 +298,15 @@ Histoire externe : substrats, superstrats, adstrats.
 
 ### Perception traditionnelle :
 
- -Primauté des langues classiques (grec ancien, latin, sanscrit, etc.) 
-- La disparition de ces langues est déplorable : dégénération, décadence 
-- Langues flexionnelles \> langues non flexionnelles 
-- Idéalisation des systèmes linguistiques du passé, mépris des systèmes linguistiques contemporains et désespoir des systèmes linguistiques futurs
+-   Primauté des langues classiques (grec ancien, latin, sanscrit, etc.)
 
---------
+-   La disparition de ces langues est déplorable : dégénération, décadence
+
+-   Langues flexionnelles \> langues non flexionnelles
+
+-   Idéalisation des systèmes linguistiques du passé, mépris des systèmes linguistiques contemporains et désespoir des systèmes linguistiques futurs
+
+------------------------------------------------------------------------
 
 Comme si en biologie...
 
