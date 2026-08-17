@@ -2,6 +2,44 @@
 
 ## Introduction - le discours publique
 
+::: {style="display: flex; align-items: center; gap: 20px;"}
+<div>
+
+```         
+<img src="images/clipboard-3516944140.png" width="300">
+```
+
+</div>
+
+::: {style="flex: 1;"}
+```         
+<blockquote>
+  "Il n'y a rien de plus important ny de plus ignoré."
+  <br><br>
+  — Claude Favre de Vaugelas, 1647
+</blockquote>
+```
+:::
+:::
+
+```         
+<img src="images/clipboard-2006503548.png" width="300">
+```
+
+</div>
+
+::: {style="flex: 1;"}
+```         
+<blockquote>
+  "La règle est morte de complications."
+  <br><br>
+  — Lucien Tesnière (Linguiste), 1959
+</blockquote>
+```
+:::
+:::
+
+
 ## Les données linguistiques en français
 
 ## Les données linguistiques ailleurs dans le monde
@@ -20,48 +58,46 @@ Les locutions **« ci-joint »**, **« ci-inclus »** et **« ci-annexé »** ch
 
 Lorsque la locution est placée immédiatement **après le nom** qu'elle qualifie, elle se comporte comme un adjectif qualificatif ordinaire. Elle s'accorde donc obligatoirement en genre et en nombre avec ce nom.
 
-- *Exemple :* « Vous trouverez ci-après les documents **ci-joints** pour votre dossier. »
-- *Exemple :* « La note explicative **ci-incluse** vous donnera tous les détails nécessaires. »
+-   *Exemple :* « Vous trouverez ci-après les documents **ci-joints** pour votre dossier. »
+-   *Exemple :* « La note explicative **ci-incluse** vous donnera tous les détails nécessaires. »
 
 ### L'invariabilité obligatoire (valeur d'adverbe)
 
 Lorsque la locution est placée **en tout début de phrase**, ou bien à l'intérieur de la phrase mais **immédiatement devant un nom sans déterminant**, elle joue le rôle d'un adverbe. Elle reste alors strictement invariable.
 
-- *Exemple :* « **Ci-joint** la copie des rapports que vous avez demandés la semaine dernière. »
-- *Exemple :* « Vous voudrez bien trouver **ci-inclus** note de service concernant les horaires. »
+-   *Exemple :* « **Ci-joint** la copie des rapports que vous avez demandés la semaine dernière. »
+-   *Exemple :* « Vous voudrez bien trouver **ci-inclus** note de service concernant les horaires. »
 
 ### L'accord au choix (corps de la phrase avec déterminant)
 
 Lorsque la locution est placée **dans le corps de la phrase**, devant un nom lui-même **précédé d'un déterminant** (un article, un possessif, etc.), la syntaxe est plus souple. L'accord est laissé au choix de l'auteur : on peut accorder en considérant la locution comme un adjectif, ou la laisser invariable en privilégiant sa valeur adverbiale.
 
-- *Exemple (choix invariable) :* « Je vous adresse **ci-joint** *les* statistiques du dernier trimestre. »
-- *Exemple (choix accordé) :* « Je vous adresse **ci-joints** *les* statistiques du dernier trimestre. »
+-   *Exemple (choix invariable) :* « Je vous adresse **ci-joint** *les* statistiques du dernier trimestre. »
+-   *Exemple (choix accordé) :* « Je vous adresse **ci-joints** *les* statistiques du dernier trimestre. »
 
----
+------------------------------------------------------------------------
 
 ### Exemples d'application
 
-::: {layout-ncol=2}
-
+::: {layout-ncol="2"}
 #### 🟢 Emploi Adjectif (Accord)
 
-* « Vous trouverez les pièces **ci-jointes**. »
-* « La lettre **ci-incluse** vous informera. »
+-   « Vous trouverez les pièces **ci-jointes**. »
+-   « La lettre **ci-incluse** vous informera. »
 
 #### 🔴 Emploi Adverbe (Invariable)
 
-* « **Ci-joint** la copie de vos documents. »
-* « Veuillez trouver **ci-inclus** les pièces. »
-
+-   « **Ci-joint** la copie de vos documents. »
+-   « Veuillez trouver **ci-inclus** les pièces. »
 :::
 
-::: {.callout-tip}
+::: callout-tip
 ## Astuce
 
 La position dans la phrase détermine l'accord : si la locution est **avant le nom (ou isolée)**, elle agit comme un adverbe (invariable). Si elle est **après le nom**, elle agit comme un adjectif ordinaire (accordé).
 :::
 
----
+------------------------------------------------------------------------
 
 ![](../images/clipboard-2927075372.png)
 
