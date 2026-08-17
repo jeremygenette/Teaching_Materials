@@ -29,6 +29,10 @@ format:
     theme:
       light: [flatly, ../_shared/styles/kuleuven-book.scss]
       dark: [darkly, ../_shared/styles/kuleuven-book.scss]
+resource-path:
+  - ..
+  - ../chapters
+  - ../chapters/images
 ---
 
 {{< include chapters/000-intro.qmd >}}

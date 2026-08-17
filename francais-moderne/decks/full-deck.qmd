@@ -1,5 +1,9 @@
 ---
 title: "Français Moderne — Cours Complet"
+resource-path:
+  - ..
+  - ../chapters
+  - ../chapters/images
 format:
   revealjs:
     embed-resources: true
