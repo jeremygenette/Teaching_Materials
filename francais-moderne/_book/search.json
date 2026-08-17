@@ -1,5 +1,152 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "COURSE TITLE",
+    "section": "",
+    "text": "Bienvenue\nBienvenue dans le cours Français Moderne. Ce site est la version « livre » du cours : chaque séance est un chapitre, consultable dans l’ordre via le menu à gauche, avec recherche plein texte.\nLes versions diaporama (slides KU Leuven, pour donner cours) des mêmes séances sont disponibles séparément — voir decks/ dans le dépôt, ou les liens communiqués en cours."
+  },
+  {
+    "objectID": "chapters/000-intro.html#méthodologie-de-la-recherche-en-linguistique-française",
+    "href": "chapters/000-intro.html#méthodologie-de-la-recherche-en-linguistique-française",
+    "title": "1  Cours d’introduction",
+    "section": "1.1 Méthodologie de la recherche en linguistique française",
+    "text": "1.1 Méthodologie de la recherche en linguistique française"
+  },
+  {
+    "objectID": "chapters/000-intro.html#la-ou-les-grammaires",
+    "href": "chapters/000-intro.html#la-ou-les-grammaires",
+    "title": "1  Cours d’introduction",
+    "section": "1.2 La ou les grammaires ?",
+    "text": "1.2 La ou les grammaires ?"
+  },
+  {
+    "objectID": "chapters/000-intro.html#les-institutions-de-la-langue-française",
+    "href": "chapters/000-intro.html#les-institutions-de-la-langue-française",
+    "title": "1  Cours d’introduction",
+    "section": "1.3 Les institutions de la langue française",
+    "text": "1.3 Les institutions de la langue française\n\n\n\nInstitut de France, fondation en 1795\n\n\n\n1.3.1 L’académie française\n\n« L’académie française a été instaurée par Richelieu gardienne de la langue » — Académie française\n\n↔︎\n\n« Depuis le XIXe siècle, l’académie française ne suit plus l’évolution de la langue » — Les linguistes atterrés\n\nQuel est son rôle ?\n\nInstitution d’Ancien Régime fondée en 1635\nSelon ses statuts, elle doit rédiger ” promptement ” 😝 un dictionnaire et une grammaire dans le but de ” donner des règles certaines à notre langue et à la rendre pure, éloquente et capable de traiter les arts et les sciences"
+  },
+  {
+    "objectID": "chapters/000-intro.html#séances-thématiques",
+    "href": "chapters/000-intro.html#séances-thématiques",
+    "title": "1  Cours d’introduction",
+    "section": "1.4 Séances thématiques",
+    "text": "1.4 Séances thématiques\nSi on vous dit: C’EST FAUX !\n\nPourquoi ?\nDepuis quand ?\nOù est la règle ?"
+  },
+  {
+    "objectID": "chapters/001-phonetique-affrication.html#à-vous-de-jouer-tâche-de-perception",
+    "href": "chapters/001-phonetique-affrication.html#à-vous-de-jouer-tâche-de-perception",
+    "title": "2  Phonétique - Affrication",
+    "section": "2.1 À vous de jouer ! Tâche de perception",
+    "text": "2.1 À vous de jouer ! Tâche de perception"
+  },
+  {
+    "objectID": "chapters/002-phonologie-voyelles.html#introduction---le-discours-publique",
+    "href": "chapters/002-phonologie-voyelles.html#introduction---le-discours-publique",
+    "title": "3  Phonologie - Voyelles médianes",
+    "section": "3.1 Introduction - le discours publique",
+    "text": "3.1 Introduction - le discours publique"
+  },
+  {
+    "objectID": "chapters/002-phonologie-voyelles.html#les-données-linguistiques-en-français",
+    "href": "chapters/002-phonologie-voyelles.html#les-données-linguistiques-en-français",
+    "title": "3  Phonologie - Voyelles médianes",
+    "section": "3.2 Les données linguistiques en français",
+    "text": "3.2 Les données linguistiques en français"
+  },
+  {
+    "objectID": "chapters/002-phonologie-voyelles.html#les-données-linguistiques-ailleurs-dans-le-monde",
+    "href": "chapters/002-phonologie-voyelles.html#les-données-linguistiques-ailleurs-dans-le-monde",
+    "title": "3  Phonologie - Voyelles médianes",
+    "section": "3.3 Les données linguistiques ailleurs dans le monde",
+    "text": "3.3 Les données linguistiques ailleurs dans le monde"
+  },
+  {
+    "objectID": "chapters/002-phonologie-voyelles.html#considération-théoriques",
+    "href": "chapters/002-phonologie-voyelles.html#considération-théoriques",
+    "title": "3  Phonologie - Voyelles médianes",
+    "section": "3.4 Considération théoriques",
+    "text": "3.4 Considération théoriques"
+  },
+  {
+    "objectID": "chapters/002-phonologie-voyelles.html#synthèse",
+    "href": "chapters/002-phonologie-voyelles.html#synthèse",
+    "title": "3  Phonologie - Voyelles médianes",
+    "section": "3.5 Synthèse",
+    "text": "3.5 Synthèse"
+  },
+  {
+    "objectID": "chapters/003-phonologie-liaison.html#introduction---le-discours-publique",
+    "href": "chapters/003-phonologie-liaison.html#introduction---le-discours-publique",
+    "title": "4  Phonologie - Liaison",
+    "section": "4.1 Introduction - le discours publique",
+    "text": "4.1 Introduction - le discours publique"
+  },
+  {
+    "objectID": "chapters/003-phonologie-liaison.html#les-données-linguistiques-en-français",
+    "href": "chapters/003-phonologie-liaison.html#les-données-linguistiques-en-français",
+    "title": "4  Phonologie - Liaison",
+    "section": "4.2 Les données linguistiques en français",
+    "text": "4.2 Les données linguistiques en français"
+  },
+  {
+    "objectID": "chapters/003-phonologie-liaison.html#les-données-linguistiques-ailleurs-dans-le-monde",
+    "href": "chapters/003-phonologie-liaison.html#les-données-linguistiques-ailleurs-dans-le-monde",
+    "title": "4  Phonologie - Liaison",
+    "section": "4.3 Les données linguistiques ailleurs dans le monde",
+    "text": "4.3 Les données linguistiques ailleurs dans le monde"
+  },
+  {
+    "objectID": "chapters/003-phonologie-liaison.html#considération-théoriques",
+    "href": "chapters/003-phonologie-liaison.html#considération-théoriques",
+    "title": "4  Phonologie - Liaison",
+    "section": "4.4 Considération théoriques",
+    "text": "4.4 Considération théoriques"
+  },
+  {
+    "objectID": "chapters/003-phonologie-liaison.html#synthèse",
+    "href": "chapters/003-phonologie-liaison.html#synthèse",
+    "title": "4  Phonologie - Liaison",
+    "section": "4.5 Synthèse",
+    "text": "4.5 Synthèse"
+  },
+  {
+    "objectID": "chapters/004-morphologie-verlan.html#introduction---le-discours-publique",
+    "href": "chapters/004-morphologie-verlan.html#introduction---le-discours-publique",
+    "title": "5  Morphologie - Verlan",
+    "section": "5.1 Introduction - le discours publique",
+    "text": "5.1 Introduction - le discours publique"
+  },
+  {
+    "objectID": "chapters/004-morphologie-verlan.html#les-données-linguistiques-en-français",
+    "href": "chapters/004-morphologie-verlan.html#les-données-linguistiques-en-français",
+    "title": "5  Morphologie - Verlan",
+    "section": "5.2 Les données linguistiques en français",
+    "text": "5.2 Les données linguistiques en français"
+  },
+  {
+    "objectID": "chapters/004-morphologie-verlan.html#les-données-linguistiques-ailleurs-dans-le-monde",
+    "href": "chapters/004-morphologie-verlan.html#les-données-linguistiques-ailleurs-dans-le-monde",
+    "title": "5  Morphologie - Verlan",
+    "section": "5.3 Les données linguistiques ailleurs dans le monde",
+    "text": "5.3 Les données linguistiques ailleurs dans le monde"
+  },
+  {
+    "objectID": "chapters/004-morphologie-verlan.html#considération-théoriques",
+    "href": "chapters/004-morphologie-verlan.html#considération-théoriques",
+    "title": "5  Morphologie - Verlan",
+    "section": "5.4 Considération théoriques",
+    "text": "5.4 Considération théoriques"
+  },
+  {
+    "objectID": "chapters/004-morphologie-verlan.html#synthèse",
+    "href": "chapters/004-morphologie-verlan.html#synthèse",
+    "title": "5  Morphologie - Verlan",
+    "section": "5.5 Synthèse",
+    "text": "5.5 Synthèse"
+  },
+  {
     "objectID": "chapters/005-morphosyntaxe-participe-passe.html",
     "href": "chapters/005-morphosyntaxe-participe-passe.html",
     "title": "6  Morpho-syntaxe - Accord du participe passé",
@@ -61,5 +208,40 @@
     "title": "6  Morpho-syntaxe - Accord du participe passé",
     "section": "7.3 Synthèse",
     "text": "7.3 Synthèse"
+  },
+  {
+    "objectID": "chapters/006-syntaxe-subjonctif.html#introduction---le-discours-publique",
+    "href": "chapters/006-syntaxe-subjonctif.html#introduction---le-discours-publique",
+    "title": "7  Syntaxe - Subjonctif",
+    "section": "7.1 Introduction - le discours publique",
+    "text": "7.1 Introduction - le discours publique"
+  },
+  {
+    "objectID": "chapters/006-syntaxe-subjonctif.html#les-données-linguistiques-en-français",
+    "href": "chapters/006-syntaxe-subjonctif.html#les-données-linguistiques-en-français",
+    "title": "7  Syntaxe - Subjonctif",
+    "section": "7.2 Les données linguistiques en français",
+    "text": "7.2 Les données linguistiques en français"
+  },
+  {
+    "objectID": "chapters/006-syntaxe-subjonctif.html#les-données-linguistiques-ailleurs-dans-le-monde",
+    "href": "chapters/006-syntaxe-subjonctif.html#les-données-linguistiques-ailleurs-dans-le-monde",
+    "title": "7  Syntaxe - Subjonctif",
+    "section": "7.3 Les données linguistiques ailleurs dans le monde",
+    "text": "7.3 Les données linguistiques ailleurs dans le monde"
+  },
+  {
+    "objectID": "chapters/006-syntaxe-subjonctif.html#considération-théoriques",
+    "href": "chapters/006-syntaxe-subjonctif.html#considération-théoriques",
+    "title": "7  Syntaxe - Subjonctif",
+    "section": "7.4 Considération théoriques",
+    "text": "7.4 Considération théoriques"
+  },
+  {
+    "objectID": "chapters/006-syntaxe-subjonctif.html#synthèse",
+    "href": "chapters/006-syntaxe-subjonctif.html#synthèse",
+    "title": "7  Syntaxe - Subjonctif",
+    "section": "7.5 Synthèse",
+    "text": "7.5 Synthèse"
   }
 ]
