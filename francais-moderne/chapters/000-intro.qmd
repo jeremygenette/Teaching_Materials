@@ -1,6 +1,38 @@
 # Cours d'introduction
 
-Welcome to Français Moderne!
+Bienvenue au cous de français moderne !
+
+## Qui ?
+
+-   Jérémy Genette, Dr. en Linguistique (Université d'Anvers)
+
+-   Phonéticien et phonologue (de laboratoire)
+
+-   et vous ?
+
+## Pourquoi ce cours ?
+
+-   Vous êtes des spécialistes de la langue française et dans votre future activité professionnelle...
+
+    [![](images/clipboard-3573074303.png)](https://www.rtbf.be/article/faut-il-changer-les-regles-d-accord-du-participe-passe-la-regle-traditionnelle-a-une-certaine-absurdite-10009231)
+
+------------------------------------------------------------------------
+
+[![](images/clipboard-2475860866.png)](https://www.lefigaro.fr/langue-francaise/l-accord-du-participe-passe-va-t-il-disparaitre-20240922)
+
+------------------------------------------------------------------------
+
+[![](images/clipboard-4006725165.png){fig-align="center"}](https://www.radiofrance.fr/francebleu/podcasts/c-est-tendance/on-ne-sait-plus-ecrire-8030663)
+
+------------------------------------------------------------------------
+
+[![](images/snaptik_7428953163266362657_hd.mp4){fig-align="right"}](https://www.tiktok.com/@lefigaro/video/7428953163266362657)
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
 
 ## Méthodologie de la recherche en linguistique française
 
@@ -81,3 +113,5 @@ Si on vous dit: C'EST FAUX !
 -   Depuis quand ?
 
 -   Où est la règle ?
+
+# La linguistique de corpus
