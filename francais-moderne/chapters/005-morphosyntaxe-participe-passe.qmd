@@ -33,13 +33,32 @@
 ------------------------------------------------------------------------
 
 -   XVIe siècle:
-    -   l'ordre des mots devient plus figé *auxiliaire - participe - objet*:
-        -   Si auxiliaire être: accord avec le sujet
-        -   L'accord avec avoir est en diminution
+    -   Clément Marot *Épigrammes* dédiées à François Ier, 1538
+    -   Il propose d'accorder le participe passé avec l'objet si ce dernier est placé avant le participe passé sur la base du modèle italien 🍝
+        -   Ex. *Dieu en ce monde [nous]{.underline} a faict[z]{.underline} \<--\> Dio [noi]{.underline} a fatt[i]{.underline}*
+
+![Clément Marot, Poète français (1496-1544)](images/clipboard-3260875052.png)
 
 ------------------------------------------------------------------------
 
-## 
+-   XVIe siècle:
+    -   L'usage de cette règle n'est pas encore systémique
+
+> Mignonne, allons voir si la rose
+>
+> Qui ce matin avait desclos[e]{.underline}
+>
+> [Sa robe de pourpre]{.underline} au soleil...
+
+![Pierre de Ronsard, Poète français (1524-1585)](images/clipboard-3336510262.png)
+
+------------------------------------------------------------------------
+
+-   XVIe siècle:
+    -   On entend plus l'accord car on ne prononce plus le *-s* final
+        -   Ex. *Je les ai vu[**s**]{.underline}* /ʒə lez e [**vy**]{.underline}/
+    -   Sauf en case de liaison
+        -   Ex. *Je les ai vu[**s**]{.underline} à la fête* /ʒə lez e vy[**z**]{.underline} a la fɛt/
 
 ## Les données linguistiques en français
 
