@@ -133,6 +133,12 @@ th{
   background:$kul-grey-light;
 }
 
+// hide thematic breaks in book/html output only — revealjs never renders
+// "---" as an <hr>, so this rule has zero effect on decks
+hr {
+  display: none;
+}
+
 
 /**********************************************************************
 PRINT
@@ -145,3 +151,4 @@ PRINT
   }
 
 }
+

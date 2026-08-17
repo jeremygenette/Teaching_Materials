@@ -152,7 +152,75 @@ Les grammairiens décrivent un bon usage basé sur une variété écrite, souven
 
 ### Questions :
 
-a\) Quel est son genre ? b) Quel est son emploi réel ? c) Attitude grammairien vs linguiste d) Explication de l’emploi déviant
+1.  Quel est son genre ?
+
+2.  Quel est son emploi réel ?
+
+3.  Attitude grammairien vs linguiste
+
+4.  Explication de l’emploi déviant
+
+### Référence grammaticale
+
+![](images/clipboard-2485027561.png)
+
+------------------------------------------------------------------------
+
+### Les données réelles
+
+Observez les exemples ci-dessous et dégagez-en les règles qui régissent le genre du mot *espèce*.
+
+1.  Une espèce de con.
+
+2.  Une espèce de crapule.
+
+3.  Un espèce de moteur.
+
+4.  Une espèce de voiture.
+
+5.  Un espèce d’individu.
+
+6.  Une espèce de fleur.
+
+7.  Un espèce de problème.
+
+------------------------------------------------------------------------
+
+### La réponse du grammairien
+
+![](images/clipboard-1591005596.png)
+
+------------------------------------------------------------------------
+
+### La réponse du linguiste
+
+#### 1e étape : description du phénomène
+
+1.  Malgré son genre inhérent qui est le féminin, le genre du mot espèce tend à varier
+
+2.  Le genre du mot espèce ne varie que dans la construction \[DET espèce de N\] :
+
+    1.  Il ne connaît pas cette espèce.
+
+    2.  \*Il ne connaît pas cet espèce.
+
+3.  Le genre du mot espèce peut être féminin peu importe le genre du N qui suit la préposition de :
+
+    1.  Une espèce de voiture.
+
+    2.  Une espèce de problème.
+
+4.  Le genre du mot espèce peut être masculin seulement si le genre du N qui suit la préposition de est masculin :
+
+    1.  Un espèce de problème.
+
+    2.  \*Un espèce de voiture.
+
+------------------------------------------------------------------------
+
+#### 2e étape : explication du phénomène
+
+------------------------------------------------------------------------
 
 ### Analyse :
 
@@ -204,18 +272,18 @@ Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat
 
 ![](images/Metal_voice.mp4)
 
-![](images/Vocal Fry.mp4)Î
+![](images/Vocal%20Fry.mp4)Î
 
 ------------------------------------------------------------------------
 
 ::: columns
 ::: {.column width="70%"}
--   Genève 🇨🇭
--   Études de linguistique historique à l’Université de Leipzig, doctorat en 1879
--   Mémoire sur le système primitif des voyelles indo-européennes (1877)
--   1881 : Maître de conférences à Paris
--   1892 : Université de Genève
--   1906–1913 : Chaire de linguistique générale
+1.  Genève 🇨🇭
+2.  Études de linguistique historique à l’Université de Leipzig, doctorat en 1879
+3.  Mémoire sur le système primitif des voyelles indo-européennes (1877)
+4.  1881 : Maître de conférences à Paris
+5.  1892 : Université de Genève
+6.  1906–1913 : Chaire de linguistique générale
 :::
 
 ::: {.column width="30%"}
@@ -225,11 +293,45 @@ Diachronie \> διά ‘à travers’ (lat. dia) + χρόνος ‘temps’ (lat
 
 ![](images/clipboard-562782746.png)
 
-### Historique
+## Linguistique historique ou diachronique ?
 
-Histoire externe : substrats, superstrats, adstrats.
+::: callout-note
+Linguistique diachronique : histoire interne de la langue
+:::
+
+Ex. : l’évolution de l’expression de la négation en français
+
+::: callout-note
+Linguistique historique : histoire externe de la langue :
+:::
+
+Ex. : la diversification du latin ou l’émergence des langues romanes (cf. la théorie des strats) :
+
+En Gaule :
+
+1.  Substrat gaulois (celtique P)
+
+2.  Superstrat 1 latin (dès le 1er s. BC)
+
+3.  Adstrat francique (dès le 3ième s. AD)
+
+4.  Superstrat 2 francique (Francs saliens)
 
 ## Intérêt de la linguistique diachronique
+
+1/ Évolution de la langue \> fonctionnement de la langue et son emploi innovateur par ses locuteurs
+
+2/ Perspective diachronique comparative/typologique \> évolutions récurrentes, corrélations entre
+
+évolutions, chronologie des évolutions en chaîne, … (\> linguistique futuriste)
+
+3/ Cognition humaine et fonctionnement du cerveau humain
+
+4/ Meilleure compréhension de faits de langue en synchronie
+
+Ex. : l’expression mono-morphématique de la négation en français moderne véhiculaire
+
+Ex. : l’emploi « masculin » du mot espèce dans la structure \[DET espèce de Nmasculin\]
 
 -   Comprendre le fonctionnement de la langue
 

@@ -44,3 +44,4 @@ format:
     theme:
       light: [flatly, ../_shared/styles/kuleuven-book.scss]
       dark: [darkly, ../_shared/styles/kuleuven-book.scss]
+
