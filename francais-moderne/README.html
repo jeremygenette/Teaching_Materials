@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="README_files/libs/clipboard/clipboard.min.js"></script>
+<script src="README_files/libs/quarto-html/quarto.js"></script>
+<script src="README_files/libs/quarto-html/popper.min.js"></script>
+<script src="README_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="README_files/libs/quarto-html/anchor.min.js"></script>
+<link href="README_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="README_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="README_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="README_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="README_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="français-moderne" class="level1">
+<h1>Français Moderne</h1>
+<p>Self-contained Quarto <strong>book</strong> project. Renders two things from the same source files:</p>
+<ul>
+<li>the <strong>book</strong> (this website — chapter by chapter, sidebar, search)</li>
+<li>the <strong>KU Leuven slide decks</strong> (revealjs) under <code>decks/</code>, built by including the same chapter content — you never write a topic twice</li>
+</ul>
+<pre><code>francais-moderne/
+├── _quarto.yml              ← book config (parts/chapters) + revealjs config
+├── index.qmd                ← book landing page
+├── references.bib
+├── chapters/                ← ONE FILE PER SÉANCE — the actual content
+│   ├── 000-intro.qmd
+│   ├── 001-phonetique-affrication.qmd
+│   ├── 002-phonologie-voyelles.qmd
+│   ├── 003-phonologie-liaison.qmd
+│   ├── 004-morphologie-verlan.qmd
+│   ├── 005-morphosyntaxe-participe-passe.qmd
+│   └── 006-syntaxe-subjonctif.qmd
+├── decks/                   ← slide decks assembled FROM chapters/
+│   ├── full-deck.qmd                  the whole course, in order
+│   ├── chapter-01-phonetique-only.qmd  a single-topic deck
+│   └── custom-sequence-example.qmd    an out-of-order custom mix
+├── images/                  ← clipboard-*.png etc., referenced as ../images/...
+├── scripts/
+│   ├── render_all.sh         ← ONE command: book + every deck
+│   ├── build_deck.R         ← generate a new custom deck from a subset of chapters
+│   └── post-render-push.R   ← runs after every `quarto render`, pushes to GitHub
+└── README.md                ← this file</code></pre>
+<p>The KU Leuven theme (both slides and book) and the git-push helper are shared with every other course — they live in <code>../_shared/</code>, not here. See the top-level <code>../README.md</code> if you want to change the look.</p>
+<section id="adding-a-new-séance-chapter-step-by-step" class="level2">
+<h2 class="anchored" data-anchor-id="adding-a-new-séance-chapter-step-by-step">Adding a new séance / chapter — step by step</h2>
+<ol type="1">
+<li><p>Create <code>chapters/007-my-new-topic.qmd</code>.</p></li>
+<li><p>Start it with <strong>exactly one <code># Title</code></strong> heading at the top — this is both the book chapter’s title and the horizontal section break used when the file is included into a slide deck. <code>##</code> → vertical slide group, <code>###</code> → individual slide, same as the existing chapters.</p></li>
+<li><p>Add it to the book’s table of contents in <code>_quarto.yml</code>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">book</span><span class="kw">:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">chapters</span><span class="kw">:</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> index.qmd</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> chapters/000-intro.qmd</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">part</span><span class="kw">:</span><span class="at"> </span><span class="st">"Phonétique et phonologie"</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">chapters</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">...</span><span class="kw">]</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">part</span><span class="kw">:</span><span class="at"> </span><span class="st">"Syntaxe"</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">chapters</span><span class="kw">:</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="kw">-</span><span class="at"> chapters/006-syntaxe-subjonctif.qmd</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="kw">-</span><span class="at"> chapters/007-my-new-topic.qmd</span><span class="co">   # ← add here (or a new part:)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>If it needs its own single-topic deck (like <code>chapter-01-phonetique-only.qmd</code>), duplicate that file and edit its title + <code>{{&lt; include &gt;}}</code> line — or add it to <code>decks/full-deck.qmd</code> to include it in the full run-through.</p></li>
+<li><p>Render (below). Nothing else needs to change.</p></li>
+</ol>
+</section>
+<section id="rendering-one-command-for-everything" class="level2">
+<h2 class="anchored" data-anchor-id="rendering-one-command-for-everything">Rendering — one command for everything</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./scripts/render_all.sh</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This builds the <strong>book</strong> (<code>index.qmd</code> + every <code>chapters/*.qmd</code>) and then every deck in <code>decks/</code>, one by one. It exists because Quarto book projects don’t auto-render “loose” files like <code>decks/*.qmd</code> the way website projects do — a bare <code>quarto render</code> only builds the book’s own chapter list, so this script explicitly renders each deck too.</p>
+<p>Every one of those render calls also fires this project’s <code>post-render:</code> hook — so <strong>every knit pushes to GitHub automatically</strong>, whether you run this script, render the book alone (<code>quarto render</code>), render one deck by hand (<code>quarto render decks/full-deck.qmd</code>), or just <code>quarto preview</code> something. See “Auto-push to GitHub” below.</p>
+<p>Other useful commands:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview                      <span class="co"># live-preview the book</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render decks/full-deck.qmd   <span class="co"># (re)build just one deck</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview decks/full-deck.qmd  <span class="co"># live-preview that deck</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="self-contained-output" class="level3">
+<h3 class="anchored" data-anchor-id="self-contained-output">Self-contained output</h3>
+<p>Both formats set <code>embed-resources: true</code>, so every rendered <code>.html</code> — each book chapter page and each slide deck — is a single standalone file with no companion <code>_files/</code>/<code>site_libs/</code> folder. That’s what makes them work as “teaching materials”: you can email a deck, drop it in a shared drive, or open it straight from disk, and it just works, fonts and all. The trade-off is bigger individual files (JS/CSS is duplicated into every page rather than shared) — a non-issue at this course’s scale, but worth knowing if a course grows to hundreds of chapters.</p>
+</section>
+</section>
+<section id="building-a-one-off-custom-deck-e.g.-this-weeks-révision" class="level2">
+<h2 class="anchored" data-anchor-id="building-a-one-off-custom-deck-e.g.-this-weeks-révision">Building a one-off custom deck (e.g.&nbsp;this week’s révision)</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"scripts/build_deck.R"</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">list_chapters</span>()   <span class="co"># see what's available</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">build_deck</span>(</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">chapters =</span> <span class="fu">c</span>(<span class="st">"004-morphologie-verlan"</span>, <span class="st">"002-phonologie-voyelles"</span>),</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">title    =</span> <span class="st">"Séance : Verlan + Voyelles (révision)"</span>,</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">out_file =</span> <span class="st">"decks/revision-verlan-voyelles.qmd"</span>,</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">render   =</span> <span class="cn">TRUE</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="auto-push-to-github" class="level2">
+<h2 class="anchored" data-anchor-id="auto-push-to-github">Auto-push to GitHub</h2>
+<p><code>_quarto.yml</code>’s <code>post-render:</code> hook runs <code>scripts/post-render-push.R</code> after <strong>every</strong> render Quarto does inside this project — the whole book, a single chapter/deck rendered by hand, or a <code>quarto preview</code> — not just when you run <code>render_all.sh</code>. Each run stages, commits, and pushes whatever changed; if nothing changed, it’s a harmless no-op. So the short version is: knit anything here, it ends up on GitHub, no extra step. Requirements, once per machine:</p>
+<ul>
+<li><code>install.packages("gert")</code></li>
+<li>this folder is inside a git repo with an <code>origin</code> remote configured</li>
+<li>git has non-interactive push credentials (a PAT via the system credential manager, or a passphrase-less SSH key)</li>
+</ul>
+<p>If any of that isn’t set up, the push step fails gracefully and just prints a message — it never breaks the render.</p>
+</section>
+<section id="changing-the-look" class="level2">
+<h2 class="anchored" data-anchor-id="changing-the-look">Changing the look</h2>
+<p>Don’t edit theme files here — <code>../_shared/styles/kuleuven-reveal.scss</code> (slides) and <code>../_shared/styles/kuleuven-book.scss</code> (book) are shared across every course. Retheme once, every course updates. Each deck can still set its own banner text via the <code>&lt;style&gt;:root{ --course-title: "..."; }&lt;/style&gt;</code> line right after its YAML front matter.</p>
+<p>The revealjs theme/options are embedded directly in each deck’s own YAML front matter (not <code>_quarto.yml</code>, and not <code>decks/_metadata.yml</code> either — Quarto book projects don’t reliably apply either of those to files that aren’t listed book chapters). <code>scripts/build_deck.R</code> writes this automatically for any new deck you generate with it. If you ever hand-write a new deck file instead, copy the <code>format: revealjs:</code> block from <code>decks/full-deck.qmd</code> rather than writing just <code>format: revealjs</code>.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
