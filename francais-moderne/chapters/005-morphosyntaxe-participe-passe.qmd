@@ -44,11 +44,11 @@
 -   XVIe siècle:
     -   L'usage de cette règle n'est pas encore systémique
 
-> Mignonne, allons voir si la rose
+> *Mignonne, allons voir si la rose*
 >
-> Qui ce matin avait desclos[e]{.underline}
+> *Qui ce matin avait desclos[e]{.underline}*
 >
-> [Sa robe de pourpre]{.underline} au soleil...
+> [*Sa robe de pourpre*]{.underline} *au soleil...*
 
 ![Pierre de Ronsard, Poète français (1524-1585)](images/clipboard-3336510262.png)
 
