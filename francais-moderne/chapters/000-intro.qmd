@@ -30,7 +30,21 @@ Bienvenue au cous de français moderne !
 
 ------------------------------------------------------------------------
 
+En réponse à une vidéo descriptive réalisée par un linguiste ([Lien vers la vidéo](https://www.radiofrance.fr/franceculture/podcasts/le-fil-pop-culture/en-revanche-une-espece-de-ces-regles-zombie-qui-refusent-de-mourir-4153424?at_campaign=Linkedin&at_medium=Social_media))
+
+![](images/clipboard-1216328186.png)
+
+![](images/clipboard-2157150166.png)
+
+![](images/clipboard-2676504544.png)
+
 ------------------------------------------------------------------------
+
+## Évaluation
+
+### Travail écrit 
+
+### Présentation 
 
 ------------------------------------------------------------------------
 
@@ -92,7 +106,33 @@ Bienvenue au cous de français moderne !
 
 -   L'enseignement du français doit " sortir de ces marécages " de règles, "être plus fructueus pour l'esprit et un peu moins dangereus pour le sens "
 
+    -   Il applique un réforme de l'orthographe, par exemple, *fructueus, dangereus*
+
+    -   Erreurs de copistes *-us* abrégé en *-x*
+
+    -   Comparez avec des mots récents comme *sous*, *pneus*, *landaus*
+
+-   Dernier spécialiste de la langue siégeant à l'Académie
+
+    -   Il
+
 [![Gaston Paris, phililogue (1839-1903)](images/clipboard-4054305761.png){fig-align="right" width="500"}](https://cdn.britannica.com/11/172811-050-2A5CEC8E/Gaston-Paris.jpg)
+
+## Conseil supérieur de la langue française
+
+## En Belgique 🇧🇪
+
+#### Conseil supérieur de la langue française de Belgique
+
+[![Composition actuelle du Conseil des Langues](images/clipboard-1105291858.png)](https://gallilex.cfwb.be/sites/default/files/textes-normatifs/2026-03/53899_0000.pdf)
+
+#### **La Direction de la Langue française**
+
+## En France 🇫🇷
+
+## Au Canada 🇨🇦
+
+## En Suisse 🇨🇭
 
 ## Séances thématiques
 
@@ -115,3 +155,201 @@ Si on vous dit: C'EST FAUX !
 -   Où est la règle ?
 
 # La linguistique de corpus
+
+------------------------------------------------------------------------
+
+-   **Objectif**
+
+    Étudier les phénomènes linguistiques à partir de méthodes quantitatives, testables et mesurables.\
+    Utiliser des méthodes scientifiques pour examiner comment la langue est acquise, représentée et traitée dans le cerveau, et comment nous pouvons la produire.
+
+**Démarche**\
+Manipuler systématiquement des variables pour mesurer la langue.\
+Examiner la relation entre variables indépendantes et dépendantes.
+
+**Méthodes**
+
+-   Recherche expérimentale
+
+-   Recherche par corpus
+
+------------------------------------------------------------------------
+
+**Corpus**\
+Outil puissant pour étudier : acquisition, traitement, variation sociolinguistique, changement sémantique, etc.
+
+**Pourquoi utiliser des corpus ?**\
+Progrès technologiques et méthodologiques, tendance vers des résultats objectifs, mesurables et reproductibles.\
+Rôle reconnu de la co-occurrence des phénomènes linguistiques dans l’acquisition et le traitement.
+
+**Définition**\
+Ensemble de langues naturelles (McEnery, Xiao & Tono, 2006).\
+Regroupe des exemples autour d’un prototype.\
+Langue dans des contextes spontanés, naturels, écologiques.\
+Représentatif d’une langue ou d’un registre spécifique.
+
+**Types de corpus**
+
+-   Oral vs écrit
+
+-   Supports variés : textes, audio, transcriptions, vidéo
+
+-   Sources : synchronique/diachronique, parole L2, académique, enfant, clinique
+
+-   Tailles variées. Certains "corpus" ne sont pas naturels.
+
+------------------------------------------------------------------------
+
+**Démarche du corpus**
+
+1.  Question et hypothèses
+
+2.  Corpus adapté
+
+3.  Collecte
+
+4.  Analyse
+
+5.  Réponse à la question
+
+------------------------------------------------------------------------
+
+**Expérience musicale**\
+Entendez-vous trois fois la même chose ?
+
+-   Son 1 : G5
+
+-   Son 2 : C5
+
+-   Son 3 : G4
+
+Différentes notes, différents instruments.\
+Taille et forme de la cavité buccale déterminent le son perçu.\
+Hauteur de voix : vitesse de vibration des cordes vocales.
+
+------------------------------------------------------------------------
+
+**Expérience de parole**\
+F1 = 399 Hz, F2 = 856 Hz.\
+Même position de la langue, mais hauteurs différentes :
+
+-   144 Hz, 122 Hz, 100 Hz
+
+Entendez-vous \[o\] ou \[u\] ?
+
+------------------------------------------------------------------------
+
+**Hauteur vocalique intrinsèque (IF0)**\
+Caractéristique universelle :
+
+-   Voyelle haute = hauteur haute
+
+-   Voyelle basse = hauteur basse
+
+**Hypothèses**
+
+-   Biomécanique : une articulation orale, une laryngale ; tension accrue → vibration plus rapide
+
+-   Perceptuelle : ajout d’une différence de hauteur
+
+-   Mixte
+
+**Distinction**
+
+-   Biomécanique : pas d’IF0 sans lien biomécanique ; IF0 sans catégories vocaliques
+
+-   Perceptuelle : pas d’IF0 sans catégories ; apprentissage nécessaire
+
+-   Mixte : IF0 même sans catégories, mais apprentissage reste nécessaire
+
+------------------------------------------------------------------------
+
+**Deux perspectives**
+
+1.  Acquisition précoce
+
+2.  Développement avec trouble de l’audition
+
+**Acquisition précoce**\
+Exemples : \[bɑbɑ\] vs \[bɔbɔ\], \[ɦɑnt\] vs \[ɦɔnt\]\
+Prédictions :
+
+-   Biomécanique : développement de la hauteur
+
+-   Perceptuelle : développement de la hauteur
+
+-   Mixte : développement de la hauteur
+
+**Trouble de l’audition**\
+Mêmes prédictions selon les hypothèses.
+
+------------------------------------------------------------------------
+
+**Données (acquisition précoce)**
+
+-   Bauer (1988) : 7 325 voyelles
+
+-   Whalen et al. (1995) : 200
+
+-   Gregory (2014) : 981
+
+-   Cette thèse : \> 37 000
+
+**Corpus** : CLiPS Child Language Corpus (19 enregistrements, 6–24 mois, 30 enfants).\
+Enregistrements d’interactions quotidiennes.
+
+**Analyse**\
+Sélection : voyelles hautes \[i,u\] et basses \[a,ɑ\] → 37 347 voyelles.\
+Analyse acoustique : détection automatique, suivi F0/F1, optimisation, exclusion des valeurs aberrantes, normalisation (Lobanov, 1971).
+
+**Résultats**
+
+-   Avant les premiers mots : complexité du babillage → hauteur des voyelles basses et hautes.
+
+-   Après les premiers mots : développement du vocabulaire → hauteur des voyelles basses et hautes.
+
+------------------------------------------------------------------------
+
+**Trouble de l’audition**\
+Participants : 6 ans, néerlandophones belges.\
+47 normo-entendants, 10 malentendants.\
+Tâche de répétition de pseudo-mots CVC.
+
+**Analyse**\
+Sélection : /i, u/ (haut), /a/ (bas) → 1 471 voyelles.\
+Analyse acoustique identique.
+
+**Résultats**
+
+-   Voyelles hautes → hauteur plus élevée.
+
+-   Chez les malentendants : hauteur des voyelles hautes plus basse, hauteur des voyelles basses plus haute → contraste réduit.
+
+------------------------------------------------------------------------
+
+**Conclusions sur IF0**
+
+-   IF0 en phase prélexicale → hypothèse biomécanique
+
+-   Vocabulaire croissant = plus d’IF0 → hypothèse perceptuelle
+
+-   IF0 chez les malentendants → hypothèse biomécanique
+
+-   IF0 réduite à 6 ans → hypothèse perceptuelle
+
+-   Synthèse : hypothèse mixte
+
+**Conclusions sur la parole humaine**\
+Évolution biologique : conduit vocal actuel → IF0 (biomécanique).\
+IF0 acquiert une fonction communicative (perceptuelle).\
+Exaptation et adaptation.
+
+**Apports**
+
+-   Description plus précise de la production précoce
+
+-   Description plus précise de l’effet des troubles auditifs
+
+-   Éclairage sur l’origine de l’IF0
+
+-   Éclairage sur les propriétés biologiques de la parole chez l’humain et le bébé
