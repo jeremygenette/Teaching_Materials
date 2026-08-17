@@ -6,19 +6,25 @@ Welcome to Français Moderne!
 
 ## La ou les grammaires ?
 
-## Les institutions de la langue français
+## Les institutions de la langue française
+
+![Institut de France, fondation en 1795](images/clipboard-2773978864.png)
 
 ### L'académie française
 
-**Académie française vs. les linguistes atterrés**
-
-> « Citation de l'Académie française... » — *Académie française*
+> « L'académie française a été instaurée par Richelieu gardienne de la langue » — *Académie française*
 
 **↔**
 
-> « Citation des linguistes atterrés... » — *Les linguistes atterrés*
+> « Depuis le XIXe siècle, l'académie française ne suit plus l'évolution de la langue » — *Les linguistes atterrés*
 
-...
+**Quel est son rôle ?**
+
+-   Institution d'Ancien Régime fondée en 1635
+
+-   Selon ses statuts, elle doit rédiger " promptement " 😝 un dictionnaire et une grammaire dans le but de " donner des règles certaines à notre langue et à la rendre pure, éloquente et capable de traiter les arts et les sciences
+
+![](images/clipboard-899854055.png){fig-align="right"}
 
 ## Séances thématiques
 
