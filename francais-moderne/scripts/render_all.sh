@@ -46,3 +46,16 @@ for deck in decks/*.qmd; do
 done
 
 echo "== Done. Book + full-book.html + all decks rendered, each push handled by post-render. =="
+
+
+set -e
+
+Rscript scripts/build_full_book.R
+
+quarto render
+
+quarto render full-book.qmd
+
+for f in decks/*.qmd; do
+    quarto render "$f"
+done
