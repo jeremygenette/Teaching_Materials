@@ -2,43 +2,17 @@
 
 ## Introduction - le discours publique
 
-::: {style="display: flex; align-items: center; gap: 20px;"}
-<div>
+> L'accord du participe passé: " Il n'y a rien de plus important ny de plus ignoré."
+>
+> — Claude Favre de Vaugelas (Grammairien), 1647
 
-```         
-<img src="images/clipboard-3516944140.png" width="300">
-```
+![](images/clipboard-3516944140.png)
 
-</div>
+> "La règle est morte de complications."
 
-::: {style="flex: 1;"}
-```         
-<blockquote>
-  "Il n'y a rien de plus important ny de plus ignoré."
-  <br><br>
-  — Claude Favre de Vaugelas, 1647
-</blockquote>
-```
-:::
-:::
+> — Lucien Tesnière (Linguiste), 1959
 
-```         
-<img src="images/clipboard-2006503548.png" width="300">
-```
-
-</div>
-
-::: {style="flex: 1;"}
-```         
-<blockquote>
-  "La règle est morte de complications."
-  <br><br>
-  — Lucien Tesnière (Linguiste), 1959
-</blockquote>
-```
-:::
-
-:::
+![](images/clipboard-2006503548.png)
 
 ## Histoire du participe passé
 
@@ -50,6 +24,22 @@
         -   le participe passé s'accordait alors comme un attibut de l'objet: par exemple, *j'ai les mains salies*
 
 ------------------------------------------------------------------------
+
+-   XVIe siècle:
+    -   l'ordre des mots devient plus figé *auxiliaire - participe - objet*:
+        -   Si auxiliaire être: accord avec le sujet
+        -   L'accord avec avoir est en diminution
+
+------------------------------------------------------------------------
+
+-   XVIe siècle:
+    -   l'ordre des mots devient plus figé *auxiliaire - participe - objet*:
+        -   Si auxiliaire être: accord avec le sujet
+        -   L'accord avec avoir est en diminution
+
+------------------------------------------------------------------------
+
+## 
 
 ## Les données linguistiques en français
 
