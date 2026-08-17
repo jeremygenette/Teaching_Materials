@@ -37,8 +37,19 @@
 </blockquote>
 ```
 :::
+
 :::
 
+## Histoire du participe passé
+
+-   Jusqu'au XIIIe siècle, l'ordre des mots est relativement libre:
+    -   Si auxiliaire être: accord avec le sujet
+    -   Si auxiliaire avoir: accord avec le COD, peu importe sa position dans la phrases
+        -   Ex. *J'ai les lettres écrit[**es**]{.underline}.*
+        -   Ex. *J'ai écrit[**es**]{.underline} les lettres.*
+        -   le participe passé s'accordait alors comme un attibut de l'objet: par exemple, *j'ai les mains salies*
+
+------------------------------------------------------------------------
 
 ## Les données linguistiques en français
 
