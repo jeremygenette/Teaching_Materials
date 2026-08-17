@@ -1,21 +1,9 @@
 ---
-# full-book.qmd
-#
-# Single-file HTML version of the whole book — for offline distribution
-# or uploading to an LMS (Toledo, Brightspace, Canvas, Moodle, etc.) as
-# one self-contained file, the same way decks/*.qmd gives you one
-# self-contained file per slide deck.
-#
-# Same trick as the decks: this is a "loose" file (not listed under
-# book: chapters: in ../_quarto.yml), so — same reasoning documented in
-# decks/_metadata.yml and _quarto.yml — it does NOT reliably inherit the
-# project-level `format: html:` block. So every setting is written out
-# here in full, copied from _quarto.yml's html: block, rather than
-# relying on inheritance.
 title: "COURSE TITLE — Livre complet"
-subtitle: "Version hors ligne — un seul fichier HTML"
-author: "YOUR NAME"
+subtitle: ""
+author: "Jérémy Genette"
 date: last-modified
+
 format:
   html:
     embed-resources: true
@@ -23,28 +11,269 @@ format:
     toc: true
     toc-depth: 3
     number-sections: true
-    # search: true is a Quarto *website* feature (it builds a search
-    # index as separate files) - it doesn't fit a single embed-resources
-    # file, so it's left out here. Students get browser Ctrl+F instead.
     theme:
       light: [flatly, ../_shared/styles/kuleuven-book.scss]
       dark: [darkly, ../_shared/styles/kuleuven-book.scss]
-resource-path:
-  - ..
-  - ../chapters
-  - ../chapters/images
 ---
 
-{{< include chapters/000-intro.qmd >}}
 
-{{< include chapters/001-phonetique-affrication.qmd >}}
+# Bienvenue {.unnumbered}
 
-{{< include chapters/002-phonologie-voyelles.qmd >}}
+Bienvenue dans le cours **Français Moderne**. Ce site est la version
+« livre » du cours : chaque séance est un chapitre, consultable dans
+l'ordre via le menu à gauche, avec recherche plein texte.
 
-{{< include chapters/003-phonologie-liaison.qmd >}}
+Les versions **diaporama** (slides KU Leuven, pour donner cours) des
+mêmes séances sont disponibles séparément — voir `decks/` dans le dépôt,
+ou les liens communiqués en cours.
 
-{{< include chapters/004-morphologie-verlan.qmd >}}
+# Cours d'introduction
 
-{{< include chapters/005-morphosyntaxe-participe-passe.qmd >}}
+Welcome to Français Moderne!
 
-{{< include chapters/006-syntaxe-subjonctif.qmd >}}
+## Méthodologie de la recherche en linguistique française
+
+## La ou les grammaires ?
+
+## Les institutions de la langue française
+
+![Institut de France, fondation en 1795](chapters/images/clipboard-2773978864.png)
+
+### L'académie française
+
+> « L'académie française a été instaurée par Richelieu gardienne de la langue » — *Académie française*
+
+**↔**
+
+> « Depuis le XIXe siècle, l'académie française ne suit plus l'évolution de la langue » — *Les linguistes atterrés*
+
+**Quel est son rôle ?**
+
+-   Institution d'Ancien Régime fondée en 1635
+
+-   Selon ses statuts, elle doit rédiger " promptement " 😝 un dictionnaire et une grammaire dans le but de " donner des règles certaines à notre langue et à la rendre pure, éloquente et capable de traiter les arts et les sciences
+
+![](chapters/images/clipboard-899854055.gif){fig-align="right"}
+
+## Séances thématiques
+
+Si on vous dit: C'EST FAUX !
+
+-   Pourquoi ?
+
+-   Depuis quand ?
+
+-   Où est la règle ?
+
+# Phonétique - Affrication
+
+### Introduction - le discours publique
+
+<div>
+
+![](../images/clipboard-2079623432.png)
+
+</div>
+
+<div>
+
+</div>
+
+------------------------------------------------------------------------
+
+<div>
+
+![](../images/clipboard-1740165726.png)
+
+</div>
+
+### Les données linguistiques en français
+
+### Les données linguistiques ailleurs dans le monde
+
+### Considération théoriques
+
+### Synthèse
+
+## À vous de jouer ! Tâche de perception
+
+# Phonologie - Voyelles médianes
+
+![](../images/clipboard-3271316274.png)
+
+## Introduction - le discours publique
+
+## Les données linguistiques en français
+
+## Les données linguistiques ailleurs dans le monde
+
+## Considération théoriques
+
+## Synthèse
+
+# Phonologie - Liaison
+
+## Introduction - le discours publique
+
+## Les données linguistiques en français
+
+## Les données linguistiques ailleurs dans le monde
+
+## Considération théoriques
+
+## Synthèse
+
+# Morphologie - Verlan
+
+<https://openpublishing.library.umass.edu/amphonology/article/id/3042/download/pdf/>
+
+## Introduction - le discours publique
+
+## Les données linguistiques en français
+
+## Les données linguistiques ailleurs dans le monde
+
+## Considération théoriques
+
+## Synthèse
+
+# Morpho-syntaxe - Accord du participe passé
+
+## Introduction - le discours publique
+
+> L'accord du participe passé: " Il n'y a rien de plus important ny de plus ignoré."
+>
+> — Claude Favre de Vaugelas (Grammairien), 1647
+
+![Claude Favre de Vaugelas](chapters/images/clipboard-3516944140.png){fig-align="right"}
+
+> "La règle est morte de complications."
+
+> — Lucien Tesnière (Linguiste), 1959
+
+![](chapters/images/clipboard-2006503548.png)
+
+## Histoire du participe passé
+
+-   Jusqu'au XIIIe siècle, l'ordre des mots est relativement libre:
+    -   Si auxiliaire être: accord avec le sujet
+    -   Si auxiliaire avoir: accord avec le COD, peu importe sa position dans la phrases
+        -   Ex. *J'ai les lettres écrit[**es**]{.underline}.*
+        -   Ex. *J'ai écrit[**es**]{.underline} les lettres.*
+        -   le participe passé s'accordait alors comme un attibut de l'objet: par exemple, *j'ai les mains salies*
+
+------------------------------------------------------------------------
+
+-   XVIe siècle:
+    -   l'ordre des mots devient plus figé *auxiliaire - participe - objet*:
+        -   Si auxiliaire être: accord avec le sujet
+        -   L'accord avec avoir est en diminution
+
+------------------------------------------------------------------------
+
+-   XVIe siècle:
+    -   Clément Marot *Épigrammes* dédiées à François Ier, 1538
+    -   Il propose d'accorder le participe passé avec l'objet si ce dernier est placé avant le participe passé sur la base du modèle italien 🍝
+        -   Ex. *Dieu en ce monde [nous]{.underline} a faict[z]{.underline} \<--\> Dio [noi]{.underline} a fatt[i]{.underline}*
+
+![Clément Marot, Poète français (1496-1544)](chapters/images/clipboard-3260875052.png)
+
+------------------------------------------------------------------------
+
+-   XVIe siècle:
+    -   L'usage de cette règle n'est pas encore systémique
+
+> *Mignonne, allons voir si la rose*
+>
+> *Qui ce matin avait desclos[e]{.underline}*
+>
+> [*Sa robe de pourpre*]{.underline} *au soleil...*
+
+![Pierre de Ronsard, Poète français (1524-1585)](chapters/images/clipboard-3336510262.png)
+
+------------------------------------------------------------------------
+
+-   XVIe siècle:
+    -   On entend plus l'accord car on ne prononce plus le *-s* final
+        -   Ex. *Je les ai vu[**s**]{.underline}* /ʒə lez e [**vy**]{.underline}/
+    -   Sauf en case de liaison
+        -   Ex. *Je les ai vu[**s**]{.underline} à la fête* /ʒə lez e vy[**z**]{.underline} a la fɛt/
+
+Les
+
+## Les données linguistiques en français
+
+## Les données linguistiques ailleurs dans le monde
+
+## Considération théoriques
+
+# Participe passé employé avec *avoir*
+
+Employé avec l'auxiliaire **avoir**, le participe passé **ne s'accorde jamais avec le sujet** du verbe.
+
+## Synthèse des règles d'accord {.scrollable}
+
+Les locutions **« ci-joint »**, **« ci-inclus »** et **« ci-annexé »** changent de comportement syntaxique selon leur position exacte dans la phrase. On distingue trois cas de figure principaux :
+
+### L'accord obligatoire (valeur d'adjectif)
+
+Lorsque la locution est placée immédiatement **après le nom** qu'elle qualifie, elle se comporte comme un adjectif qualificatif ordinaire. Elle s'accorde donc obligatoirement en genre et en nombre avec ce nom.
+
+-   *Exemple :* « Vous trouverez ci-après les documents **ci-joints** pour votre dossier. »
+-   *Exemple :* « La note explicative **ci-incluse** vous donnera tous les détails nécessaires. »
+
+### L'invariabilité obligatoire (valeur d'adverbe)
+
+Lorsque la locution est placée **en tout début de phrase**, ou bien à l'intérieur de la phrase mais **immédiatement devant un nom sans déterminant**, elle joue le rôle d'un adverbe. Elle reste alors strictement invariable.
+
+-   *Exemple :* « **Ci-joint** la copie des rapports que vous avez demandés la semaine dernière. »
+-   *Exemple :* « Vous voudrez bien trouver **ci-inclus** note de service concernant les horaires. »
+
+### L'accord au choix (corps de la phrase avec déterminant)
+
+Lorsque la locution est placée **dans le corps de la phrase**, devant un nom lui-même **précédé d'un déterminant** (un article, un possessif, etc.), la syntaxe est plus souple. L'accord est laissé au choix de l'auteur : on peut accorder en considérant la locution comme un adjectif, ou la laisser invariable en privilégiant sa valeur adverbiale.
+
+-   *Exemple (choix invariable) :* « Je vous adresse **ci-joint** *les* statistiques du dernier trimestre. »
+-   *Exemple (choix accordé) :* « Je vous adresse **ci-joints** *les* statistiques du dernier trimestre. »
+
+------------------------------------------------------------------------
+
+### Exemples d'application
+
+::: {layout-ncol="2"}
+#### 🟢 Emploi Adjectif (Accord)
+
+-   « Vous trouverez les pièces **ci-jointes**. »
+-   « La lettre **ci-incluse** vous informera. »
+
+#### 🔴 Emploi Adverbe (Invariable)
+
+-   « **Ci-joint** la copie de vos documents. »
+-   « Veuillez trouver **ci-inclus** les pièces. »
+:::
+
+::: callout-tip
+## Astuce
+
+La position dans la phrase détermine l'accord : si la locution est **avant le nom (ou isolée)**, elle agit comme un adverbe (invariable). Si elle est **après le nom**, elle agit comme un adjectif ordinaire (accordé).
+:::
+
+------------------------------------------------------------------------
+
+![](../images/clipboard-2927075372.png)
+
+## L'accord du participe passé
+
+## Synthèse
+
+# Syntaxe - Subjonctif
+
+## Introduction - le discours publique
+
+## Les données linguistiques en français
+
+## Les données linguistiques ailleurs dans le monde
+
+## Considération théoriques
+
+## Synthèse
